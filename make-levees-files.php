@@ -146,15 +146,7 @@ function makeGeoJSON($row, $counter) {
 }
 
 function makeHTMLheader() {
-  return '<table class="levees datatable">
-  <tbody>
-    <tr>
-      <th>ORGANIZATION</th>
-      <th>HELD AT</th>
-      <th>STARTS</th>
-      <th>ENDS</th>
-      <th>♿ ACCESSIBLE</th>
-    </tr>' . "\n";
+  return "<table class='levees datatable'>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Organization</th>\n\t\t\t<th>Location</th>\n\t\t\t<th>Starts</th>\n\t\t\t<th>Ends</th>\n\t\t\t<th>♿ Accessible</th>\n\t\t</tr>\n";
 }
 
 function makeHTML($row) {
