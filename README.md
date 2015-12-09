@@ -8,10 +8,10 @@ This year's version is online at:
 
 Until this year I maintained the data for the levees as a simple HTML table. This year, with more levees than ever and a desire to emit the schedule data in a variety of forms, I began to maintain the schedule in an SQLite database, and to use a simple PHP script, included here, to generate derivatives:
 
-* [HTML](results/levees.html) for the web page itself.
-* [GeoJSON](results/levees.geojson) for mapping the levees.
-* [JSON+LD](results/levees.json) for embedded in the web page for Google Structured Data purposes.
-* [iCalendar](results/levees.ics) to allow the schedule to be imported into desktop and mobile calendars.
+* [HTML](result/levees.html) for the web page itself.
+* [GeoJSON](result/levees.geojson) for mapping the levees.
+* [JSON+LD](result/levees.json) for embedded in the web page for Google Structured Data purposes.
+* [iCalendar](result/levees.ics) to allow the schedule to be imported into desktop and mobile calendars.
 
 ## Dependencies
 

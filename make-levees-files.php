@@ -99,7 +99,7 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
   $tmp['type'] = "Feature";
   $tmp['geometry'] = array();
   $tmp['geometry']['type'] = "Point";
-  $tmp['geometry']['coordinates'] = array($row['longitude'] , $row['latitude']);
+  $tmp['geometry']['coordinates'] = array($row['longitude'], $row['latitude']);
   $tmp['properties'] = array();
   $tmp['properties']['name'] = $row['name'] . " 2016 New Years Levee";
   $tmp['properties']['address'] = $row['location_address'];
@@ -114,7 +114,7 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
 
   $tmp = '';
   $tmp .= '<tr>';
-  $tmp .= '<td><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' .  $row['longitude'] . '">' . $row['name'] . '</a></td>';
+  $tmp .= '<td><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>';
   $tmp .= '<td>' . $row['location_address'] . '</td>';
   $tmp .= '<td class="rtecenter">' . strftime("%l:%M %p", $start_number) . '</td>';
   $tmp .= '<td class="rtecenter">' . strftime("%l:%M %p", $end_number) . '</td>';
@@ -147,7 +147,7 @@ $content['geojson']['type'] = "FeatureCollection";
 // Write the contents that we assembled above into appropriate files.
 fwrite($fp['json+ld'], json_encode($content['json+ld'], JSON_PRETTY_PRINT));
 fwrite($fp['geojson'], json_encode($content['geojson'], JSON_PRETTY_PRINT));
-fwrite($fp['html'], '<table>' . "\n");;
+fwrite($fp['html'], '<table>' . "\n");
 fwrite($fp['ics'], $vCalendar->render());
 
 // Close the files.
