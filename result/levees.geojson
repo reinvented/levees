@@ -339,6 +339,23 @@
                 "endDate": "2016-01-01T18:00",
                 "marker-symbol": 20
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124575,
+                    46.234996
+                ]
+            },
+            "properties": {
+                "name": "Murphy's Community Centre 2016 New Years Levee",
+                "address": "200 Richmond Street, Charlottetown, PE",
+                "startDate": "2016-01-01T16:00",
+                "endDate": "2016-01-01T18:00",
+                "marker-symbol": 21
+            }
         }
     ],
     "type": "FeatureCollection"

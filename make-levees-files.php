@@ -26,7 +26,7 @@
   * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
   *
   * @version 0.1, June 20, 2012
-  * @link https://github.com/reinvented/levee
+  * @link https://github.com/reinvented/levees
   * @author Peter Rukavina <peter@rukavina.net>
   * @copyright Copyright &copy; 2015, Reinvented Inc.
   * @license hhttps://opensource.org/licenses/MIT MIT license
@@ -35,37 +35,19 @@
 // Required for iCalendar creation; you must install "eluceo — iCal" as above.
 require_once 'vendor/autoload.php';
 
-// We're going to create four files; first we define them.
-$file['json+ld']  = "levees.json";
-$file['geojson']  = "levees.geojson";
-$file['html']     = "levees.html";
-$file['ics']      = "levees.ics";
-
 // Set the default time zone.
 date_default_timezone_set("America/Halifax");
 
 // Create a new iCalendar object.
 $vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2016');
 
-// Create an array of file pointers and an array of contents.
-$fp = array();
-$content = array();
-// Open the files we defined earlier.
-foreach($file as $filetype => $filename) {
-  $fp[$filetype] = fopen("result/" . $filename, 'w');
-  $content[$filetype] = "";
-}
+// We're going to create four files; first we define them.
+$file['json+ld']  = "levees.json";
+$file['geojson']  = "levees.geojson";
+$file['html']     = "levees.html";
+$file['ics']      = "levees.ics";
 
-// Write the table header for the HTML fragment.
-fwrite($fp['html'], '<table border="1" cellpadding="3" cellspacing="0" class="datatable" style="width: 100%;" width="100%">
-  <tbody>
-    <tr>
-      <th bgcolor="#ffffcc">ORGANIZATION</th>
-      <th bgcolor="#ffffcc">HELD AT</th>
-      <th bgcolor="#ffffcc" style="text-align: center">STARTS</th>
-      <th bgcolor="#ffffcc" style="text-align: center">ENDS</th>
-      <th bgcolor="#ffffcc" style="text-align: center">♿ ACCESSIBLE</th>
-    </tr>' . "\n");
+list($fp, $content) = openFiles($file);
 
 // Open the SQLite3 database that stores levee information.
 $db = new SQLite3('data/levees.sqlite');
@@ -74,10 +56,63 @@ $db = new SQLite3('data/levees.sqlite');
 $counter = 1;
 
 // Retrieve all the levees
-$results = $db->query('SELECT * FROM levees order by startDate, endDate');
+$results = $db->query('SELECT * FROM levees order by startDate, endDate, name');
+
 while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
 
-  // Create JSON+LD for this event.
+  // Create JSON+LD for this levee.
+  $content['json+ld'][] = makeJSONLD($row);
+
+  // Create GeoJSON for this levee.
+  $content['geojson']['features'][] = makeGeoJSON($row, $counter);
+
+  // Create HTML for this levee.
+  $content['html'] .= makeHTML($row);
+
+  // Create iCalendar for this levee.
+  $vCalendar->addComponent(makeICalendar($row));
+
+  // Increment the counter.
+  $counter++;
+}
+
+// Add to the GeoJSON object to make it valid.
+$content['geojson']['type'] = "FeatureCollection";
+
+// Write the JSON+LD data
+fwrite($fp['json+ld'], json_encode($content['json+ld'], JSON_PRETTY_PRINT));
+
+// Write the GeoJSON data
+fwrite($fp['geojson'], json_encode($content['geojson'], JSON_PRETTY_PRINT));
+
+// Write the HTML data
+fwrite($fp['html'], makeHTMLheader());
+fwrite($fp['html'], $content['html']);
+fwrite($fp['html'], "\t" . '</tbody>' . "\n" . '</table>' . "\n");
+
+// Wrhite the iCalendar data
+fwrite($fp['ics'], $vCalendar->render());
+
+closeFiles($file, $fp);
+
+function openFiles($file) {
+  // Create an array of file pointers and an array of contents.
+  $fp = array();
+  // Open the files we defined earlier.
+  foreach($file as $filetype => $filename) {
+    $fp[$filetype] = fopen("result/" . $filename, 'w');
+    $content[$filetype] = '';
+  }
+  return array($fp, $content);
+}
+
+function closeFiles($file, $fp) {
+  foreach($file as $type => $filename) {
+    fclose($fp[$type]);
+  }
+}
+
+function makeJSONLD($row) {
   $tmp = array();
   $tmp['@context'] = "http://schema.org";
   $tmp['@type'] = "Event";
@@ -92,9 +127,10 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
   $tmp['location']['geo']['@type'] = "GeoCoordinates";
   $tmp['location']['geo']['latitude'] = $row['latitude'];
   $tmp['location']['geo']['longitude'] = $row['longitude'];
-  $content['json+ld'][] = $tmp;
+  return $tmp;
+}
 
-  // Create GeoJSON for this event.
+function makeGeoJSON($row, $counter) {
   $tmp = array();
   $tmp['type'] = "Feature";
   $tmp['geometry'] = array();
@@ -106,28 +142,41 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
   $tmp['properties']['startDate'] = $row['startDate'];
   $tmp['properties']['endDate'] = $row['endDate'];
   $tmp['properties']['marker-symbol'] = $counter;
-  $content['geojson']['features'][] = $tmp;
+  return $tmp;
+}
 
-  // Creaet HTML for this event.
+function makeHTMLheader() {
+  return '<table class="levees datatable">
+  <tbody>
+    <tr>
+      <th>ORGANIZATION</th>
+      <th>HELD AT</th>
+      <th>STARTS</th>
+      <th>ENDS</th>
+      <th>♿ ACCESSIBLE</th>
+    </tr>' . "\n";
+}
+
+function makeHTML($row) {
   $start_number = strtotime($row['startDate']);
   $end_number = strtotime($row['endDate']);
-
   $tmp = '';
-  $tmp .= '<tr>';
-  $tmp .= '<td><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>';
-  $tmp .= '<td>' . $row['location_address'] . '</td>';
-  $tmp .= '<td class="rtecenter">' . strftime("%l:%M %p", $start_number) . '</td>';
-  $tmp .= '<td class="rtecenter">' . strftime("%l:%M %p", $end_number) . '</td>';
+  $tmp .= "\t\t" . '<tr>' . "\n";
+  $tmp .= "\t\t\t" . '<td><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>' . "\n";
+  $tmp .= "\t\t\t" . '<td>' . $row['location_address'] . '</td>' . "\n";
+  $tmp .= "\t\t\t" . '<td>' . strftime("%l:%M %p", $start_number) . '</td>'. "\n";
+  $tmp .= "\t\t\t" . '<td>' . strftime("%l:%M %p", $end_number) . '</td>'. "\n";
   if ($row['accessible']) {
-    $tmp .= '<td class="rtecenter">Yes</td>';
+    $tmp .= "\t\t\t" . '<td>Yes</td>'. "\n";
   }
   else {
-    $tmp .= '<td class="rtecenter">No</td>';
+    $tmp .= "\t\t\t" . '<td>No</td>'. "\n";
   }
-  $tmp .= '</tr>';
-  fwrite($fp['html'], $tmp . "\n");
+  $tmp .= "\t\t" . '</tr>' . "\n";
+  return $tmp;
+}
 
-  // Create iCalendar for this event.
+function makeICalendar($row) {
   $vEvent = new \Eluceo\iCal\Component\Event();
   $vEvent->setDtStart(new \DateTime($row['startDate']));
   $vEvent->setDtEnd(new \DateTime($row['endDate']));
@@ -135,23 +184,5 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
   $vEvent->setSummary($row['name'] . " 2016 New Years Levee");
   $vEvent->setLocation($row['location_name'] . "\n" . $row['location_address'], $row['location_name'], $row['latitude'] . "," . $row['longitude']);
   $vEvent->setUseTimezone(true);
-  $vCalendar->addComponent($vEvent);
-
-  // Increment the counter.
-  $counter++;
+  return $vEvent;
 }
-
-// Add to the GeoJSON object to make it valid.
-$content['geojson']['type'] = "FeatureCollection";
-
-// Write the contents that we assembled above into appropriate files.
-fwrite($fp['json+ld'], json_encode($content['json+ld'], JSON_PRETTY_PRINT));
-fwrite($fp['geojson'], json_encode($content['geojson'], JSON_PRETTY_PRINT));
-fwrite($fp['html'], '<table>' . "\n");
-fwrite($fp['ics'], $vCalendar->render());
-
-// Close the files.
-foreach($file as $type => $filename) {
-  fclose($fp[$type]);
-}
-
