@@ -36,6 +36,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "The Guild \/ Discover Charlottetown 2016 New Years Levee",
+        "startDate": "2016-01-01T10:00",
+        "endDate": "2016-01-01T12:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Guild",
+            "address": "111 Queen Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.233638,
+                "longitude": -63.12732
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "PEI Women's Institute 2016 New Years Levee",
         "startDate": "2016-01-01T10:30",
         "endDate": "2016-01-01T12:00",

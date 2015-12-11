@@ -146,7 +146,7 @@ function makeGeoJSON($row, $counter) {
 }
 
 function makeHTMLheader() {
-  return "<table class='levees datatable'>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Organization</th>\n\t\t\t<th>Location</th>\n\t\t\t<th>Starts</th>\n\t\t\t<th>Ends</th>\n\t\t\t<th>♿ Accessible</th>\n\t\t</tr>\n";
+  return "<table class='levees datatable'>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th class='levee_name'>Organization</th>\n\t\t\t<th class='levee_address'>Location</th>\n\t\t\t<th class='levee_start'>Starts</th>\n\t\t\t<th class='levee_end'>Ends</th>\n\t\t\t<th class='levee_accessible'>♿<span class='levee_accessible_title'> Accessible</span></th>\n\t\t</tr>\n";
 }
 
 function makeHTML($row) {
@@ -154,15 +154,15 @@ function makeHTML($row) {
   $end_number = strtotime($row['endDate']);
   $tmp = '';
   $tmp .= "\t\t" . '<tr>' . "\n";
-  $tmp .= "\t\t\t" . '<td><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>' . "\n";
-  $tmp .= "\t\t\t" . '<td>' . $row['location_address'] . '</td>' . "\n";
-  $tmp .= "\t\t\t" . '<td>' . strftime("%l:%M %p", $start_number) . '</td>'. "\n";
-  $tmp .= "\t\t\t" . '<td>' . strftime("%l:%M %p", $end_number) . '</td>'. "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>' . "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_address">' . $row['location_address'] . '</td>' . "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_start">' . strftime("%l:%M %p", $start_number) . '</td>'. "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_end">' . strftime("%l:%M %p", $end_number) . '</td>'. "\n";
   if ($row['accessible']) {
-    $tmp .= "\t\t\t" . '<td>Yes</td>'. "\n";
+    $tmp .= "\t\t\t" . '<td class="levee_accessible">Yes</td>'. "\n";
   }
   else {
-    $tmp .= "\t\t\t" . '<td>No</td>'. "\n";
+    $tmp .= "\t\t\t" . '<td class="levee_accessible">No</td>'. "\n";
   }
   $tmp .= "\t\t" . '</tr>' . "\n";
   return $tmp;
