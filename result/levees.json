@@ -53,6 +53,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Charlottetown 2016 New Years Levee",
+        "startDate": "2016-01-01T10:30",
+        "endDate": "2016-01-01T12:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown City Hall",
+            "address": "99 Queen St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.235354,
+                "longitude": -63.129549
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "PEI Women's Institute 2016 New Years Levee",
         "startDate": "2016-01-01T10:30",
         "endDate": "2016-01-01T12:00",
