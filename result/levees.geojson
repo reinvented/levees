@@ -39,23 +39,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -63.12732,
-                    46.233638
-                ]
-            },
-            "properties": {
-                "name": "The Guild \/ Discover Charlottetown 2016 New Years Levee",
-                "address": "111 Queen Street, Charlottetown, PE",
-                "startDate": "2016-01-01T10:00",
-                "endDate": "2016-01-01T12:00",
-                "marker-symbol": 3
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -63.129549,
                     46.235354
                 ]
@@ -65,7 +48,7 @@
                 "address": "99 Queen St, Charlottetown, PE",
                 "startDate": "2016-01-01T10:30",
                 "endDate": "2016-01-01T12:00",
-                "marker-symbol": 4
+                "marker-symbol": 3
             }
         },
         {
@@ -82,7 +65,7 @@
                 "address": "420 University Ave, Charlottetown",
                 "startDate": "2016-01-01T10:30",
                 "endDate": "2016-01-01T12:00",
-                "marker-symbol": 5
+                "marker-symbol": 4
             }
         },
         {
@@ -99,7 +82,7 @@
                 "address": "41 Allen St, Charlottetown, PE",
                 "startDate": "2016-01-01T10:30",
                 "endDate": "2016-01-01T12:30",
-                "marker-symbol": 6
+                "marker-symbol": 5
             }
         },
         {
@@ -114,6 +97,23 @@
             "properties": {
                 "name": "Canoe Cove Community Association 2016 New Years Levee",
                 "address": "1066 Canoe Cove Road, Canoe Cove, PE",
+                "startDate": "2016-01-01T11:00",
+                "endDate": "2016-01-01T13:00",
+                "marker-symbol": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12732,
+                    46.233638
+                ]
+            },
+            "properties": {
+                "name": "The Guild \/ Discover Charlottetown 2016 New Years Levee",
+                "address": "111 Queen Street, Charlottetown, PE",
                 "startDate": "2016-01-01T11:00",
                 "endDate": "2016-01-01T13:00",
                 "marker-symbol": 7
