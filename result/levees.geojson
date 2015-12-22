@@ -311,6 +311,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.12922,
+                    46.233024
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion 2016 New Years Levee",
+                "address": "99 Pownal Street, Charlottetown, PE",
+                "startDate": "2016-01-01T14:00",
+                "endDate": "2016-01-01T15:00",
+                "marker-symbol": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.54285,
                     46.49081
                 ]
@@ -320,7 +337,7 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2016-01-01T14:30",
                 "endDate": "2016-01-01T16:30",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -337,7 +354,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2016-01-01T15:00",
                 "endDate": "2016-01-01T17:00",
-                "marker-symbol": 20
+                "marker-symbol": 21
             }
         },
         {
@@ -354,7 +371,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2016-01-01T15:00",
                 "endDate": "2016-01-01T17:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         },
         {
@@ -371,7 +388,7 @@
                 "address": "241 Euston St, Charlottetown, PE",
                 "startDate": "2016-01-01T16:00",
                 "endDate": "2016-01-01T18:00",
-                "marker-symbol": 22
+                "marker-symbol": 23
             }
         },
         {
@@ -388,7 +405,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2016-01-01T16:00",
                 "endDate": "2016-01-01T18:00",
-                "marker-symbol": 23
+                "marker-symbol": 24
             }
         }
     ],

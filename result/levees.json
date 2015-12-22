@@ -308,6 +308,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion 2016 New Years Levee",
+        "startDate": "2016-01-01T14:00",
+        "endDate": "2016-01-01T15:00",
+        "location": {
+            "@type": "Place",
+            "name": "Clover Club",
+            "address": "99 Pownal Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.233024,
+                "longitude": -63.12922
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Kitchen Witch 2016 New Years Levee",
         "startDate": "2016-01-01T14:30",
         "endDate": "2016-01-01T16:30",
