@@ -223,6 +223,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "City of Summerside 2016 New Years Levee",
+        "startDate": "2016-01-01T13:00",
+        "endDate": "2016-01-01T14:30",
+        "location": {
+            "@type": "Place",
+            "name": "City Hall",
+            "address": "275 Fitzroy Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.393032,
+                "longitude": -63.790607
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2016 New Years Levee",
         "startDate": "2016-01-01T13:00",
         "endDate": "2016-01-01T14:30",
