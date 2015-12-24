@@ -104,6 +104,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Borden-Carleton 2016 New Years Levee",
+        "startDate": "2016-01-01T11:00",
+        "endDate": "2016-01-01T13:00",
+        "location": {
+            "@type": "Place",
+            "name": " Industrial Mall Board Room",
+            "address": " 167 Industrial Drive, Borden-Carleton, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.257285,
+                "longitude": -63.680526
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Guild \/ Discover Charlottetown 2016 New Years Levee",
         "startDate": "2016-01-01T11:00",
         "endDate": "2016-01-01T13:00",
