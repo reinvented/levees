@@ -441,6 +441,23 @@
                 "endDate": "2016-01-01T18:00",
                 "marker-symbol": 26
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124147,
+                    46.238245
+                ]
+            },
+            "properties": {
+                "name": "Sport Page Club 2016 New Years Levee",
+                "address": "236 Kent St, Charlottetown, PE",
+                "startDate": "2016-01-01T16:00",
+                "endDate": "2016-01-01T18:00",
+                "marker-symbol": 27
+            }
         }
     ],
     "type": "FeatureCollection"

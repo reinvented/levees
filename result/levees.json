@@ -440,5 +440,22 @@
                 "longitude": -63.124575
             }
         }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Sport Page Club 2016 New Years Levee",
+        "startDate": "2016-01-01T16:00",
+        "endDate": "2016-01-01T18:00",
+        "location": {
+            "@type": "Place",
+            "name": "Sport Page Club",
+            "address": "236 Kent St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.238245,
+                "longitude": -63.124147
+            }
+        }
     }
 ]
