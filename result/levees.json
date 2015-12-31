@@ -189,6 +189,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Kensington 2016 New Years Levee",
+        "startDate": "2016-01-01T12:00",
+        "endDate": "2016-01-01T13:30",
+        "location": {
+            "@type": "Place",
+            "name": "Kensington Lions Club",
+            "address": "30 Garden Drive, Kensington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.434292,
+                "longitude": -63.636785
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Stratford 2016 New Years Levee",
         "startDate": "2016-01-01T12:00",
         "endDate": "2016-01-01T13:30",
