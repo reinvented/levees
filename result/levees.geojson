@@ -5,6 +5,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.680526,
+                    46.257285
+                ]
+            },
+            "properties": {
+                "name": "Mayor of Borden-Carleton 2017 New Years Levee",
+                "address": " 167 Industrial Drive, Borden-Carleton, PE",
+                "startDate": "2017-01-01T11:00",
+                "endDate": "2017-01-01T13:00",
+                "marker-symbol": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.12732,
                     46.233638
                 ]
@@ -14,7 +31,7 @@
                 "address": "111 Queen Street, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 1
+                "marker-symbol": 2
             }
         },
         {
@@ -31,7 +48,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2017-01-01T11:30",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 2
+                "marker-symbol": 3
             }
         },
         {
@@ -48,7 +65,7 @@
                 "address": "355 Shakespeare Drive, Stratford, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T15:00",
-                "marker-symbol": 3
+                "marker-symbol": 4
             }
         },
         {
@@ -65,7 +82,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 4
+                "marker-symbol": 5
             }
         }
     ],
