@@ -39,7 +39,7 @@ require_once 'vendor/autoload.php';
 date_default_timezone_set("America/Halifax");
 
 // Create a new iCalendar object.
-$vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2016');
+$vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2017');
 
 // We're going to create four files; first we define them.
 $file['json+ld']  = "levees.json";
@@ -56,7 +56,7 @@ $db = new SQLite3('data/levees.sqlite');
 $counter = 1;
 
 // Retrieve all the levees
-$results = $db->query('SELECT * FROM levees order by startDate, endDate, name');
+$results = $db->query('SELECT * FROM levees where active = 1 order by startDate, endDate, name');
 
 while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
 
@@ -116,7 +116,7 @@ function makeJSONLD($row) {
   $tmp = array();
   $tmp['@context'] = "http://schema.org";
   $tmp['@type'] = "Event";
-  $tmp['name'] = $row['name'] . " 2016 New Years Levee";
+  $tmp['name'] = $row['name'] . " 2017 New Years Levee";
   $tmp['startDate'] = $row['startDate'];
   $tmp['endDate'] = $row['endDate'];
   $tmp['location'] = array();
@@ -137,7 +137,7 @@ function makeGeoJSON($row, $counter) {
   $tmp['geometry']['type'] = "Point";
   $tmp['geometry']['coordinates'] = array($row['longitude'], $row['latitude']);
   $tmp['properties'] = array();
-  $tmp['properties']['name'] = $row['name'] . " 2016 New Years Levee";
+  $tmp['properties']['name'] = $row['name'] . " 2017 New Years Levee";
   $tmp['properties']['address'] = $row['location_address'];
   $tmp['properties']['startDate'] = $row['startDate'];
   $tmp['properties']['endDate'] = $row['endDate'];
@@ -173,7 +173,7 @@ function makeICalendar($row) {
   $vEvent->setDtStart(new \DateTime($row['startDate']));
   $vEvent->setDtEnd(new \DateTime($row['endDate']));
   $vEvent->setNoTime(false);
-  $vEvent->setSummary($row['name'] . " 2016 New Years Levee");
+  $vEvent->setSummary($row['name'] . " 2017 New Years Levee");
   $vEvent->setLocation($row['location_name'] . "\n" . $row['location_address'], $row['location_name'], $row['latitude'] . "," . $row['longitude']);
   $vEvent->setUseTimezone(true);
   return $vEvent;
