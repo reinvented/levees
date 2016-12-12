@@ -5,6 +5,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.136109,
+                    46.231242
+                ]
+            },
+            "properties": {
+                "name": "Lieutenant Governor 2017 New Years Levee",
+                "address": "1 Terry Fox Drive, Charlottetown, PE",
+                "startDate": "2017-01-01T10:00",
+                "endDate": "2017-01-01T11:30",
+                "marker-symbol": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.680526,
                     46.257285
                 ]
@@ -14,7 +31,7 @@
                 "address": " 167 Industrial Drive, Borden-Carleton, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 1
+                "marker-symbol": 2
             }
         },
         {
@@ -31,7 +48,24 @@
                 "address": "111 Queen Street, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 2
+                "marker-symbol": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12783,
+                    46.23058
+                ]
+            },
+            "properties": {
+                "name": "The Haviland Club 2017 New Years Levee",
+                "address": "2 Haviland St, Charlottetown, PE",
+                "startDate": "2017-01-01T11:00",
+                "endDate": "2017-01-01T13:00",
+                "marker-symbol": 4
             }
         },
         {
@@ -48,7 +82,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2017-01-01T11:30",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 3
+                "marker-symbol": 5
             }
         },
         {
@@ -65,7 +99,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:30",
-                "marker-symbol": 4
+                "marker-symbol": 6
             }
         },
         {
@@ -82,7 +116,7 @@
                 "address": "275 Fitzroy Street, Summerside, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T14:30",
-                "marker-symbol": 5
+                "marker-symbol": 7
             }
         },
         {
@@ -99,7 +133,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T14:30",
-                "marker-symbol": 6
+                "marker-symbol": 8
             }
         },
         {
@@ -116,7 +150,24 @@
                 "address": "355 Shakespeare Drive, Stratford, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T15:00",
-                "marker-symbol": 7
+                "marker-symbol": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.127261,
+                    46.234419
+                ]
+            },
+            "properties": {
+                "name": "Premier Wade MacLauchlan 2017 New Years Levee",
+                "address": "145 Richmond St, Charlottetown, PE",
+                "startDate": "2017-01-01T15:00",
+                "endDate": "2017-01-01T16:30",
+                "marker-symbol": 10
             }
         },
         {
@@ -133,7 +184,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 8
+                "marker-symbol": 11
             }
         }
     ],
