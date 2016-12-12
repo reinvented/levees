@@ -53,6 +53,57 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Town of Stratford 2017 New Years Levee",
+        "startDate": "2017-01-01T12:00",
+        "endDate": "2017-01-01T13:30",
+        "location": {
+            "@type": "Place",
+            "name": "Stratford Town Centre",
+            "address": "234 Shakespeare Dr., Stratford, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22673,
+                "longitude": -63.08747
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "City of Summerside 2017 New Years Levee",
+        "startDate": "2017-01-01T13:00",
+        "endDate": "2017-01-01T14:30",
+        "location": {
+            "@type": "Place",
+            "name": "City Hall",
+            "address": "275 Fitzroy Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.393032,
+                "longitude": -63.790607
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2017 New Years Levee",
+        "startDate": "2017-01-01T13:00",
+        "endDate": "2017-01-01T14:30",
+        "location": {
+            "@type": "Place",
+            "name": "Masonic Temple",
+            "address": "204 Hillsborough St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23925,
+                "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Andrews of Stratford 2017 New Years Levee",
         "startDate": "2017-01-01T13:00",
         "endDate": "2017-01-01T15:00",
