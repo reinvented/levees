@@ -73,6 +73,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.127969,
+                    46.234109
+                ]
+            },
+            "properties": {
+                "name": "GEBIS Charlottetown, a Buddhist Centre 2017 New Years Levee",
+                "address": "133 Queen Street, 2nd Floor, Charlottetown, PE",
+                "startDate": "2017-01-01T11:00",
+                "endDate": "2017-01-01T13:00",
+                "marker-symbol": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.680526,
                     46.257285
                 ]
@@ -82,7 +99,7 @@
                 "address": " 167 Industrial Drive, Borden-Carleton, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 5
+                "marker-symbol": 6
             }
         },
         {
@@ -99,7 +116,7 @@
                 "address": "111 Queen Street, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 6
+                "marker-symbol": 7
             }
         },
         {
@@ -116,7 +133,7 @@
                 "address": "2 Haviland St, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 7
+                "marker-symbol": 8
             }
         },
         {
@@ -133,7 +150,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2017-01-01T11:30",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 8
+                "marker-symbol": 9
             }
         },
         {
@@ -150,7 +167,7 @@
                 "address": "3 Haviland Street, Charlottetown, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 9
+                "marker-symbol": 10
             }
         },
         {
@@ -167,7 +184,7 @@
                 "address": "45 Broadway St N, Kensington, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:30",
-                "marker-symbol": 10
+                "marker-symbol": 11
             }
         },
         {
@@ -184,7 +201,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:30",
-                "marker-symbol": 11
+                "marker-symbol": 12
             }
         },
         {
@@ -201,7 +218,7 @@
                 "address": "550 University Avenue, Charlottetown, PE",
                 "startDate": "2017-01-01T12:30",
                 "endDate": "2017-01-01T14:00",
-                "marker-symbol": 12
+                "marker-symbol": 13
             }
         },
         {
@@ -218,7 +235,7 @@
                 "address": "275 Fitzroy Street, Summerside, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T14:30",
-                "marker-symbol": 13
+                "marker-symbol": 14
             }
         },
         {
@@ -235,7 +252,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T14:30",
-                "marker-symbol": 14
+                "marker-symbol": 15
             }
         },
         {
@@ -252,7 +269,7 @@
                 "address": "355 Shakespeare Drive, Stratford, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T15:00",
-                "marker-symbol": 15
+                "marker-symbol": 16
             }
         },
         {
@@ -269,7 +286,7 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2017-01-01T13:30",
                 "endDate": "2017-01-01T14:30",
-                "marker-symbol": 16
+                "marker-symbol": 17
             }
         },
         {
@@ -286,7 +303,7 @@
                 "address": "39 Lowther Drive, Cornwall, PE",
                 "startDate": "2017-01-01T13:30",
                 "endDate": "2017-01-01T15:00",
-                "marker-symbol": 17
+                "marker-symbol": 18
             }
         },
         {
@@ -303,7 +320,7 @@
                 "address": "99 Pownal Street, Charlottetown, PE",
                 "startDate": "2017-01-01T14:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 18
+                "marker-symbol": 19
             }
         },
         {
@@ -320,7 +337,7 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2017-01-01T14:30",
                 "endDate": "2017-01-01T16:30",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -337,7 +354,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2017-01-01T15:00",
                 "endDate": "2017-01-01T16:30",
-                "marker-symbol": 20
+                "marker-symbol": 21
             }
         },
         {
@@ -354,7 +371,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         },
         {
@@ -371,7 +388,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 22
+                "marker-symbol": 23
             }
         }
     ],

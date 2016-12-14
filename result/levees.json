@@ -70,6 +70,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "GEBIS Charlottetown, a Buddhist Centre 2017 New Years Levee",
+        "startDate": "2017-01-01T11:00",
+        "endDate": "2017-01-01T13:00",
+        "location": {
+            "@type": "Place",
+            "name": "GEBIS Charlottetown",
+            "address": "133 Queen Street, 2nd Floor, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234109,
+                "longitude": -63.127969
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Mayor of Borden-Carleton 2017 New Years Levee",
         "startDate": "2017-01-01T11:00",
         "endDate": "2017-01-01T13:00",
