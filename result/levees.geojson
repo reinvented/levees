@@ -260,6 +260,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.12464,
+                    46.23342
+                ]
+            },
+            "properties": {
+                "name": "Roman Catholic Diocese of Charlottetown 2017 New Years Levee",
+                "address": "45 Great George Street, Charlottetown, PE",
+                "startDate": "2017-01-01T13:30",
+                "endDate": "2017-01-01T14:30",
+                "marker-symbol": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.20695,
                     46.2361
                 ]
@@ -269,7 +286,7 @@
                 "address": "39 Lowther Drive, Cornwall, PE",
                 "startDate": "2017-01-01T13:30",
                 "endDate": "2017-01-01T15:00",
-                "marker-symbol": 16
+                "marker-symbol": 17
             }
         },
         {
@@ -286,7 +303,7 @@
                 "address": "99 Pownal Street, Charlottetown, PE",
                 "startDate": "2017-01-01T14:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 17
+                "marker-symbol": 18
             }
         },
         {
@@ -303,7 +320,7 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2017-01-01T14:30",
                 "endDate": "2017-01-01T16:30",
-                "marker-symbol": 18
+                "marker-symbol": 19
             }
         },
         {
@@ -320,7 +337,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2017-01-01T15:00",
                 "endDate": "2017-01-01T16:30",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -337,7 +354,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 20
+                "marker-symbol": 21
             }
         },
         {
@@ -354,7 +371,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         }
     ],

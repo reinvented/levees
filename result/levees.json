@@ -257,6 +257,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Roman Catholic Diocese of Charlottetown 2017 New Years Levee",
+        "startDate": "2017-01-01T13:30",
+        "endDate": "2017-01-01T14:30",
+        "location": {
+            "@type": "Place",
+            "name": "SDU Place \u2013 Old Bishop\u2019s Palace",
+            "address": "45 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23342,
+                "longitude": -63.12464
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Cornwall 2017 New Years Levee",
         "startDate": "2017-01-01T13:30",
         "endDate": "2017-01-01T15:00",
