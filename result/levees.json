@@ -2,6 +2,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Campbell Webster 2017 New Years Levee",
+        "startDate": "2017-01-01T08:00",
+        "endDate": "2017-01-01T10:00",
+        "location": {
+            "@type": "Place",
+            "name": "Timothy's World Coffee",
+            "address": "154 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23618,
+                "longitude": -63.12722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Lieutenant Governor 2017 New Years Levee",
         "startDate": "2017-01-01T10:00",
         "endDate": "2017-01-01T11:30",
@@ -302,6 +319,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.2361,
                 "longitude": -63.20695
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Garden Home 2017 New Years Levee",
+        "startDate": "2017-01-01T14:00",
+        "endDate": "2017-01-01T15:00",
+        "location": {
+            "@type": "Place",
+            "name": "Garden Home",
+            "address": "310 North River Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25092,
+                "longitude": -63.1492
             }
         }
     },
