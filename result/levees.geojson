@@ -498,6 +498,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.15587,
+                    46.26162
+                ]
+            },
+            "properties": {
+                "name": "Benevolent Irish Society 2017 New Years Levee",
+                "address": "582 North River Road, Charlottetown, PE",
+                "startDate": "2017-01-01T15:00",
+                "endDate": "2017-01-01T17:00",
+                "marker-symbol": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.793235,
                     46.394634
                 ]
@@ -507,7 +524,7 @@
                 "address": "329 North Market Street, Summerside, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 30
+                "marker-symbol": 31
             }
         },
         {
@@ -524,7 +541,7 @@
                 "address": "241 Euston St, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 31
+                "marker-symbol": 32
             }
         },
         {
@@ -541,7 +558,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 32
+                "marker-symbol": 33
             }
         },
         {
@@ -558,7 +575,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 33
+                "marker-symbol": 34
             }
         }
     ],
