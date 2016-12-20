@@ -10,7 +10,7 @@
                 ]
             },
             "properties": {
-                "name": "Campbell Webster 2017 New Years Levee",
+                "name": "Timothy's World Coffee 2017 New Years Levee",
                 "address": "154 Great George Street, Charlottetown, PE",
                 "startDate": "2017-01-01T08:00",
                 "endDate": "2017-01-01T10:00",
@@ -90,6 +90,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.130815,
+                    46.234808
+                ]
+            },
+            "properties": {
+                "name": "Island Rotary Clubs 2017 New Years Levee",
+                "address": "75 Kent Street, Charlottetown, PE",
+                "startDate": "2017-01-01T11:00",
+                "endDate": "2017-01-01T12:00",
+                "marker-symbol": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.127969,
                     46.234109
                 ]
@@ -99,7 +116,7 @@
                 "address": "133 Queen Street, 2nd Floor, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 6
+                "marker-symbol": 7
             }
         },
         {
@@ -116,7 +133,7 @@
                 "address": " 167 Industrial Drive, Borden-Carleton, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 7
+                "marker-symbol": 8
             }
         },
         {
@@ -133,7 +150,7 @@
                 "address": "111 Queen Street, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 8
+                "marker-symbol": 9
             }
         },
         {
@@ -150,7 +167,7 @@
                 "address": "2 Haviland St, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 9
+                "marker-symbol": 10
             }
         },
         {
@@ -167,7 +184,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2017-01-01T11:30",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 10
+                "marker-symbol": 11
             }
         },
         {
@@ -184,7 +201,7 @@
                 "address": "3 Haviland Street, Charlottetown, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 11
+                "marker-symbol": 12
             }
         },
         {
@@ -201,7 +218,7 @@
                 "address": "45 Broadway St N, Kensington, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:30",
-                "marker-symbol": 12
+                "marker-symbol": 13
             }
         },
         {
@@ -218,7 +235,24 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:30",
-                "marker-symbol": 13
+                "marker-symbol": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.115262,
+                    46.252408
+                ]
+            },
+            "properties": {
+                "name": "PEI Brewing Company 2017 New Years Levee",
+                "address": "96 Kensington Road, Charlottetown, PE",
+                "startDate": "2017-01-01T12:00",
+                "endDate": "2017-01-01T14:00",
+                "marker-symbol": 15
             }
         },
         {
@@ -235,7 +269,24 @@
                 "address": "550 University Avenue, Charlottetown, PE",
                 "startDate": "2017-01-01T12:30",
                 "endDate": "2017-01-01T14:00",
-                "marker-symbol": 14
+                "marker-symbol": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.784217,
+                    46.388303
+                ]
+            },
+            "properties": {
+                "name": "Silver Fox Curling and Yacht Club 2017 New Years Levee",
+                "address": "110 Water Street, Summerside, PE",
+                "startDate": "2017-01-01T12:30",
+                "endDate": "2017-01-01T14:30",
+                "marker-symbol": 17
             }
         },
         {
@@ -252,7 +303,7 @@
                 "address": "275 Fitzroy Street, Summerside, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T14:30",
-                "marker-symbol": 15
+                "marker-symbol": 18
             }
         },
         {
@@ -269,7 +320,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T14:30",
-                "marker-symbol": 16
+                "marker-symbol": 19
             }
         },
         {
@@ -286,7 +337,41 @@
                 "address": "355 Shakespeare Drive, Stratford, PE",
                 "startDate": "2017-01-01T13:00",
                 "endDate": "2017-01-01T15:00",
-                "marker-symbol": 17
+                "marker-symbol": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.233089,
+                    46.705421
+                ]
+            },
+            "properties": {
+                "name": "Town of O'Leary 2017 New Years Levee",
+                "address": "426 Main Street, O'Leary, PE",
+                "startDate": "2017-01-01T13:00",
+                "endDate": "2017-01-01T15:00",
+                "marker-symbol": 21
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.035537,
+                    46.94878
+                ]
+            },
+            "properties": {
+                "name": "Community of Tignish & Tignish Legion 2017 New Years Levee",
+                "address": "221 Phillip Street, Tignish, PE",
+                "startDate": "2017-01-01T13:00",
+                "endDate": "2017-01-01T17:00",
+                "marker-symbol": 22
             }
         },
         {
@@ -303,7 +388,7 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2017-01-01T13:30",
                 "endDate": "2017-01-01T14:30",
-                "marker-symbol": 18
+                "marker-symbol": 23
             }
         },
         {
@@ -320,7 +405,24 @@
                 "address": "39 Lowther Drive, Cornwall, PE",
                 "startDate": "2017-01-01T13:30",
                 "endDate": "2017-01-01T15:00",
-                "marker-symbol": 19
+                "marker-symbol": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.237481,
+                    46.353853
+                ]
+            },
+            "properties": {
+                "name": "Town of Souris 2017 New Years Levee",
+                "address": "203 Main Street, Souris, PE",
+                "startDate": "2017-01-01T13:30",
+                "endDate": "2017-01-01T15:00",
+                "marker-symbol": 25
             }
         },
         {
@@ -337,7 +439,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2017-01-01T14:00",
                 "endDate": "2017-01-01T15:00",
-                "marker-symbol": 20
+                "marker-symbol": 26
             }
         },
         {
@@ -354,7 +456,7 @@
                 "address": "99 Pownal Street, Charlottetown, PE",
                 "startDate": "2017-01-01T14:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 21
+                "marker-symbol": 27
             }
         },
         {
@@ -371,7 +473,7 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2017-01-01T14:30",
                 "endDate": "2017-01-01T16:30",
-                "marker-symbol": 22
+                "marker-symbol": 28
             }
         },
         {
@@ -388,7 +490,41 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2017-01-01T15:00",
                 "endDate": "2017-01-01T16:30",
-                "marker-symbol": 23
+                "marker-symbol": 29
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.793235,
+                    46.394634
+                ]
+            },
+            "properties": {
+                "name": "200 Wing Royal Canadian Air Force Association 2017 New Years Levee",
+                "address": "329 North Market Street, Summerside, PE",
+                "startDate": "2017-01-01T16:00",
+                "endDate": "2017-01-01T18:00",
+                "marker-symbol": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.1263,
+                    46.24098
+                ]
+            },
+            "properties": {
+                "name": "Charlottetown Curling Club 2017 New Years Levee",
+                "address": "241 Euston St, Charlottetown, PE",
+                "startDate": "2017-01-01T16:00",
+                "endDate": "2017-01-01T18:00",
+                "marker-symbol": 31
             }
         },
         {
@@ -405,7 +541,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 24
+                "marker-symbol": 32
             }
         },
         {
@@ -422,7 +558,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 25
+                "marker-symbol": 33
             }
         }
     ],
