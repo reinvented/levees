@@ -107,23 +107,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -63.127969,
-                    46.234109
-                ]
-            },
-            "properties": {
-                "name": "GEBIS Charlottetown, a Buddhist Centre 2017 New Years Levee",
-                "address": "133 Queen Street, 2nd Floor, Charlottetown, PE",
-                "startDate": "2017-01-01T11:00",
-                "endDate": "2017-01-01T13:00",
-                "marker-symbol": 7
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -63.680526,
                     46.257285
                 ]
@@ -133,7 +116,7 @@
                 "address": " 167 Industrial Drive, Borden-Carleton, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 8
+                "marker-symbol": 7
             }
         },
         {
@@ -150,7 +133,7 @@
                 "address": "111 Queen Street, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 9
+                "marker-symbol": 8
             }
         },
         {
@@ -167,7 +150,7 @@
                 "address": "2 Haviland St, Charlottetown, PE",
                 "startDate": "2017-01-01T11:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 10
+                "marker-symbol": 9
             }
         },
         {
@@ -184,7 +167,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2017-01-01T11:30",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 11
+                "marker-symbol": 10
             }
         },
         {
@@ -201,7 +184,7 @@
                 "address": "3 Haviland Street, Charlottetown, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:00",
-                "marker-symbol": 12
+                "marker-symbol": 11
             }
         },
         {
@@ -218,7 +201,7 @@
                 "address": "45 Broadway St N, Kensington, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:30",
-                "marker-symbol": 13
+                "marker-symbol": 12
             }
         },
         {
@@ -235,6 +218,23 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2017-01-01T12:00",
                 "endDate": "2017-01-01T13:30",
+                "marker-symbol": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.127969,
+                    46.234109
+                ]
+            },
+            "properties": {
+                "name": "GEBIS Charlottetown, a Buddhist Centre 2017 New Years Levee",
+                "address": "133 Queen Street, 2nd Floor, Charlottetown, PE",
+                "startDate": "2017-01-01T12:00",
+                "endDate": "2017-01-01T14:00",
                 "marker-symbol": 14
             }
         },
