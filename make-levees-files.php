@@ -138,6 +138,7 @@ function makeGeoJSON($row, $counter) {
   $tmp['geometry']['coordinates'] = array($row['longitude'], $row['latitude']);
   $tmp['properties'] = array();
   $tmp['properties']['name'] = $row['name'] . " 2017 New Years Levee";
+  $tmp['properties']['location'] = $row['location_name'];
   $tmp['properties']['address'] = $row['location_address'];
   $tmp['properties']['startDate'] = $row['startDate'];
   $tmp['properties']['endDate'] = $row['endDate'];
@@ -155,7 +156,7 @@ function makeHTML($row) {
   $tmp = '';
   $tmp .= "\t\t" . '<tr>' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>' . "\n";
-  $tmp .= "\t\t\t" . '<td class="levee_address">' . $row['location_address'] . '</td>' . "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_address">' . $row['location_name']  . "<br>" . $row['location_address'] . '</td>' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_start">' . strftime("%l:%M %p", $start_number) . '</td>'. "\n";
   $tmp .= "\t\t\t" . '<td class="levee_end">' . strftime("%l:%M %p", $end_number) . '</td>'. "\n";
   if ($row['accessible']) {
