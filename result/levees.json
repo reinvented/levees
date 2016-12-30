@@ -444,23 +444,6 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Garden Home 2017 New Years Levee",
-        "startDate": "2017-01-01T14:00",
-        "endDate": "2017-01-01T15:00",
-        "location": {
-            "@type": "Place",
-            "name": "Garden Home",
-            "address": "310 North River Road, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.25092,
-                "longitude": -63.1492
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
         "name": "Royal Canadian Legion, Charlottetown 2017 New Years Levee",
         "startDate": "2017-01-01T14:00",
         "endDate": "2017-01-01T18:00",

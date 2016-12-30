@@ -473,24 +473,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -63.1492,
-                    46.25092
-                ]
-            },
-            "properties": {
-                "name": "Garden Home 2017 New Years Levee",
-                "location": "Garden Home",
-                "address": "310 North River Road, Charlottetown, PE",
-                "startDate": "2017-01-01T14:00",
-                "endDate": "2017-01-01T15:00",
-                "marker-symbol": 27
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -63.12922,
                     46.233024
                 ]
@@ -501,7 +483,7 @@
                 "address": "99 Pownal Street, Charlottetown, PE",
                 "startDate": "2017-01-01T14:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 28
+                "marker-symbol": 27
             }
         },
         {
@@ -519,7 +501,7 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2017-01-01T14:30",
                 "endDate": "2017-01-01T16:30",
-                "marker-symbol": 29
+                "marker-symbol": 28
             }
         },
         {
@@ -537,7 +519,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2017-01-01T15:00",
                 "endDate": "2017-01-01T16:30",
-                "marker-symbol": 30
+                "marker-symbol": 29
             }
         },
         {
@@ -555,7 +537,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2017-01-01T15:00",
                 "endDate": "2017-01-01T17:00",
-                "marker-symbol": 31
+                "marker-symbol": 30
             }
         },
         {
@@ -573,7 +555,7 @@
                 "address": "329 North Market Street, Summerside, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 32
+                "marker-symbol": 31
             }
         },
         {
@@ -591,7 +573,7 @@
                 "address": "241 Euston St, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 33
+                "marker-symbol": 32
             }
         },
         {
@@ -609,7 +591,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 34
+                "marker-symbol": 33
             }
         },
         {
@@ -627,7 +609,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2017-01-01T16:00",
                 "endDate": "2017-01-01T18:00",
-                "marker-symbol": 35
+                "marker-symbol": 34
             }
         },
         {
@@ -645,7 +627,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2017-01-01T17:00",
                 "endDate": "2017-01-02T02:00",
-                "marker-symbol": 36
+                "marker-symbol": 35
             }
         }
     ],
