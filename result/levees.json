@@ -59,7 +59,7 @@
         "location": {
             "@type": "Place",
             "name": "Charlottetown City Hall",
-            "address": "99 Queen St, Charlottetown, PE",
+            "address": "199 Queen St, Charlottetown, PE",
             "geo": {
                 "@type": "GeoCoordinates",
                 "latitude": 46.235354,
