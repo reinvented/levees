@@ -393,6 +393,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Miscouche Legion 2017 New Years Levee",
+        "startDate": "2017-01-01T13:00",
+        "endDate": "2017-01-01T18:00",
+        "location": {
+            "@type": "Place",
+            "name": "Miscouche Legion",
+            "address": "94 Main Drive, Miscouche, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.429863,
+                "longitude": -63.854943
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Roman Catholic Diocese of Charlottetown 2017 New Years Levee",
         "startDate": "2017-01-01T13:30",
         "endDate": "2017-01-01T14:30",
