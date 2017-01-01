@@ -529,6 +529,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Ellerslie Legion 2017 New Years Levee",
+        "startDate": "2017-01-01T15:00",
+        "endDate": "2017-01-01T19:00",
+        "location": {
+            "@type": "Place",
+            "name": "Ellerslie Legion",
+            "address": "1136 Ellerslie Road, Ellerslie, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.604437,
+                "longitude": -63.939582
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "200 Wing Royal Canadian Air Force Association 2017 New Years Levee",
         "startDate": "2017-01-01T16:00",
         "endDate": "2017-01-01T18:00",
