@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:ruk.ca/levee-2017
+PRODID:ruk.ca/levee-2018
 X-PUBLISHED-TTL:P1W
 BEGIN:VEVENT
-UID:5a32de39935e1
+UID:5a32dfe7b094c
 DTSTART;TZID=America/Halifax:20180101T103000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -12,12 +12,12 @@ LOCATION:Charlottetown City Hall\n199 Queen St\, Charlottetown\, PE
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Charlottetown City Hall\n1
  99 Queen St, Charlottetown, PE";X-APPLE-RADIUS=49;X-TITLE=Charlottetown Ci
  ty Hall:geo:46.235354\,-63.129549
-SUMMARY:Mayor of Charlottetown 2017 New Years Levee
+SUMMARY:Mayor of Charlottetown 2018 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20171214T162529Z
+DTSTAMP:20171214T163239Z
 END:VEVENT
 BEGIN:VEVENT
-UID:5a32de39936ff
+UID:5a32dfe7b09f3
 DTSTART;TZID=America/Halifax:20180101T113000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -27,12 +27,12 @@ LOCATION:School of Sustainable Design Engineering\n550 University Ave.\, Ch
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="School of Sustainable Desi
  gn Engineering\n550 University Ave., Charlottetown, PE";X-APPLE-RADIUS=49;
  X-TITLE=School of Sustainable Design Engineering:geo:46.25861\,-63.13816
-SUMMARY:University of PEI 2017 New Years Levee
+SUMMARY:University of PEI 2018 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20171214T162529Z
+DTSTAMP:20171214T163239Z
 END:VEVENT
 BEGIN:VEVENT
-UID:5a32de3993782
+UID:5a32dfe7b0a54
 DTSTART;TZID=America/Halifax:20180101T120000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -41,12 +41,12 @@ LOCATION:Queen Charlotte Armoury\n3 Haviland Street\, Charlottetown\, PE
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Queen Charlotte Armoury\n3
   Haviland Street, Charlottetown, PE";X-APPLE-RADIUS=49;X-TITLE=Queen Charl
  otte Armoury:geo:46.22955\,-63.12798
-SUMMARY:Prince Edward Island Regiment 2017 New Years Levee
+SUMMARY:Prince Edward Island Regiment 2018 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20171214T162529Z
+DTSTAMP:20171214T163239Z
 END:VEVENT
 BEGIN:VEVENT
-UID:5a32de39937ed
+UID:5a32dfe7b0ab3
 DTSTART;TZID=America/Halifax:20180101T130000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -55,12 +55,12 @@ LOCATION:Andrews of Stratford\n355 Shakespeare Drive\, Stratford\, PE
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Andrews of Stratford\n355 
  Shakespeare Drive, Stratford, PE";X-APPLE-RADIUS=49;X-TITLE=Andrews of Str
  atford:geo:46.22759\,-63.09543
-SUMMARY:Andrews of Stratford 2017 New Years Levee
+SUMMARY:Andrews of Stratford 2018 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20171214T162529Z
+DTSTAMP:20171214T163239Z
 END:VEVENT
 BEGIN:VEVENT
-UID:5a32de3993855
+UID:5a32dfe7b0b10
 DTSTART;TZID=America/Halifax:20180101T133000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -69,12 +69,12 @@ LOCATION:Cornwall Town Hall\n39 Lowther Drive\, Cornwall\, PE
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Cornwall Town Hall\n39 Low
  ther Drive, Cornwall, PE";X-APPLE-RADIUS=49;X-TITLE=Cornwall Town Hall:geo
  :46.2361\,-63.20695
-SUMMARY:Town of Cornwall 2017 New Years Levee
+SUMMARY:Town of Cornwall 2018 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20171214T162529Z
+DTSTAMP:20171214T163239Z
 END:VEVENT
 BEGIN:VEVENT
-UID:5a32de3993912
+UID:5a32dfe7b0b6b
 DTSTART;TZID=America/Halifax:20180101T150000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -84,12 +84,12 @@ LOCATION:Hon. Edward Whelan Irish Cultural Centre\n582 North River Road\, C
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Hon. Edward Whelan Irish C
  ultural Centre\n582 North River Road, Charlottetown, PE";X-APPLE-RADIUS=49
  ;X-TITLE=Hon. Edward Whelan Irish Cultural Centre:geo:46.26162\,-63.15587
-SUMMARY:Benevolent Irish Society 2017 New Years Levee
+SUMMARY:Benevolent Irish Society 2018 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20171214T162529Z
+DTSTAMP:20171214T163239Z
 END:VEVENT
 BEGIN:VEVENT
-UID:5a32de399397e
+UID:5a32dfe7b0bc3
 DTSTART;TZID=America/Halifax:20180101T160000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -99,12 +99,12 @@ LOCATION:Murphy's Community Centre\n200 Richmond Street\, Charlottetown\, P
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Murphy's Community Centre\
  n200 Richmond Street, Charlottetown, PE";X-APPLE-RADIUS=49;X-TITLE=Murphy'
  s Community Centre:geo:46.234996\,-63.124575
-SUMMARY:The Alley 2017 New Years Levee
+SUMMARY:The Alley 2018 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20171214T162529Z
+DTSTAMP:20171214T163239Z
 END:VEVENT
 BEGIN:VEVENT
-UID:5a32de39939f0
+UID:5a32dfe7b0c2e
 DTSTART;TZID=America/Halifax:20180101T180000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -113,8 +113,8 @@ LOCATION:Charlottetown Fire Department\n89 Kent Street\, Charlottetown\, PE
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Charlottetown Fire Departm
  ent\n89 Kent Street, Charlottetown, PE";X-APPLE-RADIUS=49;X-TITLE=Charlott
  etown Fire Department:geo:46.235106\,-63.130065
-SUMMARY:Charlottetown Firefighters Club 2017 New Years Levee
+SUMMARY:Charlottetown Firefighters Club 2018 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20171214T162529Z
+DTSTAMP:20171214T163239Z
 END:VEVENT
 END:VCALENDAR
