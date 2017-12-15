@@ -149,6 +149,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.637422,
+                    46.437315
+                ]
+            },
+            "properties": {
+                "name": "Mayor of Kensington 2018 New Years Levee",
+                "location": "Broadway 45",
+                "address": "45 Broadway St N, Kensington, PE",
+                "startDate": "2018-01-01T12:00",
+                "endDate": "2018-01-01T13:30",
+                "marker-symbol": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.12798,
                     46.22955
                 ]
@@ -159,7 +177,7 @@
                 "address": "3 Haviland Street, Charlottetown, PE",
                 "startDate": "2018-01-01T12:00",
                 "endDate": "2018-01-01T13:30",
-                "marker-symbol": 9
+                "marker-symbol": 10
             }
         },
         {
@@ -177,7 +195,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2018-01-01T12:00",
                 "endDate": "2018-01-01T13:30",
-                "marker-symbol": 10
+                "marker-symbol": 11
             }
         },
         {
@@ -195,7 +213,7 @@
                 "address": "133 Queen Street, 2nd Floor, Charlottetown, PE",
                 "startDate": "2018-01-01T12:00",
                 "endDate": "2018-01-01T14:00",
-                "marker-symbol": 11
+                "marker-symbol": 12
             }
         },
         {
@@ -213,7 +231,7 @@
                 "address": "96 Kensington Road, Charlottetown, PE",
                 "startDate": "2018-01-01T12:00",
                 "endDate": "2018-01-01T14:00",
-                "marker-symbol": 12
+                "marker-symbol": 13
             }
         },
         {
@@ -231,7 +249,7 @@
                 "address": "550 University Avenue, Charlottetown, PE",
                 "startDate": "2018-01-01T12:30",
                 "endDate": "2018-01-01T14:00",
-                "marker-symbol": 13
+                "marker-symbol": 14
             }
         },
         {
@@ -249,7 +267,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2018-01-01T13:00",
                 "endDate": "2018-01-01T14:30",
-                "marker-symbol": 14
+                "marker-symbol": 15
             }
         },
         {
@@ -267,7 +285,7 @@
                 "address": "355 Shakespeare Drive, Stratford, PE",
                 "startDate": "2018-01-01T13:00",
                 "endDate": "2018-01-01T15:00",
-                "marker-symbol": 15
+                "marker-symbol": 16
             }
         },
         {
@@ -285,7 +303,43 @@
                 "address": "275 Fitzroy Street, Summerside, PE",
                 "startDate": "2018-01-01T13:00",
                 "endDate": "2018-01-01T15:00",
-                "marker-symbol": 16
+                "marker-symbol": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.233089,
+                    46.705421
+                ]
+            },
+            "properties": {
+                "name": "Town of O'Leary 2018 New Years Levee",
+                "location": "Maple Leaf Curling Club",
+                "address": "426 Main Street, O'Leary, PE",
+                "startDate": "2018-01-01T13:00",
+                "endDate": "2018-01-01T15:00",
+                "marker-symbol": 18
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.035537,
+                    46.94878
+                ]
+            },
+            "properties": {
+                "name": "Community of Tignish & Tignish Legion 2018 New Years Levee",
+                "location": "Tignish Legion",
+                "address": "221 Phillip Street, Tignish, PE",
+                "startDate": "2018-01-01T13:00",
+                "endDate": "2018-01-01T17:00",
+                "marker-symbol": 19
             }
         },
         {
@@ -303,7 +357,7 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2018-01-01T13:30",
                 "endDate": "2018-01-01T14:30",
-                "marker-symbol": 17
+                "marker-symbol": 20
             }
         },
         {
@@ -321,7 +375,7 @@
                 "address": "39 Lowther Drive, Cornwall, PE",
                 "startDate": "2018-01-01T13:30",
                 "endDate": "2018-01-01T15:00",
-                "marker-symbol": 18
+                "marker-symbol": 21
             }
         },
         {
@@ -339,7 +393,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2018-01-01T14:00",
                 "endDate": "2018-01-01T15:00",
-                "marker-symbol": 19
+                "marker-symbol": 22
             }
         },
         {
@@ -357,7 +411,7 @@
                 "address": "94 Main Drive, Miscouche, PE",
                 "startDate": "2018-01-01T14:00",
                 "endDate": "2018-01-01T18:00",
-                "marker-symbol": 20
+                "marker-symbol": 23
             }
         },
         {
@@ -375,7 +429,25 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2018-01-01T14:30",
                 "endDate": "2018-01-01T16:30",
-                "marker-symbol": 21
+                "marker-symbol": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.127261,
+                    46.234419
+                ]
+            },
+            "properties": {
+                "name": "Premier Wade MacLauchlan 2018 New Years Levee",
+                "location": "Confederation Centre of the Arts",
+                "address": "145 Richmond St, Charlottetown, PE",
+                "startDate": "2018-01-01T15:00",
+                "endDate": "2018-01-01T16:30",
+                "marker-symbol": 25
             }
         },
         {
@@ -393,7 +465,25 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2018-01-01T15:00",
                 "endDate": "2018-01-01T17:00",
-                "marker-symbol": 22
+                "marker-symbol": 26
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.939582,
+                    46.604437
+                ]
+            },
+            "properties": {
+                "name": "Ellerslie Legion 2018 New Years Levee",
+                "location": "Ellerslie Legion",
+                "address": "1136 Ellerslie Road, Ellerslie, PE",
+                "startDate": "2018-01-01T15:00",
+                "endDate": "2018-01-01T19:00",
+                "marker-symbol": 27
             }
         },
         {
@@ -411,7 +501,25 @@
                 "address": "241 Euston St, Charlottetown, PE",
                 "startDate": "2018-01-01T16:00",
                 "endDate": "2018-01-01T18:00",
-                "marker-symbol": 23
+                "marker-symbol": 28
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124147,
+                    46.238245
+                ]
+            },
+            "properties": {
+                "name": "Sport Page Club 2018 New Years Levee",
+                "location": "Sport Page Club",
+                "address": "236 Kent St, Charlottetown, PE",
+                "startDate": "2018-01-01T16:00",
+                "endDate": "2018-01-01T18:00",
+                "marker-symbol": 29
             }
         },
         {
@@ -429,7 +537,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2018-01-01T16:00",
                 "endDate": "2018-01-01T18:00",
-                "marker-symbol": 24
+                "marker-symbol": 30
             }
         },
         {
@@ -447,7 +555,7 @@
                 "address": "329 North Market Street, Summerside, PE",
                 "startDate": "2018-01-01T16:00",
                 "endDate": "2018-01-01T19:00",
-                "marker-symbol": 25
+                "marker-symbol": 31
             }
         },
         {
@@ -465,7 +573,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2018-01-01T18:00",
                 "endDate": "2018-01-02T02:00",
-                "marker-symbol": 26
+                "marker-symbol": 32
             }
         }
     ],
