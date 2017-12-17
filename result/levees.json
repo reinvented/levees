@@ -274,6 +274,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "HMCS Queen Charlotte 2018 New Years Levee",
+        "startDate": "2018-01-01T12:00:00",
+        "endDate": "2018-01-01T14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "HMCS Queen Charlotte",
+            "address": "210 Water Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.236969,
+                "longitude": -63.11711
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Seniors Active Living Centre 2018 New Years Levee",
         "startDate": "2018-01-01T12:30",
         "endDate": "2018-01-01T14:00",
