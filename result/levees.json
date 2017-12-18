@@ -189,6 +189,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Prince Edward Island Regiment 2018 New Years Levee",
+        "startDate": "2018-01-01T12:00",
+        "endDate": "2018-01-01T13:00",
+        "location": {
+            "@type": "Place",
+            "name": "Queen Charlotte Armoury",
+            "address": "3 Haviland Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22955,
+                "longitude": -63.12798
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Mayor of Kensington 2018 New Years Levee",
         "startDate": "2018-01-01T12:00",
         "endDate": "2018-01-01T13:30",
@@ -200,23 +217,6 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.437315,
                 "longitude": -63.637422
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Prince Edward Island Regiment 2018 New Years Levee",
-        "startDate": "2018-01-01T12:00",
-        "endDate": "2018-01-01T13:30",
-        "location": {
-            "@type": "Place",
-            "name": "Queen Charlotte Armoury",
-            "address": "3 Haviland Street, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.22955,
-                "longitude": -63.12798
             }
         }
     },
@@ -506,6 +506,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.429863,
                 "longitude": -63.854943
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "New London Community Complex 2018 New Years Levee",
+        "startDate": "2018-01-01T14:00",
+        "endDate": "2018-01-01T19:00",
+        "location": {
+            "@type": "Place",
+            "name": "New London Community Complex",
+            "address": "10227 Rte 6, New London, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.463073,
+                "longitude": -63.486013
             }
         }
     },
