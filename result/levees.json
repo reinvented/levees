@@ -2,145 +2,9 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Timothy's World Coffee 2018 New Years Levee",
-        "startDate": "2018-01-01T08:00",
-        "endDate": "2018-01-01T10:00",
-        "location": {
-            "@type": "Place",
-            "name": "Timothy's World Coffee",
-            "address": "154 Great George Street, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.23618,
-                "longitude": -63.12722
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Lieutenant Governor 2018 New Years Levee",
-        "startDate": "2018-01-01T10:00",
-        "endDate": "2018-01-01T11:30",
-        "location": {
-            "@type": "Place",
-            "name": "Government House",
-            "address": "1 Terry Fox Drive, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.231242,
-                "longitude": -63.136109
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Upstreet Craft Brewing 2018 New Years Levee",
-        "startDate": "2018-01-01T10:00",
-        "endDate": "2018-01-01T12:00",
-        "location": {
-            "@type": "Place",
-            "name": "Upstreet Craft Brewing",
-            "address": "41 Allen St, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.246094,
-                "longitude": -63.131841
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Mayor of Charlottetown 2018 New Years Levee",
-        "startDate": "2018-01-01T10:30",
-        "endDate": "2018-01-01T12:00",
-        "location": {
-            "@type": "Place",
-            "name": "Charlottetown City Hall",
-            "address": "199 Queen St, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.235354,
-                "longitude": -63.129549
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "PEI Women's Institute & Farm Centre  2018 New Years Levee",
-        "startDate": "2018-01-01T10:30",
-        "endDate": "2018-01-01T12:00",
-        "location": {
-            "@type": "Place",
-            "name": "Farm Centre",
-            "address": "420 University Ave, Charlottetown",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.24653,
-                "longitude": -63.13432
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Rotary Club of Charlottetown 2018 New Years Levee",
-        "startDate": "2018-01-01T11:00",
-        "endDate": "2018-01-01T12:00",
-        "location": {
-            "@type": "Place",
-            "name": "Rodd Charlottetown Hotel",
-            "address": "75 Kent Street, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.234808,
-                "longitude": -63.130815
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Canoe Cove Community Association 2018 New Years Levee",
-        "startDate": "2018-01-01T11:00",
-        "endDate": "2018-01-01T13:00",
-        "location": {
-            "@type": "Place",
-            "name": "Canoe Cove Schoolhouse",
-            "address": "1066 Canoe Cove Road, Canoe Cove, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.15514,
-                "longitude": -63.29541
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Mayor of Borden-Carleton 2018 New Years Levee",
-        "startDate": "2018-01-01T11:00",
-        "endDate": "2018-01-01T13:00",
-        "location": {
-            "@type": "Place",
-            "name": "Industrial Mall Board Room",
-            "address": "167 Industrial Drive, Borden-Carleton, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.257285,
-                "longitude": -63.680526
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "The Guild \/ Discover Charlottetown 2018 New Years Levee",
-        "startDate": "2018-01-01T11:00",
-        "endDate": "2018-01-01T13:00",
+        "name": "The Guild 2018 New Years Levee",
+        "startDate": "2019-01-01T09:00",
+        "endDate": "2019-01-01T10:30",
         "location": {
             "@type": "Place",
             "name": "The Guild",
@@ -155,9 +19,43 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "PEI Women's Institute  2018 New Years Levee",
+        "startDate": "2019-01-01T10:30",
+        "endDate": "2019-01-01T12:00",
+        "location": {
+            "@type": "Place",
+            "name": "Farm Centre",
+            "address": "420 University Ave, Charlottetown",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.24653,
+                "longitude": -63.13432
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Canoe Cove Community Association 2018 New Years Levee",
+        "startDate": "2019-01-01T11:00",
+        "endDate": "2019-01-01T13:00",
+        "location": {
+            "@type": "Place",
+            "name": "Canoe Cove Schoolhouse",
+            "address": "1066 Canoe Cove Road, Canoe Cove, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.15514,
+                "longitude": -63.29541
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Haviland Club 2018 New Years Levee",
-        "startDate": "2018-01-01T11:00",
-        "endDate": "2018-01-01T13:00",
+        "startDate": "2019-01-01T11:00",
+        "endDate": "2019-01-01T13:00",
         "location": {
             "@type": "Place",
             "name": "The Haviland Club",
@@ -173,8 +71,8 @@
         "@context": "http:\/\/schema.org",
         "@type": "Event",
         "name": "University of PEI 2018 New Years Levee",
-        "startDate": "2018-01-01T11:30",
-        "endDate": "2018-01-01T13:00",
+        "startDate": "2019-01-01T11:30",
+        "endDate": "2019-01-01T13:00",
         "location": {
             "@type": "Place",
             "name": "School of Sustainable Design Engineering",
@@ -189,94 +87,9 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Prince Edward Island Regiment 2018 New Years Levee",
-        "startDate": "2018-01-01T12:00",
-        "endDate": "2018-01-01T13:00",
-        "location": {
-            "@type": "Place",
-            "name": "Queen Charlotte Armoury",
-            "address": "3 Haviland Street, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.22955,
-                "longitude": -63.12798
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Mayor of Kensington 2018 New Years Levee",
-        "startDate": "2018-01-01T12:00",
-        "endDate": "2018-01-01T13:30",
-        "location": {
-            "@type": "Place",
-            "name": "Broadway 45",
-            "address": "45 Broadway St N, Kensington, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.437315,
-                "longitude": -63.637422
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Town of Stratford 2018 New Years Levee",
-        "startDate": "2018-01-01T12:00",
-        "endDate": "2018-01-01T13:30",
-        "location": {
-            "@type": "Place",
-            "name": "Stratford Town Centre",
-            "address": "234 Shakespeare Dr., Stratford, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.22673,
-                "longitude": -63.08747
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "GEBIS Charlottetown, a Buddhist Centre 2018 New Years Levee",
-        "startDate": "2018-01-01T12:00",
-        "endDate": "2018-01-01T14:00",
-        "location": {
-            "@type": "Place",
-            "name": "GEBIS Charlottetown",
-            "address": "133 Queen Street, 2nd Floor, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.234109,
-                "longitude": -63.127969
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "PEI Brewing Company 2018 New Years Levee",
-        "startDate": "2018-01-01T12:00",
-        "endDate": "2018-01-01T14:00",
-        "location": {
-            "@type": "Place",
-            "name": "PEI Brewing Company",
-            "address": "96 Kensington Road, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.252408,
-                "longitude": -63.115262
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
         "name": "HMCS Queen Charlotte 2018 New Years Levee",
-        "startDate": "2018-01-01T12:00:00",
-        "endDate": "2018-01-01T13:30:00",
+        "startDate": "2019-01-01T11:30:00",
+        "endDate": "2019-01-01T13:00:00",
         "location": {
             "@type": "Place",
             "name": "HMCS Queen Charlotte",
@@ -291,136 +104,17 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Seniors Active Living Centre 2018 New Years Levee",
-        "startDate": "2018-01-01T12:30",
-        "endDate": "2018-01-01T14:00",
+        "name": "Town of Stratford 2018 New Years Levee",
+        "startDate": "2019-01-01T12:00",
+        "endDate": "2019-01-01T13:30",
         "location": {
             "@type": "Place",
-            "name": "Bell Aliant Centre",
-            "address": "550 University Avenue, Charlottetown, PE",
+            "name": "Stratford Town Centre",
+            "address": "234 Shakespeare Dr., Stratford, PE",
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 46.2585,
-                "longitude": -63.13998
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2018 New Years Levee",
-        "startDate": "2018-01-01T13:00",
-        "endDate": "2018-01-01T14:30",
-        "location": {
-            "@type": "Place",
-            "name": "Masonic Temple",
-            "address": "204 Hillsborough St., Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.23925,
-                "longitude": -63.1258
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Andrews of Stratford 2018 New Years Levee",
-        "startDate": "2018-01-01T13:00",
-        "endDate": "2018-01-01T15:00",
-        "location": {
-            "@type": "Place",
-            "name": "Andrews of Stratford",
-            "address": "355 Shakespeare Drive, Stratford, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.22759,
-                "longitude": -63.09543
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "City of Summerside 2018 New Years Levee",
-        "startDate": "2018-01-01T13:00",
-        "endDate": "2018-01-01T15:00",
-        "location": {
-            "@type": "Place",
-            "name": "City Hall",
-            "address": "275 Fitzroy Street, Summerside, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.393032,
-                "longitude": -63.790607
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Town of O'Leary 2018 New Years Levee",
-        "startDate": "2018-01-01T13:00",
-        "endDate": "2018-01-01T15:00",
-        "location": {
-            "@type": "Place",
-            "name": "Maple Leaf Curling Club",
-            "address": "426 Main Street, O'Leary, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.705421,
-                "longitude": -64.233089
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Community of Tignish & Tignish Legion 2018 New Years Levee",
-        "startDate": "2018-01-01T13:00",
-        "endDate": "2018-01-01T17:00",
-        "location": {
-            "@type": "Place",
-            "name": "Tignish Legion",
-            "address": "221 Phillip Street, Tignish, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.94878,
-                "longitude": -64.035537
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Royal Canadian Legion, Wellington 2018 New Years Levee",
-        "startDate": "2018-01-01T13:00",
-        "endDate": "2018-01-01T17:00",
-        "location": {
-            "@type": "Place",
-            "name": "Wellington Legion",
-            "address": "97 Sunset Dr, Wellington, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.458652,
-                "longitude": -64.008398
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Roman Catholic Diocese of Charlottetown 2018 New Years Levee",
-        "startDate": "2018-01-01T13:30",
-        "endDate": "2018-01-01T14:30",
-        "location": {
-            "@type": "Place",
-            "name": "SDU Place \u2013 Old Bishop\u2019s Palace",
-            "address": "45 Great George Street, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.23342,
-                "longitude": -63.12464
+                "latitude": 46.22673,
+                "longitude": -63.08747
             }
         }
     },
@@ -428,8 +122,8 @@
         "@context": "http:\/\/schema.org",
         "@type": "Event",
         "name": "Town of Cornwall 2018 New Years Levee",
-        "startDate": "2018-01-01T13:30",
-        "endDate": "2018-01-01T15:00",
+        "startDate": "2019-01-01T13:30",
+        "endDate": "2019-01-01T15:00",
         "location": {
             "@type": "Place",
             "name": "Cornwall Town Hall",
@@ -444,17 +138,17 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Town of Souris 2018 New Years Levee",
-        "startDate": "2018-01-01T13:30",
-        "endDate": "2018-01-01T15:00",
+        "name": "Copper Bottom Brewing 2018 New Years Levee",
+        "startDate": "2019-01-01T14:00",
+        "endDate": "2019-01-01T15:00",
         "location": {
             "@type": "Place",
-            "name": "Eastern Kings Sportsplex",
-            "address": "203 Main Street, Souris, PE",
+            "name": "Copper Bottom Brewing",
+            "address": "567 Main Street, Montague, PE",
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 46.353853,
-                "longitude": -62.237481
+                "latitude": 46.163479,
+                "longitude": -62.647043
             }
         }
     },
@@ -462,8 +156,8 @@
         "@context": "http:\/\/schema.org",
         "@type": "Event",
         "name": "Garden Home 2018 New Years Levee",
-        "startDate": "2018-01-01T14:00",
-        "endDate": "2018-01-01T15:00",
+        "startDate": "2019-01-01T14:00",
+        "endDate": "2019-01-01T15:00",
         "location": {
             "@type": "Place",
             "name": "Garden Home",
@@ -478,60 +172,9 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Royal Canadian Legion, Charlottetown 2018 New Years Levee",
-        "startDate": "2018-01-01T14:00",
-        "endDate": "2018-01-01T15:00",
-        "location": {
-            "@type": "Place",
-            "name": "Charlottetown Legion",
-            "address": "99 Pownal Street, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.233024,
-                "longitude": -63.12922
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Miscouche Legion 2018 New Years Levee",
-        "startDate": "2018-01-01T14:00",
-        "endDate": "2018-01-01T18:00",
-        "location": {
-            "@type": "Place",
-            "name": "Miscouche Legion",
-            "address": "94 Main Drive, Miscouche, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.429863,
-                "longitude": -63.854943
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "New London Community Complex 2018 New Years Levee",
-        "startDate": "2018-01-01T14:00",
-        "endDate": "2018-01-01T19:00",
-        "location": {
-            "@type": "Place",
-            "name": "New London Community Complex",
-            "address": "10227 Rte 6, New London, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.463073,
-                "longitude": -63.486013
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
         "name": "The Kitchen Witch 2018 New Years Levee",
-        "startDate": "2018-01-01T14:30",
-        "endDate": "2018-01-01T16:30",
+        "startDate": "2019-01-01T14:30",
+        "endDate": "2019-01-01T16:30",
         "location": {
             "@type": "Place",
             "name": "The Kitchen Witch",
@@ -546,60 +189,9 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Premier Wade MacLauchlan 2018 New Years Levee",
-        "startDate": "2018-01-01T15:00",
-        "endDate": "2018-01-01T16:30",
-        "location": {
-            "@type": "Place",
-            "name": "Confederation Centre of the Arts",
-            "address": "145 Richmond St, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.234419,
-                "longitude": -63.127261
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Benevolent Irish Society 2018 New Years Levee",
-        "startDate": "2018-01-01T15:00",
-        "endDate": "2018-01-01T17:00",
-        "location": {
-            "@type": "Place",
-            "name": "Hon. Edward Whelan Irish Cultural Centre",
-            "address": "582 North River Road, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.26162,
-                "longitude": -63.15587
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Ellerslie Legion 2018 New Years Levee",
-        "startDate": "2018-01-01T15:00",
-        "endDate": "2018-01-01T19:00",
-        "location": {
-            "@type": "Place",
-            "name": "Ellerslie Legion",
-            "address": "1136 Ellerslie Road, Ellerslie, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.604437,
-                "longitude": -63.939582
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
         "name": "Charlottetown Curling Club 2018 New Years Levee",
-        "startDate": "2018-01-01T16:00",
-        "endDate": "2018-01-01T18:00",
+        "startDate": "2019-01-01T16:00",
+        "endDate": "2019-01-01T18:00",
         "location": {
             "@type": "Place",
             "name": "Charlottetown Curling Complex",
@@ -608,74 +200,6 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.24098,
                 "longitude": -63.1263
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Sport Page Club 2018 New Years Levee",
-        "startDate": "2018-01-01T16:00",
-        "endDate": "2018-01-01T18:00",
-        "location": {
-            "@type": "Place",
-            "name": "Sport Page Club",
-            "address": "236 Kent St, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.238245,
-                "longitude": -63.124147
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "The Alley 2018 New Years Levee",
-        "startDate": "2018-01-01T16:00",
-        "endDate": "2018-01-01T18:00",
-        "location": {
-            "@type": "Place",
-            "name": "Murphy's Community Centre",
-            "address": "200 Richmond Street, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.234996,
-                "longitude": -63.124575
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "200 Wing Royal Canadian Air Force Association 2018 New Years Levee",
-        "startDate": "2018-01-01T16:00",
-        "endDate": "2018-01-01T19:00",
-        "location": {
-            "@type": "Place",
-            "name": "The Wing",
-            "address": "329 North Market Street, Summerside, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.394634,
-                "longitude": -63.793235
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "Charlottetown Firefighters Club 2018 New Years Levee",
-        "startDate": "2018-01-01T18:00",
-        "endDate": "2018-01-02T02:00",
-        "location": {
-            "@type": "Place",
-            "name": "Charlottetown Fire Department",
-            "address": "89 Kent Street, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.235106,
-                "longitude": -63.130065
             }
         }
     }

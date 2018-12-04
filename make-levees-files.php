@@ -25,10 +25,10 @@
   * WITHOUT ANY WARRANTY; without even the implied warranty of
   * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
   *
-  * @version 0.1, June 20, 2012
+  * @version 1.0, December 4, 2018
   * @link https://github.com/reinvented/levees
   * @author Peter Rukavina <peter@rukavina.net>
-  * @copyright Copyright &copy; 2015, Reinvented Inc.
+  * @copyright Copyright &copy; 2018, Reinvented Inc.
   * @license hhttps://opensource.org/licenses/MIT MIT license
   */
 
@@ -39,7 +39,7 @@ require_once 'vendor/autoload.php';
 date_default_timezone_set("America/Halifax");
 
 // Create a new iCalendar object.
-$vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2018');
+$vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2019');
 
 // We're going to create four files; first we define them.
 $file['json+ld']  = "levees.json";
@@ -98,10 +98,10 @@ closeFiles($file, $fp);
 function openFiles($file) {
   // Create an array of file pointers and an array of contents.
   $fp = array();
+  $content = array();
   // Open the files we defined earlier.
   foreach($file as $filetype => $filename) {
     $fp[$filetype] = fopen("result/" . $filename, 'w');
-    $content[$filetype] = '';
   }
   return array($fp, $content);
 }
@@ -116,7 +116,7 @@ function makeJSONLD($row) {
   $tmp = array();
   $tmp['@context'] = "http://schema.org";
   $tmp['@type'] = "Event";
-  $tmp['name'] = $row['name'] . " 2018 New Years Levee";
+  $tmp['name'] = $row['name'] . " 2019 New Years Levee";
   $tmp['startDate'] = $row['startDate'];
   $tmp['endDate'] = $row['endDate'];
   $tmp['location'] = array();
@@ -137,7 +137,7 @@ function makeGeoJSON($row, $counter) {
   $tmp['geometry']['type'] = "Point";
   $tmp['geometry']['coordinates'] = array($row['longitude'], $row['latitude']);
   $tmp['properties'] = array();
-  $tmp['properties']['name'] = $row['name'] . " 2018 New Years Levee";
+  $tmp['properties']['name'] = $row['name'] . " 2019 New Years Levee";
   $tmp['properties']['location'] = $row['location_name'];
   $tmp['properties']['address'] = $row['location_address'];
   $tmp['properties']['startDate'] = $row['startDate'];
@@ -147,7 +147,7 @@ function makeGeoJSON($row, $counter) {
 }
 
 function makeHTMLheader() {
-  return "<table class='levees datatable'>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th class='levee_name'>Organization</th>\n\t\t\t<th class='levee_address'>Location</th>\n\t\t\t<th class='levee_start'>Starts</th>\n\t\t\t<th class='levee_end'>Ends</th>\n\t\t\t<th class='levee_accessible'>♿<span class='levee_accessible_title'> Accessible</span></th>\n\t\t</tr>\n";
+  return "<table class='levees datatable'>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th class='levee_name'>Organization</th>\n\t\t\t<th class='levee_address'>Location</th>\n\t\t\t<th class='levee_start'>Starts</th>\n\t\t\t<th class='levee_end'>Ends</th>\n\t\t\t<th class='levee_accessible'>♿<span class='levee_accessible_title'> Accessible</span></th>\n\t\t\t<th class='levee_allages'><span class='levee_allages_title'>All Ages</span></th>\n\t\t</tr>\n";
 }
 
 function makeHTML($row) {
@@ -170,6 +170,12 @@ function makeHTML($row) {
   else {
     $tmp .= "\t\t\t" . '<td class="levee_accessible">No</td>'. "\n";
   }
+  if ($row['allages']) {
+    $tmp .= "\t\t\t" . '<td class="levee_allages">Yes</td>'. "\n";
+  }
+  else {
+    $tmp .= "\t\t\t" . '<td class="levee_allages">No</td>'. "\n";
+  }
   $tmp .= "\t\t" . '</tr>' . "\n";
   return $tmp;
 }
@@ -179,7 +185,7 @@ function makeICalendar($row) {
   $vEvent->setDtStart(new \DateTime($row['startDate']));
   $vEvent->setDtEnd(new \DateTime($row['endDate']));
   $vEvent->setNoTime(false);
-  $vEvent->setSummary($row['name'] . " 2018 New Years Levee");
+  $vEvent->setSummary($row['name'] . " 2019 New Years Levee");
   $vEvent->setLocation($row['location_name'] . "\n" . $row['location_address'], $row['location_name'], $row['latitude'] . "," . $row['longitude']);
   $vEvent->setUseTimezone(true);
   return $vEvent;
