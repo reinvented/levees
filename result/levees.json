@@ -2,23 +2,6 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Lieutenant Governor 2019 New Years Levee",
-        "startDate": "2018-01-01T10:00",
-        "endDate": "2018-01-01T11:30",
-        "location": {
-            "@type": "Place",
-            "name": "Government House",
-            "address": "1 Terry Fox Drive, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.231242,
-                "longitude": -63.136109
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
         "name": "Timothy's World Coffee\/Anne & Gilbert, The Musical 2019 New Years Levee",
         "startDate": "2019-01-01T08:00",
         "endDate": "2019-01-01T10:00",
@@ -47,6 +30,57 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.233638,
                 "longitude": -63.12732
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Lieutenant Governor 2019 New Years Levee",
+        "startDate": "2019-01-01T10:00",
+        "endDate": "2019-01-01T11:30",
+        "location": {
+            "@type": "Place",
+            "name": "Government House",
+            "address": "1 Terry Fox Drive, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.231242,
+                "longitude": -63.136109
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Upstreet Craft Brewing 2019 New Years Levee",
+        "startDate": "2019-01-01T10:00",
+        "endDate": "2019-01-01T22:00",
+        "location": {
+            "@type": "Place",
+            "name": "Upstreet Craft Brewing",
+            "address": "41 Allen St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.246094,
+                "longitude": -63.131841
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Mayor of Charlottetown 2019 New Years Levee",
+        "startDate": "2019-01-01T10:30",
+        "endDate": "2019-01-01T12:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown City Hall",
+            "address": "199 Queen St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.235354,
+                "longitude": -63.129549
             }
         }
     },
@@ -104,6 +138,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "HMCS Queen Charlotte 2019 New Years Levee",
+        "startDate": "2019-01-01T11:30",
+        "endDate": "2019-01-01T13:00",
+        "location": {
+            "@type": "Place",
+            "name": "HMCS Queen Charlotte",
+            "address": "210 Water Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.236969,
+                "longitude": -63.11711
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "University of PEI 2019 New Years Levee",
         "startDate": "2019-01-01T11:30",
         "endDate": "2019-01-01T13:00",
@@ -121,17 +172,17 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "HMCS Queen Charlotte 2019 New Years Levee",
-        "startDate": "2019-01-01T11:30:00",
-        "endDate": "2019-01-01T13:00:00",
+        "name": "Mayor of Kensington 2019 New Years Levee",
+        "startDate": "2019-01-01T12:00",
+        "endDate": "2019-01-01T13:30",
         "location": {
             "@type": "Place",
-            "name": "HMCS Queen Charlotte",
-            "address": "210 Water Street, Charlottetown, PE",
+            "name": "Broadway 45",
+            "address": "45 Broadway St N, Kensington, PE",
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 46.236969,
-                "longitude": -63.11711
+                "latitude": 46.437315,
+                "longitude": -63.637422
             }
         }
     },
@@ -200,6 +251,57 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.22759,
                 "longitude": -63.09543
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of O'Leary 2019 New Years Levee",
+        "startDate": "2019-01-01T13:00",
+        "endDate": "2019-01-01T15:00",
+        "location": {
+            "@type": "Place",
+            "name": "Maple Leaf Curling Club",
+            "address": "426 Main Street, O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.705421,
+                "longitude": -64.233089
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Souris 2019 New Years Levee",
+        "startDate": "2019-01-01T13:00",
+        "endDate": "2019-01-01T15:00",
+        "location": {
+            "@type": "Place",
+            "name": "Eastern Kings Sportsplex",
+            "address": "203 Main Street, Souris, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.353853,
+                "longitude": -62.237481
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Tignish & Tignish Legion 2019 New Years Levee",
+        "startDate": "2019-01-01T13:00",
+        "endDate": "2019-01-01T17:00",
+        "location": {
+            "@type": "Place",
+            "name": "Tignish Legion",
+            "address": "221 Phillip Street, Tignish, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.94878,
+                "longitude": -64.035537
             }
         }
     },
@@ -302,6 +404,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.49081,
                 "longitude": -63.54285
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Premier Wade MacLauchlan 2019 New Years Levee",
+        "startDate": "2019-01-01T15:00",
+        "endDate": "2019-01-01T16:30",
+        "location": {
+            "@type": "Place",
+            "name": "Confederation Centre of the Arts",
+            "address": "145 Richmond St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234419,
+                "longitude": -63.127261
             }
         }
     },
