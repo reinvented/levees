@@ -2,6 +2,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Lieutenant Governor 2019 New Years Levee",
+        "startDate": "2018-01-01T10:00",
+        "endDate": "2018-01-01T11:30",
+        "location": {
+            "@type": "Place",
+            "name": "Government House",
+            "address": "1 Terry Fox Drive, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.231242,
+                "longitude": -63.136109
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Timothy's World Coffee\/Anne & Gilbert, The Musical 2019 New Years Levee",
+        "startDate": "2019-01-01T08:00",
+        "endDate": "2019-01-01T10:00",
+        "location": {
+            "@type": "Place",
+            "name": "Timothy's World Coffee",
+            "address": "154 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23618,
+                "longitude": -63.12722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Guild 2019 New Years Levee",
         "startDate": "2019-01-01T09:00",
         "endDate": "2019-01-01T10:30",
@@ -104,6 +138,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Prince Edward Island Regiment 2019 New Years Levee",
+        "startDate": "2019-01-01T12:00",
+        "endDate": "2019-01-01T13:30",
+        "location": {
+            "@type": "Place",
+            "name": "Queen Charlotte Armoury",
+            "address": "3 Haviland Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22955,
+                "longitude": -63.12798
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Stratford 2019 New Years Levee",
         "startDate": "2019-01-01T12:00",
         "endDate": "2019-01-01T13:30",
@@ -115,6 +166,57 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.22673,
                 "longitude": -63.08747
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Seniors Active Living Centre 2019 New Years Levee",
+        "startDate": "2019-01-01T12:30",
+        "endDate": "2019-01-01T14:00",
+        "location": {
+            "@type": "Place",
+            "name": "Bell Aliant Centre",
+            "address": "550 University Avenue, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.2585,
+                "longitude": -63.13998
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Andrews of Stratford 2019 New Years Levee",
+        "startDate": "2019-01-01T13:00",
+        "endDate": "2019-01-01T15:00",
+        "location": {
+            "@type": "Place",
+            "name": "Andrews of Stratford",
+            "address": "355 Shakespeare Drive, Stratford, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22759,
+                "longitude": -63.09543
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Roman Catholic Diocese of Charlottetown 2019 New Years Levee",
+        "startDate": "2019-01-01T13:30",
+        "endDate": "2019-01-01T14:30",
+        "location": {
+            "@type": "Place",
+            "name": "SDU Place \u2013 Old Bishop\u2019s Palace",
+            "address": "45 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23342,
+                "longitude": -63.12464
             }
         }
     },
@@ -166,6 +268,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.25092,
                 "longitude": -63.1492
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Borden-Carleton 2019 New Years Levee",
+        "startDate": "2019-01-01T14:00",
+        "endDate": "2019-01-01T16:00",
+        "location": {
+            "@type": "Place",
+            "name": "Borden-Carleton Library",
+            "address": "244 Borden Avenue, Borden-Carleton",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25418,
+                "longitude": -63.691179
             }
         }
     },
