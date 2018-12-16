@@ -160,8 +160,8 @@ function makeHTML($row) {
   else {
     $tmp .= "\t\t" . '<tr class="notcharlottetown">' . "\n";
   }
-  $tmp .= "\t\t\t" . '<td class="levee_name">' . $row['name'] . '</td>' . "\n";
-  $tmp .= "\t\t\t" . '<td class="levee_address"><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['location_name']  . "<br><span class='levee_street'>" . $row['location_address'] . '</span></a></td>' . "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>' . "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_address">' . $row['location_name']  . "<br><span class='levee_street'>" . $row['location_address'] . '</span></td>' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_start">' . strftime("%l:%M %p", $start_number) . '</td>'. "\n";
   $tmp .= "\t\t\t" . '<td class="levee_end">' . strftime("%l:%M %p", $end_number) . '</td>'. "\n";
   if ($row['accessible']) {
