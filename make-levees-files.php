@@ -168,7 +168,7 @@ function makeHTML($row) {
     $tmp .= "\t\t\t" . '<td class="levee_accessible">Yes</td>'. "\n";
   }
   else {
-    $tmp .= "\t\t\t" . '<td class="levee_accessible">No</td>'. "\n";
+    $tmp .= "\t\t\t" . '<td class="levee_accessible"><b>No</b></td>'. "\n";
   }
   if ($row['allages']) {
     $tmp .= "\t\t\t" . '<td class="levee_allages">Yes</td>'. "\n";
