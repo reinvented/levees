@@ -6,10 +6,11 @@ This year's version is online at:
 
 [https://ruk.ca/levee-2019](https://ruk.ca/levee-2019)
 
-Until four years ago, I maintained the data for the levees as a simple HTML table. This year, with more levees than ever and a desire to emit the schedule data in a variety of forms, I began to maintain the schedule in an SQLite database, and to use a simple PHP script, included here, to generate derivatives:
+In the early days, I maintained the data for the levees as a simple HTML table. As the list grew to include more levees than ever, and with a desire to emit the schedule data in a variety of forms, I began to maintain the schedule in an SQLite database, and to use a simple PHP script, included here, to generate derivatives:
 
 * [HTML](result/levees.html) for the web page itself.
 * [GeoJSON](result/levees.geojson) for mapping the levees.
+* [GeoJSON](result/levees-charlottetown.geojson) for mapping the levees for Charlottetown-area only.
 * [JSON+LD](result/levees.json) for embedded in the web page for Google Structured Data purposes.
 * [iCalendar](result/levees.ics) to allow the schedule to be imported into desktop and mobile calendars.
 
@@ -23,7 +24,8 @@ For making iCalendar files, [eluceo/ical](https://github.com/markuspoerschke/iCa
 
 ### New for 2019
 * Added a column to the SQLite table to record whether levees are "all ages" (accessible to all people) not.
-* Code cleanup to support PHP 7.1
+* Code cleanup to support PHP 7.1.
+* Generate a GeoJSON file for Charlottetown-area levees only, in addition to the one that includes all levees.
 
 ## License
 
