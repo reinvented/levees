@@ -55,6 +55,7 @@ $db = new SQLite3('data/levees.sqlite');
 
 // Initialize a counter that we can use for the GeoJSON marker-symbol property.
 $counter = 1;
+$charlottetown_counter = 1;
 
 // Retrieve all the levees
 $results = $db->query('SELECT * FROM levees where active = 1 order by startDate, endDate, name');
@@ -69,7 +70,8 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
 
   // Create GeoJSON for this levee - only if it's in Charlottetown.
   if ($row['charlottetownarea']) {
-    $content['geojson-charlottetown']['features'][] = makeGeoJSON($row, $counter);
+    $content['geojson-charlottetown']['features'][] = makeGeoJSON($row, $charlottetown_counter);
+    $charlottetown_counter++;
   }
 
   // Create HTML for this levee.
