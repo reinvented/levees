@@ -147,7 +147,7 @@ function makeGeoJSON($row, $counter) {
 }
 
 function makeHTMLheader() {
-  return "<table class='levees datatable'>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th class='levee_name'>Organization</th>\n\t\t\t<th class='levee_address'>Location</th>\n\t\t\t<th class='levee_start'>Starts</th>\n\t\t\t<th class='levee_end'>Ends</th>\n\t\t\t<th class='levee_accessible'>♿<span class='levee_accessible_title'> Accessible</span></th>\n\t\t\t<th class='levee_allages'><span class='levee_allages_title'>All Ages</span></th>\n\t\t</tr>\n";
+  return "<table class='levees datatable'>\n\t<thead>\n\t\t<tr>\n\t\t\t<th class='levee_name'>Organization</th>\n\t\t\t<th class='levee_address'>Location</th>\n\t\t\t<th class='levee_start'>Starts</th>\n\t\t\t<th class='levee_end'>Ends</th>\n\t\t\t<th class='levee_accessible'>♿<span class='levee_accessible_title'> Accessible</span></th>\n\t\t\t<th class='levee_allages'><span class='levee_allages_title'>All Ages</span></th>\n\t\t</tr></thead><tbody>\n";
 }
 
 function makeHTML($row) {
@@ -155,10 +155,20 @@ function makeHTML($row) {
   $end_number = strtotime($row['endDate']);
   $tmp = '';
   if ($row['charlottetownarea']) {
-    $tmp .= "\t\t" . '<tr class="charlottetown">' . "\n";
+    if ($row['allages']) {
+      $tmp .= "\t\t" . '<tr class="charlottetown allages">' . "\n";
+    }
+    else {
+      $tmp .= "\t\t" . '<tr class="charlottetown 19plus">' . "\n";
+    }
   }
   else {
-    $tmp .= "\t\t" . '<tr class="notcharlottetown">' . "\n";
+    if ($row['allages']) {
+      $tmp .= "\t\t" . '<tr class="notcharlottetown allages">' . "\n";
+    }
+    else {
+      $tmp .= "\t\t" . '<tr class="notcharlottetown 19plus">' . "\n";
+    }
   }
   $tmp .= "\t\t\t" . '<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_address">' . $row['location_name']  . "<br><span class='levee_street'>" . $row['location_address'] . '</span></td>' . "\n";

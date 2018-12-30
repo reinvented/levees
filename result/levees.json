@@ -53,6 +53,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Silver Fox Curling and Yacht Club 2019 New Years Levee",
+        "startDate": "2019-01-01T10:00",
+        "endDate": "2019-01-01T12:00",
+        "location": {
+            "@type": "Place",
+            "name": "Silver Fox Curling and Yacht Club",
+            "address": "110 Water Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.388303,
+                "longitude": -63.784217
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Upstreet Craft Brewing 2019 New Years Levee",
         "startDate": "2019-01-01T10:00",
         "endDate": "2019-01-01T22:00",
@@ -325,7 +342,24 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Town of Tignish & Tignish Legion 2019 New Years Levee",
+        "name": "Village of Morell, Morell Lions Club, Northside Communities Initiative 2019 New Years Levee",
+        "startDate": "2019-01-01T13:00",
+        "endDate": "2019-01-01T15:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Community Rink",
+            "address": "59 Queen Elizabeth, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41485,
+                "longitude": -62.70246
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Tignish & Town of Tignish 2019 New Years Levee",
         "startDate": "2019-01-01T13:00",
         "endDate": "2019-01-01T17:00",
         "location": {
@@ -336,6 +370,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.94878,
                 "longitude": -64.035537
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Wellington 2019 New Years Levee",
+        "startDate": "2019-01-01T13:00",
+        "endDate": "2019-01-01T17:00",
+        "location": {
+            "@type": "Place",
+            "name": "Wellington Legion",
+            "address": "97 Sunset Dr, Wellington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.458652,
+                "longitude": -64.008398
             }
         }
     },
@@ -359,6 +410,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "City of Summerside 2019 New Years Levee",
+        "startDate": "2019-01-01T13:30",
+        "endDate": "2019-01-01T15:00",
+        "location": {
+            "@type": "Place",
+            "name": "City Hall",
+            "address": "275 Fitzroy Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.393032,
+                "longitude": -63.790607
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Cornwall 2019 New Years Levee",
         "startDate": "2019-01-01T13:30",
         "endDate": "2019-01-01T15:00",
@@ -370,6 +438,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.2361,
                 "longitude": -63.20695
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Summerside 2019 New Years Levee",
+        "startDate": "2019-01-01T13:30",
+        "endDate": "2019-01-01T16:30",
+        "location": {
+            "@type": "Place",
+            "name": "Summerside Legion",
+            "address": "340 Notre Dame St., Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.3959,
+                "longitude": -63.79322
             }
         }
     },
@@ -410,6 +495,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Charlottetown 2019 New Years Levee",
+        "startDate": "2019-01-01T14:00",
+        "endDate": "2019-01-01T15:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown Legion",
+            "address": "99 Pownal Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.233024,
+                "longitude": -63.12922
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Borden-Carleton 2019 New Years Levee",
         "startDate": "2019-01-01T14:00",
         "endDate": "2019-01-01T16:00",
@@ -427,7 +529,7 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Miscouche Legion 2019 New Years Levee",
+        "name": "Royal Canadian Legion - Miscouche 2019 New Years Levee",
         "startDate": "2019-01-01T14:00",
         "endDate": "2019-01-01T18:00",
         "location": {
@@ -495,6 +597,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Ellerslie 2019 New Years Levee",
+        "startDate": "2019-01-01T15:00",
+        "endDate": "2019-01-01T19:00",
+        "location": {
+            "@type": "Place",
+            "name": "Ellerslie Legion",
+            "address": "1136 Ellerslie Road, Ellerslie, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.604437,
+                "longitude": -63.939582
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "200 Wing Royal Canadian Air Force Association 2019 New Years Levee",
         "startDate": "2019-01-01T16:00",
         "endDate": "2019-01-01T18:00",
@@ -523,6 +642,57 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.24098,
                 "longitude": -63.1263
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Sport Page Club 2019 New Years Levee",
+        "startDate": "2019-01-01T16:00",
+        "endDate": "2019-01-01T18:00",
+        "location": {
+            "@type": "Place",
+            "name": "Sport Page Club",
+            "address": "236 Kent St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.238245,
+                "longitude": -63.124147
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Alley 2019 New Years Levee",
+        "startDate": "2019-01-01T16:00",
+        "endDate": "2019-01-01T18:00",
+        "location": {
+            "@type": "Place",
+            "name": "Murphy's Community Centre",
+            "address": "200 Richmond Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234996,
+                "longitude": -63.124575
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Olde Dublin Pub 2019 New Years Levee",
+        "startDate": "2019-01-01T17:00",
+        "endDate": "2019-01-01T20:00",
+        "location": {
+            "@type": "Place",
+            "name": "Olde Dublin Pub",
+            "address": "131 Sydney St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23374,
+                "longitude": -63.126028
             }
         }
     },
