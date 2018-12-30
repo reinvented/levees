@@ -44,6 +44,7 @@ $vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2019');
 // We're going to create four files; first we define them.
 $file['json+ld']  = "levees.json";
 $file['geojson']  = "levees.geojson";
+$file['geojson-charlottetown']  = "levees-charlottetown.geojson";
 $file['html']     = "levees.html";
 $file['ics']      = "levees.ics";
 
@@ -66,6 +67,11 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
   // Create GeoJSON for this levee.
   $content['geojson']['features'][] = makeGeoJSON($row, $counter);
 
+  // Create GeoJSON for this levee - only if it's in Charlottetown.
+  if ($row['charlottetownarea']) {
+    $content['geojson-charlottetown']['features'][] = makeGeoJSON($row, $counter);
+  }
+
   // Create HTML for this levee.
   $content['html'] .= makeHTML($row);
 
@@ -79,11 +85,17 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
 // Add to the GeoJSON object to make it valid.
 $content['geojson']['type'] = "FeatureCollection";
 
+// Add to the GeoJSON object to make it valid.
+$content['geojson-charlottetown']['type'] = "FeatureCollection";
+
 // Write the JSON+LD data
 fwrite($fp['json+ld'], json_encode($content['json+ld'], JSON_PRETTY_PRINT));
 
 // Write the GeoJSON data
 fwrite($fp['geojson'], json_encode($content['geojson'], JSON_PRETTY_PRINT));
+
+// Write the GeoJSON data
+fwrite($fp['geojson-charlottetown'], json_encode($content['geojson-charlottetown'], JSON_PRETTY_PRINT));
 
 // Write the HTML data
 fwrite($fp['html'], makeHTMLheader());

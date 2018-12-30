@@ -1,0 +1,473 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12722,
+                    46.23618
+                ]
+            },
+            "properties": {
+                "name": "Timothy's World Coffee\/Anne & Gilbert, The Musical 2019 New Years Levee",
+                "location": "Timothy's World Coffee",
+                "address": "154 Great George Street, Charlottetown, PE",
+                "startDate": "2019-01-01T08:00",
+                "endDate": "2019-01-01T10:00",
+                "marker-symbol": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12732,
+                    46.233638
+                ]
+            },
+            "properties": {
+                "name": "The Guild 2019 New Years Levee",
+                "location": "The Guild",
+                "address": "111 Queen Street, Charlottetown, PE",
+                "startDate": "2019-01-01T09:00",
+                "endDate": "2019-01-01T10:30",
+                "marker-symbol": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.136109,
+                    46.231242
+                ]
+            },
+            "properties": {
+                "name": "Lieutenant Governor 2019 New Years Levee",
+                "location": "Government House",
+                "address": "1 Terry Fox Drive, Charlottetown, PE",
+                "startDate": "2019-01-01T10:00",
+                "endDate": "2019-01-01T11:30",
+                "marker-symbol": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.131841,
+                    46.246094
+                ]
+            },
+            "properties": {
+                "name": "Upstreet Craft Brewing 2019 New Years Levee",
+                "location": "Upstreet Craft Brewing",
+                "address": "41 Allen St, Charlottetown, PE",
+                "startDate": "2019-01-01T10:00",
+                "endDate": "2019-01-01T22:00",
+                "marker-symbol": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.129549,
+                    46.235354
+                ]
+            },
+            "properties": {
+                "name": "Mayor of Charlottetown 2019 New Years Levee",
+                "location": "Charlottetown City Hall",
+                "address": "199 Queen St, Charlottetown, PE",
+                "startDate": "2019-01-01T10:30",
+                "endDate": "2019-01-01T12:00",
+                "marker-symbol": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.13432,
+                    46.24653
+                ]
+            },
+            "properties": {
+                "name": "PEI Women's Institute  2019 New Years Levee",
+                "location": "Farm Centre",
+                "address": "420 University Ave, Charlottetown",
+                "startDate": "2019-01-01T10:30",
+                "endDate": "2019-01-01T12:00",
+                "marker-symbol": 7
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12783,
+                    46.23058
+                ]
+            },
+            "properties": {
+                "name": "The Haviland Club 2019 New Years Levee",
+                "location": "The Haviland Club",
+                "address": "2 Haviland St, Charlottetown, PE",
+                "startDate": "2019-01-01T11:00",
+                "endDate": "2019-01-01T13:00",
+                "marker-symbol": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.11711,
+                    46.236969
+                ]
+            },
+            "properties": {
+                "name": "HMCS Queen Charlotte 2019 New Years Levee",
+                "location": "HMCS Queen Charlotte",
+                "address": "210 Water Street, Charlottetown, PE",
+                "startDate": "2019-01-01T11:30",
+                "endDate": "2019-01-01T13:00",
+                "marker-symbol": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.13816,
+                    46.25861
+                ]
+            },
+            "properties": {
+                "name": "University of PEI 2019 New Years Levee",
+                "location": "School of Sustainable Design Engineering",
+                "address": "550 University Ave., Charlottetown, PE",
+                "startDate": "2019-01-01T11:30",
+                "endDate": "2019-01-01T13:00",
+                "marker-symbol": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12798,
+                    46.22955
+                ]
+            },
+            "properties": {
+                "name": "Prince Edward Island Regiment 2019 New Years Levee",
+                "location": "Queen Charlotte Armoury",
+                "address": "3 Haviland Street, Charlottetown, PE",
+                "startDate": "2019-01-01T12:00",
+                "endDate": "2019-01-01T13:30",
+                "marker-symbol": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.08747,
+                    46.22673
+                ]
+            },
+            "properties": {
+                "name": "Town of Stratford 2019 New Years Levee",
+                "location": "Stratford Town Centre",
+                "address": "234 Shakespeare Dr., Stratford, PE",
+                "startDate": "2019-01-01T12:00",
+                "endDate": "2019-01-01T13:30",
+                "marker-symbol": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.115262,
+                    46.252408
+                ]
+            },
+            "properties": {
+                "name": "PEI Brewing Company 2019 New Years Levee",
+                "location": "PEI Brewing Company",
+                "address": "96 Kensington Road, Charlottetown, PE",
+                "startDate": "2019-01-01T12:00",
+                "endDate": "2019-01-01T14:00",
+                "marker-symbol": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.13998,
+                    46.2585
+                ]
+            },
+            "properties": {
+                "name": "Seniors Active Living Centre 2019 New Years Levee",
+                "location": "Bell Aliant Centre",
+                "address": "550 University Avenue, Charlottetown, PE",
+                "startDate": "2019-01-01T12:30",
+                "endDate": "2019-01-01T14:00",
+                "marker-symbol": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.1258,
+                    46.23925
+                ]
+            },
+            "properties": {
+                "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2019 New Years Levee",
+                "location": "Masonic Temple",
+                "address": "204 Hillsborough St., Charlottetown, PE",
+                "startDate": "2019-01-01T13:00",
+                "endDate": "2019-01-01T14:30",
+                "marker-symbol": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.09543,
+                    46.22759
+                ]
+            },
+            "properties": {
+                "name": "Andrews of Stratford 2019 New Years Levee",
+                "location": "Andrews of Stratford",
+                "address": "355 Shakespeare Drive, Stratford, PE",
+                "startDate": "2019-01-01T13:00",
+                "endDate": "2019-01-01T15:00",
+                "marker-symbol": 18
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12464,
+                    46.23342
+                ]
+            },
+            "properties": {
+                "name": "Roman Catholic Diocese of Charlottetown 2019 New Years Levee",
+                "location": "SDU Place \u2013 Old Bishop\u2019s Palace",
+                "address": "45 Great George Street, Charlottetown, PE",
+                "startDate": "2019-01-01T13:30",
+                "endDate": "2019-01-01T14:30",
+                "marker-symbol": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.20695,
+                    46.2361
+                ]
+            },
+            "properties": {
+                "name": "Town of Cornwall 2019 New Years Levee",
+                "location": "Cornwall Town Hall",
+                "address": "39 Lowther Drive, Cornwall, PE",
+                "startDate": "2019-01-01T13:30",
+                "endDate": "2019-01-01T15:00",
+                "marker-symbol": 26
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.1492,
+                    46.25092
+                ]
+            },
+            "properties": {
+                "name": "Garden Home 2019 New Years Levee",
+                "location": "Garden Home",
+                "address": "310 North River Road, Charlottetown, PE",
+                "startDate": "2019-01-01T14:00",
+                "endDate": "2019-01-01T15:00",
+                "marker-symbol": 29
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12922,
+                    46.233024
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Charlottetown 2019 New Years Levee",
+                "location": "Charlottetown Legion",
+                "address": "99 Pownal Street, Charlottetown, PE",
+                "startDate": "2019-01-01T14:00",
+                "endDate": "2019-01-01T15:00",
+                "marker-symbol": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.127261,
+                    46.234419
+                ]
+            },
+            "properties": {
+                "name": "Premier Wade MacLauchlan 2019 New Years Levee",
+                "location": "Confederation Centre of the Arts",
+                "address": "145 Richmond St, Charlottetown, PE",
+                "startDate": "2019-01-01T15:00",
+                "endDate": "2019-01-01T16:30",
+                "marker-symbol": 34
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.15587,
+                    46.26162
+                ]
+            },
+            "properties": {
+                "name": "Benevolent Irish Society 2019 New Years Levee",
+                "location": "Hon. Edward Whelan Irish Cultural Centre",
+                "address": "582 North River Road, Charlottetown, PE",
+                "startDate": "2019-01-01T15:00",
+                "endDate": "2019-01-01T17:00",
+                "marker-symbol": 35
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.1263,
+                    46.24098
+                ]
+            },
+            "properties": {
+                "name": "Charlottetown Curling Club 2019 New Years Levee",
+                "location": "Charlottetown Curling Complex",
+                "address": "241 Euston St, Charlottetown, PE",
+                "startDate": "2019-01-01T16:00",
+                "endDate": "2019-01-01T18:00",
+                "marker-symbol": 38
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124147,
+                    46.238245
+                ]
+            },
+            "properties": {
+                "name": "Sport Page Club 2019 New Years Levee",
+                "location": "Sport Page Club",
+                "address": "236 Kent St, Charlottetown, PE",
+                "startDate": "2019-01-01T16:00",
+                "endDate": "2019-01-01T18:00",
+                "marker-symbol": 39
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124575,
+                    46.234996
+                ]
+            },
+            "properties": {
+                "name": "The Alley 2019 New Years Levee",
+                "location": "Murphy's Community Centre",
+                "address": "200 Richmond Street, Charlottetown, PE",
+                "startDate": "2019-01-01T16:00",
+                "endDate": "2019-01-01T18:00",
+                "marker-symbol": 40
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.126028,
+                    46.23374
+                ]
+            },
+            "properties": {
+                "name": "Olde Dublin Pub 2019 New Years Levee",
+                "location": "Olde Dublin Pub",
+                "address": "131 Sydney St., Charlottetown, PE",
+                "startDate": "2019-01-01T17:00",
+                "endDate": "2019-01-01T20:00",
+                "marker-symbol": 41
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.130065,
+                    46.235106
+                ]
+            },
+            "properties": {
+                "name": "Charlottetown Firefighters Club 2019 New Years Levee",
+                "location": "Charlottetown Fire Department",
+                "address": "89 Kent Street, Charlottetown, PE",
+                "startDate": "2019-01-01T17:00",
+                "endDate": "2019-01-01T24:00",
+                "marker-symbol": 42
+            }
+        }
+    ],
+    "type": "FeatureCollection"
+}
