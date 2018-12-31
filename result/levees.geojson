@@ -131,24 +131,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -63.29541,
-                    46.15514
-                ]
-            },
-            "properties": {
-                "name": "Canoe Cove Community Association 2019 New Years Levee",
-                "location": "Canoe Cove Schoolhouse",
-                "address": "1066 Canoe Cove Road, Canoe Cove, PE",
-                "startDate": "2019-01-01T11:00",
-                "endDate": "2019-01-01T13:00",
-                "marker-symbol": 8
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -63.12783,
                     46.23058
                 ]

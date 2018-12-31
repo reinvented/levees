@@ -121,23 +121,6 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Canoe Cove Community Association 2019 New Years Levee",
-        "startDate": "2019-01-01T11:00",
-        "endDate": "2019-01-01T13:00",
-        "location": {
-            "@type": "Place",
-            "name": "Canoe Cove Schoolhouse",
-            "address": "1066 Canoe Cove Road, Canoe Cove, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.15514,
-                "longitude": -63.29541
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
         "name": "The Haviland Club 2019 New Years Levee",
         "startDate": "2019-01-01T11:00",
         "endDate": "2019-01-01T13:00",

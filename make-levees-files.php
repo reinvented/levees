@@ -62,23 +62,26 @@ $results = $db->query('SELECT * FROM levees where active = 1 order by startDate,
 
 while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
 
-  // Create JSON+LD for this levee.
-  $content['json+ld'][] = makeJSONLD($row);
+  if (!$row['cancelled']) {
+    // Create JSON+LD for this levee.
+    $content['json+ld'][] = makeJSONLD($row);
 
-  // Create GeoJSON for this levee.
-  $content['geojson']['features'][] = makeGeoJSON($row, $counter);
+    // Create GeoJSON for this levee.
+    $content['geojson']['features'][] = makeGeoJSON($row, $counter);
 
-  // Create GeoJSON for this levee - only if it's in Charlottetown.
-  if ($row['charlottetownarea']) {
-    $content['geojson-charlottetown']['features'][] = makeGeoJSON($row, $charlottetown_counter);
-    $charlottetown_counter++;
+    // Create GeoJSON for this levee - only if it's in Charlottetown.
+    if ($row['charlottetownarea']) {
+      $content['geojson-charlottetown']['features'][] = makeGeoJSON($row, $charlottetown_counter);
+      $charlottetown_counter++;
+    }
+
+    // Create iCalendar for this levee.
+    $vCalendar->addComponent(makeICalendar($row));
+
   }
 
   // Create HTML for this levee.
   $content['html'] .= makeHTML($row);
-
-  // Create iCalendar for this levee.
-  $vCalendar->addComponent(makeICalendar($row));
 
   // Increment the counter.
   $counter++;
@@ -168,22 +171,26 @@ function makeHTML($row) {
   $start_number = strtotime($row['startDate']);
   $end_number = strtotime($row['endDate']);
   $tmp = '';
+
+  $classes = array();
   if ($row['charlottetownarea']) {
-    if ($row['allages']) {
-      $tmp .= "\t\t" . '<tr class="charlottetown allages">' . "\n";
-    }
-    else {
-      $tmp .= "\t\t" . '<tr class="charlottetown 19plus">' . "\n";
-    }
+    $classes[] = 'charlottetown';
   }
   else {
-    if ($row['allages']) {
-      $tmp .= "\t\t" . '<tr class="notcharlottetown allages">' . "\n";
-    }
-    else {
-      $tmp .= "\t\t" . '<tr class="notcharlottetown 19plus">' . "\n";
-    }
+    $classes[] = 'notcharlottetown';
   }
+  if ($row['allages']) {
+    $classes[] = 'allages';
+  }
+  else {
+    $classes[] = '19plus';
+  }
+  if ($row['cancelled']) {
+    $classes[] = 'cancelled';
+  }
+  $allclasses = implode(' ', $classes);
+
+  $tmp .= "\t\t" . '<tr class="' . $allclasses . '">' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_address">' . $row['location_name']  . "<br><span class='levee_street'>" . $row['location_address'] . '</span></td>' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_start">' . strftime("%l:%M %p", $start_number) . '</td>'. "\n";
