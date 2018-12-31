@@ -104,23 +104,6 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "PEI Women's Institute  2019 New Years Levee",
-        "startDate": "2019-01-01T10:30",
-        "endDate": "2019-01-01T12:00",
-        "location": {
-            "@type": "Place",
-            "name": "Farm Centre",
-            "address": "420 University Ave, Charlottetown",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.24653,
-                "longitude": -63.13432
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
         "name": "The Haviland Club 2019 New Years Levee",
         "startDate": "2019-01-01T11:00",
         "endDate": "2019-01-01T13:00",
