@@ -23,7 +23,7 @@ For making iCalendar files, [eluceo/ical](https://github.com/markuspoerschke/iCa
 ## Changelog
 
 ### New for 2019
-* Added a column to the SQLite table to record whether levees are "all ages" (accessible to all people) not.
+* Added a column to the SQLite table to record whether levees are "all ages" (accessible to all people) or not.
 * Code cleanup to support PHP 7.1.
 * Generate a GeoJSON file for Charlottetown-area levees only, in addition to the one that includes all levees.
 
