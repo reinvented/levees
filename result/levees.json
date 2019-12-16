@@ -393,6 +393,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "PEI Billiard Association 2020 New Years Levee",
+        "startDate": "2020-01-01 14:00:00",
+        "endDate": "2020-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Dooly's",
+            "address": "157 Kent St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.236715,
+                "longitude": -63.12716
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Kitchen Witch 2020 New Years Levee",
         "startDate": "2020-01-01 14:30:00",
         "endDate": "2020-01-01 16:30:00",

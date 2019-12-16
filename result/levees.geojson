@@ -419,6 +419,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.12716,
+                    46.236715
+                ]
+            },
+            "properties": {
+                "name": "PEI Billiard Association 2020 New Years Levee",
+                "location": "Dooly's",
+                "address": "157 Kent St., Charlottetown, PE",
+                "startDate": "2020-01-01 14:00:00",
+                "endDate": "2020-01-01 16:00:00",
+                "marker-symbol": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.54285,
                     46.49081
                 ]
@@ -429,7 +447,7 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2020-01-01 14:30:00",
                 "endDate": "2020-01-01 16:30:00",
-                "marker-symbol": 24
+                "marker-symbol": 25
             }
         },
         {
@@ -447,7 +465,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2020-01-01 15:00:00",
                 "endDate": "2020-01-01 17:00:00",
-                "marker-symbol": 25
+                "marker-symbol": 26
             }
         },
         {
@@ -465,7 +483,7 @@
                 "address": "241 Euston St, Charlottetown, PE",
                 "startDate": "2020-01-01 16:00:00",
                 "endDate": "2020-01-01 18:00:00",
-                "marker-symbol": 26
+                "marker-symbol": 27
             }
         },
         {
@@ -483,7 +501,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2020-01-01 16:00:00",
                 "endDate": "2020-01-01 18:00:00",
-                "marker-symbol": 27
+                "marker-symbol": 28
             }
         }
     ],
