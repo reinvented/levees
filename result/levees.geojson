@@ -491,6 +491,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.854943,
+                    46.429863
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Miscouche 2020 New Years Levee",
+                "location": "Miscouche Legion",
+                "address": "94 Main Drive, Miscouche, PE",
+                "startDate": "2020-01-01 14:00:00",
+                "endDate": "2020-01-01 18:00:00",
+                "marker-symbol": 28
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.54285,
                     46.49081
                 ]
@@ -501,7 +519,7 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2020-01-01 14:30:00",
                 "endDate": "2020-01-01 16:30:00",
-                "marker-symbol": 28
+                "marker-symbol": 29
             }
         },
         {
@@ -519,7 +537,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2020-01-01 15:00:00",
                 "endDate": "2020-01-01 17:00:00",
-                "marker-symbol": 29
+                "marker-symbol": 30
             }
         },
         {
@@ -537,7 +555,7 @@
                 "address": "241 Euston St, Charlottetown, PE",
                 "startDate": "2020-01-01 16:00:00",
                 "endDate": "2020-01-01 18:00:00",
-                "marker-symbol": 30
+                "marker-symbol": 31
             }
         },
         {
@@ -555,7 +573,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2020-01-01 16:00:00",
                 "endDate": "2020-01-01 18:00:00",
-                "marker-symbol": 31
+                "marker-symbol": 32
             }
         },
         {
@@ -573,7 +591,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2020-01-01 18:00:00",
                 "endDate": "2020-01-02 00:00:00",
-                "marker-symbol": 32
+                "marker-symbol": 33
             }
         }
     ],

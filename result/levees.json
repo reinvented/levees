@@ -461,6 +461,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Miscouche 2020 New Years Levee",
+        "startDate": "2020-01-01 14:00:00",
+        "endDate": "2020-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Miscouche Legion",
+            "address": "94 Main Drive, Miscouche, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.429863,
+                "longitude": -63.854943
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Kitchen Witch 2020 New Years Levee",
         "startDate": "2020-01-01 14:30:00",
         "endDate": "2020-01-01 16:30:00",
