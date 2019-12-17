@@ -221,6 +221,42 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.115262,
+                    46.252408
+                ]
+            },
+            "properties": {
+                "name": "PEI Brewing Company 2020 New Years Levee",
+                "location": "PEI Brewing Company",
+                "address": "96 Kensington Road, Charlottetown, PE",
+                "startDate": "2020-01-01 12:00:00",
+                "endDate": "2020-01-01 14:00:00",
+                "marker-symbol": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.13998,
+                    46.2585
+                ]
+            },
+            "properties": {
+                "name": "Seniors Active Living Centre 2020 New Years Levee",
+                "location": "Bell Aliant Centre",
+                "address": "550 University Avenue, Charlottetown, PE",
+                "startDate": "2020-01-01 12:30:00",
+                "endDate": "2020-01-01 14:00:00",
+                "marker-symbol": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.09543,
                     46.22759
                 ]
@@ -231,7 +267,7 @@
                 "address": "355 Shakespeare Drive, Stratford, PE",
                 "startDate": "2020-01-01 13:00:00",
                 "endDate": "2020-01-01 14:20:00",
-                "marker-symbol": 13
+                "marker-symbol": 15
             }
         },
         {
@@ -249,7 +285,7 @@
                 "address": "203 Main Street, Souris, PE",
                 "startDate": "2020-01-01 13:00:00",
                 "endDate": "2020-01-01 15:00:00",
-                "marker-symbol": 14
+                "marker-symbol": 16
             }
         },
         {
@@ -267,7 +303,7 @@
                 "address": "59 Queen Elizabeth, Morell, PE",
                 "startDate": "2020-01-01 13:00:00",
                 "endDate": "2020-01-01 15:00:00",
-                "marker-symbol": 15
+                "marker-symbol": 17
             }
         },
         {
@@ -285,7 +321,7 @@
                 "address": "221 Phillip Street, Tignish, PE",
                 "startDate": "2020-01-01 13:00:00",
                 "endDate": "2020-01-01 17:00:00",
-                "marker-symbol": 16
+                "marker-symbol": 18
             }
         },
         {
@@ -303,7 +339,7 @@
                 "address": "97 Sunset Dr, Wellington, PE",
                 "startDate": "2020-01-01 13:00:00",
                 "endDate": "2020-01-01 17:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 19
             }
         },
         {
@@ -321,7 +357,7 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2020-01-01 13:30:00",
                 "endDate": "2020-01-01 14:30:00",
-                "marker-symbol": 18
+                "marker-symbol": 20
             }
         },
         {
@@ -339,7 +375,7 @@
                 "address": "275 Fitzroy Street, Summerside, PE",
                 "startDate": "2020-01-01 13:30:00",
                 "endDate": "2020-01-01 15:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 21
             }
         },
         {
@@ -357,7 +393,7 @@
                 "address": "39 Lowther Drive, Cornwall, PE",
                 "startDate": "2020-01-01 13:30:00",
                 "endDate": "2020-01-01 15:00:00",
-                "marker-symbol": 20
+                "marker-symbol": 22
             }
         },
         {
@@ -375,7 +411,7 @@
                 "address": "340 Notre Dame St., Summerside, PE",
                 "startDate": "2020-01-01 13:30:00",
                 "endDate": "2020-01-01 17:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 23
             }
         },
         {
@@ -393,7 +429,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2020-01-01 14:00:00",
                 "endDate": "2020-01-01 15:00:00",
-                "marker-symbol": 22
+                "marker-symbol": 24
             }
         },
         {
@@ -411,7 +447,7 @@
                 "address": "99 Pownal Street, Charlottetown, PE",
                 "startDate": "2020-01-01 14:00:00",
                 "endDate": "2020-01-01 15:30:00",
-                "marker-symbol": 23
+                "marker-symbol": 25
             }
         },
         {
@@ -429,7 +465,25 @@
                 "address": "157 Kent St., Charlottetown, PE",
                 "startDate": "2020-01-01 14:00:00",
                 "endDate": "2020-01-01 16:00:00",
-                "marker-symbol": 24
+                "marker-symbol": 26
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.68396,
+                    46.255129
+                ]
+            },
+            "properties": {
+                "name": "Town of Borden-Carleton 2020 New Years Levee",
+                "location": "Town Office",
+                "address": "20 Dickie Rd., Borden-Carleton",
+                "startDate": "2020-01-01 14:00:00",
+                "endDate": "2020-01-01 16:00:00",
+                "marker-symbol": 27
             }
         },
         {
@@ -447,7 +501,7 @@
                 "address": "949 Long River Road, Long River, PE",
                 "startDate": "2020-01-01 14:30:00",
                 "endDate": "2020-01-01 16:30:00",
-                "marker-symbol": 25
+                "marker-symbol": 28
             }
         },
         {
@@ -465,7 +519,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2020-01-01 15:00:00",
                 "endDate": "2020-01-01 17:00:00",
-                "marker-symbol": 26
+                "marker-symbol": 29
             }
         },
         {
@@ -483,7 +537,7 @@
                 "address": "241 Euston St, Charlottetown, PE",
                 "startDate": "2020-01-01 16:00:00",
                 "endDate": "2020-01-01 18:00:00",
-                "marker-symbol": 27
+                "marker-symbol": 30
             }
         },
         {
@@ -501,7 +555,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2020-01-01 16:00:00",
                 "endDate": "2020-01-01 18:00:00",
-                "marker-symbol": 28
+                "marker-symbol": 31
             }
         }
     ],
