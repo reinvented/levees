@@ -546,6 +546,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Olde Dublin Pub 2020 New Years Levee",
+        "startDate": "2020-01-01 17:00:00",
+        "endDate": "2020-01-01 20:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Olde Dublin Pub",
+            "address": "131 Sydney St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23374,
+                "longitude": -63.126028
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Charlottetown Firefighters Club 2020 New Years Levee",
         "startDate": "2020-01-01 18:00:00",
         "endDate": "2020-01-02 00:00:00",
