@@ -329,6 +329,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.127261,
+                    46.234419
+                ]
+            },
+            "properties": {
+                "name": "Premier Dennis King 2020 New Years Levee",
+                "location": "Confederation Centre of the Arts",
+                "address": "145 Richmond St, Charlottetown, PE",
+                "startDate": "2020-01-01 15:00:00",
+                "endDate": "2020-01-01 16:30:00",
+                "marker-symbol": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.15587,
                     46.26162
                 ]
@@ -339,7 +357,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2020-01-01 15:00:00",
                 "endDate": "2020-01-01 17:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -357,7 +375,7 @@
                 "address": "241 Euston St, Charlottetown, PE",
                 "startDate": "2020-01-01 16:00:00",
                 "endDate": "2020-01-01 18:00:00",
-                "marker-symbol": 20
+                "marker-symbol": 21
             }
         },
         {
@@ -375,7 +393,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2020-01-01 16:00:00",
                 "endDate": "2020-01-01 18:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         },
         {
@@ -393,7 +411,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2020-01-01 17:00:00",
                 "endDate": "2020-01-01 20:00:00",
-                "marker-symbol": 22
+                "marker-symbol": 23
             }
         },
         {
@@ -411,7 +429,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2020-01-01 18:00:00",
                 "endDate": "2020-01-02 00:00:00",
-                "marker-symbol": 23
+                "marker-symbol": 24
             }
         }
     ],
