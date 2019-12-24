@@ -138,6 +138,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Silver Fox Curling and Yacht Club 2020 New Years Levee",
+        "startDate": "2020-01-01 11:00:00",
+        "endDate": "2020-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Silver Fox Curling and Yacht Club",
+            "address": "110 Water Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.388303,
+                "longitude": -63.784217
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "University of PEI 2020 New Years Levee",
         "startDate": "2020-01-01 11:30:00",
         "endDate": "2020-01-01 13:00:00",
@@ -291,6 +308,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Town of Three Rivers 2020 New Years Levee",
+        "startDate": "2020-01-01 13:00:00",
+        "endDate": "2020-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Kaylee Hall",
+            "address": "2316 Rte 3, Roseneath, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.211593,
+                "longitude": -62.655117
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Village of Morell, Morell Lions Club, Northside Communities Initiative 2020 New Years Levee",
         "startDate": "2020-01-01 13:00:00",
         "endDate": "2020-01-01 15:00:00",
@@ -302,6 +336,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.41485,
                 "longitude": -62.70246
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of O'Leary 2020 New Years Levee",
+        "startDate": "2020-01-01 13:00:00",
+        "endDate": "2020-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Maple Leaf Curling Club",
+            "address": "426 Main Street, O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.705421,
+                "longitude": -64.233089
             }
         }
     },
@@ -591,6 +642,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23374,
                 "longitude": -63.126028
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "200 Wing Royal Canadian Air Force Association 2020 New Years Levee",
+        "startDate": "2020-01-01 18:00:00",
+        "endDate": "2020-01-01 22:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Wing",
+            "address": "329 North Market Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.394634,
+                "longitude": -63.793235
             }
         }
     },
