@@ -293,24 +293,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -63.1258,
-                    46.23925
-                ]
-            },
-            "properties": {
-                "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2020 New Years Levee",
-                "location": "Masonic Temple",
-                "address": "204 Hillsborough St., Charlottetown, PE",
-                "startDate": "2020-01-01 13:00:00",
-                "endDate": "2020-01-01 14:30:00",
-                "marker-symbol": 17
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -62.237481,
                     46.353853
                 ]

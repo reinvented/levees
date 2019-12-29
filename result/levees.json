@@ -274,23 +274,6 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2020 New Years Levee",
-        "startDate": "2020-01-01 13:00:00",
-        "endDate": "2020-01-01 14:30:00",
-        "location": {
-            "@type": "Place",
-            "name": "Masonic Temple",
-            "address": "204 Hillsborough St., Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.23925,
-                "longitude": -63.1258
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
         "name": "Town of Souris 2020 New Years Levee",
         "startDate": "2020-01-01 13:00:00",
         "endDate": "2020-01-01 15:00:00",
