@@ -87,6 +87,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "CrossFit 782 2020 New Years Levee",
+        "startDate": "2020-01-01 11:00:00",
+        "endDate": "2020-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Crossfit 782",
+            "address": "570 North River Rd, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.261033,
+                "longitude": -63.15576
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "HMCS Queen Charlotte 2020 New Years Levee",
         "startDate": "2020-01-01 11:00:00",
         "endDate": "2020-01-01 13:00:00",
@@ -642,6 +659,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.234996,
                 "longitude": -63.124575
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Sport Page Club 2020 New Years Levee",
+        "startDate": "2020-01-01 16:00:00",
+        "endDate": "2020-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Sport Page Club",
+            "address": "236 Kent St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.238245,
+                "longitude": -63.124147
             }
         }
     },
