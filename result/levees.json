@@ -240,6 +240,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - O'Leary 2020 New Years Levee",
+        "startDate": "2020-01-01 12:00:00",
+        "endDate": "2020-01-01 19:00",
+        "location": {
+            "@type": "Place",
+            "name": "O'Leary Legion",
+            "address": "69 Ellis Ave., O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.708537,
+                "longitude": -64.227437
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Seniors Active Living Centre 2020 New Years Levee",
         "startDate": "2020-01-01 12:30:00",
         "endDate": "2020-01-01 14:00:00",
@@ -574,6 +591,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.26162,
                 "longitude": -63.15587
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Ellerslie 2020 New Years Levee",
+        "startDate": "2020-01-01 15:00:00",
+        "endDate": "2020-01-01 19:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Ellerslie Legion",
+            "address": "1136 Ellerslie Road, Ellerslie, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.604437,
+                "longitude": -63.939582
             }
         }
     },
