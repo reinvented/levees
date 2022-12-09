@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "9afa06b182161d250b1982681ffc05fb",
+    "content-hash": "3860da7097ef4b69c95acd4943773081",
     "packages": [
         {
             "name": "eluceo/ical",
@@ -38,14 +38,14 @@
             ],
             "authors": [
                 {
-                    "name": "Maciej Łebkowski",
-                    "email": "m.lebkowski@gmail.com",
-                    "role": "Contributor"
-                },
-                {
                     "name": "Markus Poerschke",
                     "email": "markus@eluceo.de",
                     "role": "Developer"
+                },
+                {
+                    "name": "Maciej Łebkowski",
+                    "email": "m.lebkowski@gmail.com",
+                    "role": "Contributor"
                 }
             ],
             "description": "The eluceo/iCal package offers a abstraction layer for creating iCalendars. You can easily create iCal files by using PHP object instead of typing your *.ics file by hand. The output will follow RFC 2445 as best as possible.",
@@ -57,7 +57,11 @@
                 "ics",
                 "php calendar"
             ],
-            "time": "2015-11-13 22:33:54"
+            "support": {
+                "issues": "https://github.com/markuspoerschke/iCal/issues",
+                "source": "https://github.com/markuspoerschke/iCal"
+            },
+            "time": "2015-11-13T22:33:54+00:00"
         }
     ],
     "packages-dev": [],
@@ -67,5 +71,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }

@@ -1,10 +1,10 @@
 # levees
 
-For the last 15 years I've been maintaining a web schedule of the New Years Day levees held annually in Charlottetown, Prince Edward Island, Canada and area on my blog, [ruk.ca](https://ruk.ca).
+For the last 18 years (with years off for COVID in 2021 and 2022) I've been maintaining a web schedule of the New Years Day levees held annually in Charlottetown, Prince Edward Island, Canada and area on my blog, [ruk.ca](https://ruk.ca).
 
 This year's version is online at:
 
-[https://ruk.ca/levee-2020](https://ruk.ca/levee-2020)
+[https://ruk.ca/levee-2023](https://ruk.ca/levee-2023)
 
 In the early days, I maintained the data for the levees as a simple HTML table. As the list grew to include more levees than ever, and with a desire to emit the schedule data in a variety of forms, I began to maintain the schedule in an SQLite database, and to use a simple PHP script, included here, to generate derivatives:
 
@@ -16,12 +16,14 @@ In the early days, I maintained the data for the levees as a simple HTML table. 
 
 ## Dependencies
 
-PHP v5.x-7.x with support installed for [SQLite3](http://ca.php.net/manual/en/book.sqlite3.php)
+PHP 5+ with support installed for [SQLite3](http://ca.php.net/manual/en/book.sqlite3.php)
 
 For making iCalendar files, [eluceo/ical](https://github.com/markuspoerschke/iCal)
 
 ## Changelog
 
+### Notes for 2023
+* Code will need to be updated for PHP 9 -- strftime() is deprecated.
 ### New for 2019
 * Added a column to the SQLite table to record whether levees are "all ages" (accessible to all people) or not.
 * Code cleanup to support PHP 7.1.
