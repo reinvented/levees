@@ -53,6 +53,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Charlottetown 2023 New Years Levee",
+        "startDate": "2023-01-01 10:30:00",
+        "endDate": "2023-01-01 12:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown City Hall",
+            "address": "199 Queen St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.235354,
+                "longitude": -63.129549
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "HMCS Queen Charlotte 2023 New Years Levee",
         "startDate": "2023-01-01 11:30:00",
         "endDate": "2023-01-01 13:00:00",

@@ -59,6 +59,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.129549,
+                    46.235354
+                ]
+            },
+            "properties": {
+                "name": "Mayor of Charlottetown 2023 New Years Levee",
+                "location": "Charlottetown City Hall",
+                "address": "199 Queen St, Charlottetown, PE",
+                "startDate": "2023-01-01 10:30:00",
+                "endDate": "2023-01-01 12:00:00",
+                "marker-symbol": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.11711,
                     46.236969
                 ]
@@ -69,7 +87,7 @@
                 "address": "210 Water Street, Charlottetown, PE",
                 "startDate": "2023-01-01 11:30:00",
                 "endDate": "2023-01-01 13:00:00",
-                "marker-symbol": 4
+                "marker-symbol": 5
             }
         },
         {
@@ -87,7 +105,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2023-01-01 12:00:00",
                 "endDate": "2023-01-01 13:30:00",
-                "marker-symbol": 5
+                "marker-symbol": 6
             }
         },
         {
@@ -105,7 +123,7 @@
                 "address": "567 Main Street, Montague, PE",
                 "startDate": "2023-01-01 12:00:00",
                 "endDate": "2023-01-01 18:00:00",
-                "marker-symbol": 6
+                "marker-symbol": 7
             }
         },
         {
@@ -123,7 +141,7 @@
                 "address": "59 Queen Elizabeth, Morell, PE",
                 "startDate": "2023-01-01 13:00:00",
                 "endDate": "2020-01-01 15:00:00",
-                "marker-symbol": 7
+                "marker-symbol": 8
             }
         },
         {
@@ -141,7 +159,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2023-01-01 13:00:00",
                 "endDate": "2023-01-01 15:00:00",
-                "marker-symbol": 8
+                "marker-symbol": 9
             }
         },
         {
@@ -159,7 +177,7 @@
                 "address": "39 Lowther Drive, Cornwall, PE",
                 "startDate": "2023-01-01 13:30:00",
                 "endDate": "2023-01-01 15:00:00",
-                "marker-symbol": 9
+                "marker-symbol": 10
             }
         },
         {
@@ -177,7 +195,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2023-01-01 14:00:00",
                 "endDate": "2023-01-01 16:00:00",
-                "marker-symbol": 10
+                "marker-symbol": 11
             }
         },
         {
@@ -195,7 +213,7 @@
                 "address": "94 Main Drive, Miscouche, PE",
                 "startDate": "2023-01-01 14:00:00",
                 "endDate": "2023-01-01 18:00:00",
-                "marker-symbol": 11
+                "marker-symbol": 12
             }
         }
     ],
