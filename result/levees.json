@@ -257,6 +257,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Premier Dennis King 2023 New Years Levee",
+        "startDate": "2023-01-01 15:00:00",
+        "endDate": "2023-01-01 16:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Confederation Centre of the Arts",
+            "address": "145 Richmond St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234419,
+                "longitude": -63.127261
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Murphy's Community Centre & The Alley 2023 New Years Levee",
         "startDate": "2023-01-01 16:00:00",
         "endDate": "2023-01-01 18:00:00",

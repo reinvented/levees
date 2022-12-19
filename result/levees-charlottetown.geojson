@@ -221,6 +221,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.127261,
+                    46.234419
+                ]
+            },
+            "properties": {
+                "name": "Premier Dennis King 2023 New Years Levee",
+                "location": "Confederation Centre of the Arts",
+                "address": "145 Richmond St, Charlottetown, PE",
+                "startDate": "2023-01-01 15:00:00",
+                "endDate": "2023-01-01 16:30:00",
+                "marker-symbol": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.124575,
                     46.234996
                 ]
@@ -231,7 +249,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2023-01-01 16:00:00",
                 "endDate": "2023-01-01 18:00:00",
-                "marker-symbol": 13
+                "marker-symbol": 14
             }
         }
     ],
