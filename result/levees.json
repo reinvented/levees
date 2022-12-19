@@ -87,6 +87,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "University of PEI 2023 New Years Levee",
+        "startDate": "2023-01-01 11:30:00",
+        "endDate": "2023-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "School of Sustainable Design Engineering",
+            "address": "550 University Ave., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25861,
+                "longitude": -63.13816
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Haviland Club 2023 New Years Levee",
+        "startDate": "2023-01-01 12:00:00",
+        "endDate": "2023-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Haviland Club",
+            "address": "2 Haviland St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23058,
+                "longitude": -63.12783
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Stratford 2023 New Years Levee",
         "startDate": "2023-01-01 12:00:00",
         "endDate": "2023-01-01 13:30:00",
@@ -98,6 +132,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.22673,
                 "longitude": -63.08747
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "PEI Brewing Company 2023 New Years Levee",
+        "startDate": "2023-01-01 12:00:00",
+        "endDate": "2023-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "PEI Brewing Company",
+            "address": "96 Kensington Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.252408,
+                "longitude": -63.115262
             }
         }
     },
@@ -200,6 +251,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.429863,
                 "longitude": -63.854943
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Murphy's Community Centre & The Alley 2023 New Years Levee",
+        "startDate": "2023-01-01 16:00:00",
+        "endDate": "2023-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Murphy's Community Centre",
+            "address": "200 Richmond Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234996,
+                "longitude": -63.124575
             }
         }
     }
