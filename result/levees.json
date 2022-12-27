@@ -87,6 +87,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Kensington 2023 New Years Levee",
+        "startDate": "2023-01-01 11:30:00",
+        "endDate": "2023-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Family and Friends Restaurant",
+            "address": "45 Broadway St N, Kensington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.437315,
+                "longitude": -63.637422
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "University of PEI 2023 New Years Levee",
         "startDate": "2023-01-01 11:30:00",
         "endDate": "2023-01-01 13:00:00",
@@ -251,6 +268,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23925,
                 "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "City of Summerside 2023 New Years Levee",
+        "startDate": "2023-01-01 13:30:00",
+        "endDate": "2023-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "City Hall",
+            "address": "275 Fitzroy Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.393032,
+                "longitude": -63.790607
             }
         }
     },
