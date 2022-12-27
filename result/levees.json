@@ -104,6 +104,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Prince Edward Island Regiment 2023 New Years Levee",
+        "startDate": "2023-01-01 12:00:00",
+        "endDate": "2023-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Col J David Stewart Armoury",
+            "address": "3 Haviland Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22955,
+                "longitude": -63.12798
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Haviland Club 2023 New Years Levee",
         "startDate": "2023-01-01 12:00:00",
         "endDate": "2023-01-01 13:30:00",
@@ -155,6 +172,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Gahan House 2023 New Years Levee",
+        "startDate": "2023-01-01 12:00:00",
+        "endDate": "2023-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Gahan House",
+            "address": "126 Sydney Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.2334415,
+                "longitude": -63.1258487
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Copper Bottom Brewing 2023 New Years Levee",
         "startDate": "2023-01-01 12:00:00",
         "endDate": "2023-01-01 18:00:00",
@@ -183,6 +217,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.41485,
                 "longitude": -62.70246
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Fin Folk Food 2023 New Years Levee",
+        "startDate": "2023-01-01 13:00:00",
+        "endDate": "2023-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Blackbush Resort",
+            "address": "115 Beach Road, Grand Tracadie, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.407787,
+                "longitude": -63.038782
             }
         }
     },
@@ -268,6 +319,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.234419,
                 "longitude": -63.127261
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Olde Dublin Pub 2023 New Years Levee",
+        "startDate": "2023-01-01 16:00:00",
+        "endDate": "2023-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Olde Dublin Pub",
+            "address": "131 Sydney St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23374,
+                "longitude": -63.126028
             }
         }
     },
