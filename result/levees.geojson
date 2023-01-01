@@ -563,6 +563,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.793235,
+                    46.394634
+                ]
+            },
+            "properties": {
+                "name": "200 Wing Royal Canadian Air Force Association 2023 New Years Levee",
+                "location": "The Wing",
+                "address": "329 North Market Street, Summerside, PE",
+                "startDate": "2023-01-01 16:00:00",
+                "endDate": "2023-01-01 18:00:00",
+                "marker-symbol": 32
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.124575,
                     46.234996
                 ]
@@ -573,7 +591,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2023-01-01 16:00:00",
                 "endDate": "2023-01-01 18:00:00",
-                "marker-symbol": 32
+                "marker-symbol": 33
             }
         },
         {
@@ -591,7 +609,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2023-01-01 16:00:00",
                 "endDate": "2023-01-01 18:00:00",
-                "marker-symbol": 33
+                "marker-symbol": 34
             }
         },
         {
@@ -609,7 +627,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2023-01-01 16:00:00",
                 "endDate": "2023-01-01 19:00:00",
-                "marker-symbol": 34
+                "marker-symbol": 35
             }
         }
     ],
