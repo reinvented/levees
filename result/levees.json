@@ -70,6 +70,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Town of Borden-Carleton 2023 New Years Levee",
+        "startDate": "2023-01-01 11:00:00",
+        "endDate": "2023-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Borden Legion",
+            "address": "240 Main Street, Borden-Carleton, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25332702528792,
+                "longitude": -63.69154990184652
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Silver Fox Curling and Yacht Club 2023 New Years Levee",
+        "startDate": "2023-01-01 11:00:00",
+        "endDate": "2023-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Silver Fox Curling and Yacht Club",
+            "address": "110 Water Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.388303,
+                "longitude": -63.784217
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "HMCS Queen Charlotte 2023 New Years Levee",
         "startDate": "2023-01-01 11:30:00",
         "endDate": "2023-01-01 13:00:00",
@@ -132,23 +166,6 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.22955,
                 "longitude": -63.12798
-            }
-        }
-    },
-    {
-        "@context": "http:\/\/schema.org",
-        "@type": "Event",
-        "name": "The Haviland Club 2023 New Years Levee",
-        "startDate": "2023-01-01 12:00:00",
-        "endDate": "2023-01-01 13:30:00",
-        "location": {
-            "@type": "Place",
-            "name": "The Haviland Club",
-            "address": "2 Haviland St, Charlottetown, PE",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 46.23058,
-                "longitude": -63.12783
             }
         }
     },
@@ -223,6 +240,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Summerside 2023 New Years Levee",
+        "startDate": "2023-01-01 12:15:00",
+        "endDate": "2020-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Summerside Legion",
+            "address": "340 Notre Dame St., Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.3959,
+                "longitude": -63.79322
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Haviland Club 2023 New Years Levee",
+        "startDate": "2023-01-01 12:30:00",
+        "endDate": "2023-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Haviland Club",
+            "address": "2 Haviland St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23058,
+                "longitude": -63.12783
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Morell Northside Community Initiative 2023 New Years Levee",
         "startDate": "2023-01-01 13:00:00",
         "endDate": "2020-01-01 15:00:00",
@@ -274,6 +325,57 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Town of Three Rivers 2023 New Years Levee",
+        "startDate": "2023-01-01 13:00:00",
+        "endDate": "2023-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Three Rivers Town Hall",
+            "address": "172 Fraser Street, Montague, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.16833022069336,
+                "longitude": -62.65155326935949
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Tignish & Town of Tignish 2023 New Years Levee",
+        "startDate": "2023-01-01 13:00:00",
+        "endDate": "2023-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Tignish Legion",
+            "address": "221 Phillip Street, Tignish, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.94878,
+                "longitude": -64.035537
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Wellington 2023 New Years Levee",
+        "startDate": "2023-01-01 13:00:00",
+        "endDate": "2023-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Wellington Legion",
+            "address": "97 Sunset Dr, Wellington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.458652,
+                "longitude": -64.008398
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "City of Summerside 2023 New Years Levee",
         "startDate": "2023-01-01 13:30:00",
         "endDate": "2023-01-01 15:00:00",
@@ -308,6 +410,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Town of Souris 2023 New Years Levee",
+        "startDate": "2023-01-01 13:30:00",
+        "endDate": "2023-01-01 15:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Eastern Kings Sportsplex",
+            "address": "203 Main Street, Souris, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.353853,
+                "longitude": -62.237481
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Charlottetown 2023 New Years Levee",
+        "startDate": "2023-01-01 14:00:00",
+        "endDate": "2023-01-01 15:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown Legion",
+            "address": "99 Pownal Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.233024,
+                "longitude": -63.12922
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Benevolent Irish Society 2023 New Years Levee",
         "startDate": "2023-01-01 14:00:00",
         "endDate": "2023-01-01 16:00:00",
@@ -319,6 +455,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.26162,
                 "longitude": -63.15587
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Village Green Brewery  2023 New Years Levee",
+        "startDate": "2023-01-01 14:00:00",
+        "endDate": "2023-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Village Green Brewery ",
+            "address": "30 Church Street, Cornwall, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22849269976965,
+                "longitude": -63.217572230197526
             }
         }
     },
@@ -359,17 +512,17 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Olde Dublin Pub 2023 New Years Levee",
-        "startDate": "2023-01-01 16:00:00",
-        "endDate": "2023-01-01 17:00:00",
+        "name": "Royal Canadian Legion - Ellerslie 2023 New Years Levee",
+        "startDate": "2023-01-01 15:00:00",
+        "endDate": "2023-01-01 19:00:00",
         "location": {
             "@type": "Place",
-            "name": "Olde Dublin Pub",
-            "address": "131 Sydney St., Charlottetown, PE",
+            "name": "Ellerslie Legion",
+            "address": "1136 Ellerslie Road, Ellerslie, PE",
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 46.23374,
-                "longitude": -63.126028
+                "latitude": 46.604437,
+                "longitude": -63.939582
             }
         }
     },
@@ -387,6 +540,40 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.234996,
                 "longitude": -63.124575
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Sport Page Club 2023 New Years Levee",
+        "startDate": "2023-01-01 16:00:00",
+        "endDate": "2023-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Sport Page Club",
+            "address": "236 Kent St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.238245,
+                "longitude": -63.124147
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Olde Dublin Pub 2023 New Years Levee",
+        "startDate": "2023-01-01 16:00:00",
+        "endDate": "2023-01-01 19:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Olde Dublin Pub",
+            "address": "131 Sydney St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23374,
+                "longitude": -63.126028
             }
         }
     }

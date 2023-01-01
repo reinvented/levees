@@ -131,24 +131,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -63.12783,
-                    46.23058
-                ]
-            },
-            "properties": {
-                "name": "The Haviland Club 2023 New Years Levee",
-                "location": "The Haviland Club",
-                "address": "2 Haviland St, Charlottetown, PE",
-                "startDate": "2023-01-01 12:00:00",
-                "endDate": "2023-01-01 13:30:00",
-                "marker-symbol": 8
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -63.08747,
                     46.22673
                 ]
@@ -159,7 +141,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2023-01-01 12:00:00",
                 "endDate": "2023-01-01 13:30:00",
-                "marker-symbol": 9
+                "marker-symbol": 8
             }
         },
         {
@@ -177,7 +159,7 @@
                 "address": "96 Kensington Road, Charlottetown, PE",
                 "startDate": "2023-01-01 12:00:00",
                 "endDate": "2023-01-01 14:00:00",
-                "marker-symbol": 10
+                "marker-symbol": 9
             }
         },
         {
@@ -195,6 +177,24 @@
                 "address": "126 Sydney Street, Charlottetown, PE",
                 "startDate": "2023-01-01 12:00:00",
                 "endDate": "2023-01-01 16:00:00",
+                "marker-symbol": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12783,
+                    46.23058
+                ]
+            },
+            "properties": {
+                "name": "The Haviland Club 2023 New Years Levee",
+                "location": "The Haviland Club",
+                "address": "2 Haviland St, Charlottetown, PE",
+                "startDate": "2023-01-01 12:30:00",
+                "endDate": "2023-01-01 13:30:00",
                 "marker-symbol": 11
             }
         },
@@ -239,6 +239,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.12922,
+                    46.233024
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Charlottetown 2023 New Years Levee",
+                "location": "Charlottetown Legion",
+                "address": "99 Pownal Street, Charlottetown, PE",
+                "startDate": "2023-01-01 14:00:00",
+                "endDate": "2023-01-01 15:30:00",
+                "marker-symbol": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.15587,
                     46.26162
                 ]
@@ -249,7 +267,25 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2023-01-01 14:00:00",
                 "endDate": "2023-01-01 16:00:00",
-                "marker-symbol": 14
+                "marker-symbol": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.217572230197526,
+                    46.22849269976965
+                ]
+            },
+            "properties": {
+                "name": "Village Green Brewery  2023 New Years Levee",
+                "location": "Village Green Brewery ",
+                "address": "30 Church Street, Cornwall, PE",
+                "startDate": "2023-01-01 14:00:00",
+                "endDate": "2023-01-01 17:00:00",
+                "marker-symbol": 16
             }
         },
         {
@@ -267,25 +303,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2023-01-01 15:00:00",
                 "endDate": "2023-01-01 16:30:00",
-                "marker-symbol": 15
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -63.126028,
-                    46.23374
-                ]
-            },
-            "properties": {
-                "name": "Olde Dublin Pub 2023 New Years Levee",
-                "location": "Olde Dublin Pub",
-                "address": "131 Sydney St., Charlottetown, PE",
-                "startDate": "2023-01-01 16:00:00",
-                "endDate": "2023-01-01 17:00:00",
-                "marker-symbol": 16
+                "marker-symbol": 17
             }
         },
         {
@@ -303,7 +321,43 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2023-01-01 16:00:00",
                 "endDate": "2023-01-01 18:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 18
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124147,
+                    46.238245
+                ]
+            },
+            "properties": {
+                "name": "Sport Page Club 2023 New Years Levee",
+                "location": "Sport Page Club",
+                "address": "236 Kent St, Charlottetown, PE",
+                "startDate": "2023-01-01 16:00:00",
+                "endDate": "2023-01-01 18:00:00",
+                "marker-symbol": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.126028,
+                    46.23374
+                ]
+            },
+            "properties": {
+                "name": "Olde Dublin Pub 2023 New Years Levee",
+                "location": "Olde Dublin Pub",
+                "address": "131 Sydney St., Charlottetown, PE",
+                "startDate": "2023-01-01 16:00:00",
+                "endDate": "2023-01-01 19:00:00",
+                "marker-symbol": 20
             }
         }
     ],
