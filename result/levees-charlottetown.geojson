@@ -107,6 +107,24 @@
                 "endDate": "2024-01-01 18:00:00",
                 "marker-symbol": 6
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.130065,
+                    46.235106
+                ]
+            },
+            "properties": {
+                "name": "Charlottetown Firefighters Club 2024 New Years Levee",
+                "location": "Charlottetown Fire Department",
+                "address": "89 Kent Street, Charlottetown, PE",
+                "startDate": "2024-01-01 18:00:00",
+                "endDate": "2024-01-02 00:00:00",
+                "marker-symbol": 7
+            }
         }
     ],
     "type": "FeatureCollection"
