@@ -25,7 +25,7 @@
   * WITHOUT ANY WARRANTY; without even the implied warranty of
   * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
   *
-  * @version 1.0, December 4, 2018
+  * @version 1.5, December 15, 2024
   * @link https://github.com/reinvented/levees
   * @author Peter Rukavina <peter@rukavina.net>
   * @copyright Copyright &copy; 2018, Reinvented Inc.
@@ -39,7 +39,7 @@ require_once 'vendor/autoload.php';
 date_default_timezone_set("America/Halifax");
 
 // Create a new iCalendar object.
-$vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2023');
+$vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2024');
 
 // We're going to create four files; first we define them.
 $file['json+ld']  = "levees.json";
@@ -133,7 +133,7 @@ function makeJSONLD($row) {
   $tmp = array();
   $tmp['@context'] = "http://schema.org";
   $tmp['@type'] = "Event";
-  $tmp['name'] = $row['name'] . " 2023 New Years Levee";
+  $tmp['name'] = $row['name'] . " 2024 New Years Levee";
   $tmp['startDate'] = $row['startDate'];
   $tmp['endDate'] = $row['endDate'];
   $tmp['location'] = array();
@@ -154,7 +154,7 @@ function makeGeoJSON($row, $counter) {
   $tmp['geometry']['type'] = "Point";
   $tmp['geometry']['coordinates'] = array($row['longitude'], $row['latitude']);
   $tmp['properties'] = array();
-  $tmp['properties']['name'] = $row['name'] . " 2023 New Years Levee";
+  $tmp['properties']['name'] = $row['name'] . " 2024 New Years Levee";
   $tmp['properties']['location'] = $row['location_name'];
   $tmp['properties']['address'] = $row['location_address'];
   $tmp['properties']['startDate'] = $row['startDate'];
@@ -216,7 +216,7 @@ function makeICalendar($row) {
   $vEvent->setDtStart(new \DateTime($row['startDate']));
   $vEvent->setDtEnd(new \DateTime($row['endDate']));
   $vEvent->setNoTime(false);
-  $vEvent->setSummary($row['name'] . " 2023 New Years Levee");
+  $vEvent->setSummary($row['name'] . " 2024 New Years Levee");
   $vEvent->setLocation($row['location_name'] . "\n" . $row['location_address'], $row['location_name'], $row['latitude'] . "," . $row['longitude']);
   $vEvent->setUseTimezone(true);
   return $vEvent;
