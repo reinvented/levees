@@ -2,12 +2,12 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "Timothy's Coffee and Heartbeet Organics 2024 New Years Levee",
+        "name": "Timothy's Coffee and Campbell Webster 2024 New Years Levee",
         "startDate": "2024-01-01 08:00:00",
         "endDate": "2024-01-01 10:00:00",
         "location": {
             "@type": "Place",
-            "name": "Timothy's Coffee and Campbell Webster",
+            "name": "Timothy's Coffee",
             "address": "154 Great George Street, Charlottetown, PE",
             "geo": {
                 "@type": "GeoCoordinates",
