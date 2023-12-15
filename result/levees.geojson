@@ -17,6 +17,78 @@
                 "endDate": "2024-01-01 10:00:00",
                 "marker-symbol": 1
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.13816,
+                    46.25861
+                ]
+            },
+            "properties": {
+                "name": "University of PEI 2024 New Years Levee",
+                "location": "Faculty of Sustainable Design Engineering",
+                "address": "550 University Ave., Charlottetown, PE",
+                "startDate": "2024-01-01 11:30:00",
+                "endDate": "2023-01-01 13:00:00",
+                "marker-symbol": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.115262,
+                    46.252408
+                ]
+            },
+            "properties": {
+                "name": "PEI Brewing Company 2024 New Years Levee",
+                "location": "PEI Brewing Company",
+                "address": "96 Kensington Road, Charlottetown, PE",
+                "startDate": "2024-01-01 12:00:00",
+                "endDate": "2024-01-01 14:00:00",
+                "marker-symbol": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.15587,
+                    46.26162
+                ]
+            },
+            "properties": {
+                "name": "Benevolent Irish Society 2024 New Years Levee",
+                "location": "Hon. Edward Whelan Irish Cultural Centre",
+                "address": "582 North River Road, Charlottetown, PE",
+                "startDate": "2024-01-01 14:00:00",
+                "endDate": "2024-01-01 16:00:00",
+                "marker-symbol": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124575,
+                    46.234996
+                ]
+            },
+            "properties": {
+                "name": "Murphy's Community Centre & The Alley 2024 New Years Levee",
+                "location": "Murphy's Community Centre",
+                "address": "200 Richmond Street, Charlottetown, PE",
+                "startDate": "2024-01-01 15:00:00",
+                "endDate": "2024-01-01 18:00:00",
+                "marker-symbol": 5
+            }
         }
     ],
     "type": "FeatureCollection"

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:ruk.ca/levee-2024
 X-PUBLISHED-TTL:P1W
 BEGIN:VEVENT
-UID:657c84d2e2d5d
+UID:657c8bac4ce09
 DTSTART;TZID=America/Halifax:20240101T080000
 SEQUENCE:0
 TRANSP:OPAQUE
@@ -15,6 +15,65 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Timothy's Coffee and Campb
  ;X-TITLE=Timothy's Coffee and Campbell Webster:geo:46.23618\,-63.12722
 SUMMARY:Timothy's Coffee and Heartbeet Organics 2024 New Years Levee
 CLASS:PUBLIC
-DTSTAMP:20231215T125442Z
+DTSTAMP:20231215T132356Z
+END:VEVENT
+BEGIN:VEVENT
+UID:657c8bac4d207
+DTSTART;TZID=America/Halifax:20240101T113000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=America/Halifax:20230101T130000
+LOCATION:Faculty of Sustainable Design Engineering\n550 University Ave.\, C
+ harlottetown\, PE
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Faculty of Sustainable Des
+ ign Engineering\n550 University Ave., Charlottetown, PE";X-APPLE-RADIUS=49
+ ;X-TITLE=Faculty of Sustainable Design Engineering:geo:46.25861\,-63.13816
+SUMMARY:University of PEI 2024 New Years Levee
+CLASS:PUBLIC
+DTSTAMP:20231215T132356Z
+END:VEVENT
+BEGIN:VEVENT
+UID:657c8bac4d216
+DTSTART;TZID=America/Halifax:20240101T120000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=America/Halifax:20240101T140000
+LOCATION:PEI Brewing Company\n96 Kensington Road\, Charlottetown\, PE
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="PEI Brewing Company\n96 Ke
+ nsington Road, Charlottetown, PE";X-APPLE-RADIUS=49;X-TITLE=PEI Brewing Co
+ mpany:geo:46.252408\,-63.115262
+SUMMARY:PEI Brewing Company 2024 New Years Levee
+CLASS:PUBLIC
+DTSTAMP:20231215T132356Z
+END:VEVENT
+BEGIN:VEVENT
+UID:657c8bac4d223
+DTSTART;TZID=America/Halifax:20240101T140000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=America/Halifax:20240101T160000
+LOCATION:Hon. Edward Whelan Irish Cultural Centre\n582 North River Road\, C
+ harlottetown\, PE
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Hon. Edward Whelan Irish C
+ ultural Centre\n582 North River Road, Charlottetown, PE";X-APPLE-RADIUS=49
+ ;X-TITLE=Hon. Edward Whelan Irish Cultural Centre:geo:46.26162\,-63.15587
+SUMMARY:Benevolent Irish Society 2024 New Years Levee
+CLASS:PUBLIC
+DTSTAMP:20231215T132356Z
+END:VEVENT
+BEGIN:VEVENT
+UID:657c8bac4d22f
+DTSTART;TZID=America/Halifax:20240101T150000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=America/Halifax:20240101T180000
+LOCATION:Murphy's Community Centre\n200 Richmond Street\, Charlottetown\, P
+ E
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="Murphy's Community Centre\
+ n200 Richmond Street, Charlottetown, PE";X-APPLE-RADIUS=49;X-TITLE=Murphy'
+ s Community Centre:geo:46.234996\,-63.124575
+SUMMARY:Murphy's Community Centre & The Alley 2024 New Years Levee
+CLASS:PUBLIC
+DTSTAMP:20231215T132356Z
 END:VEVENT
 END:VCALENDAR

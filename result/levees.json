@@ -15,5 +15,73 @@
                 "longitude": -63.12722
             }
         }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "University of PEI 2024 New Years Levee",
+        "startDate": "2024-01-01 11:30:00",
+        "endDate": "2023-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Faculty of Sustainable Design Engineering",
+            "address": "550 University Ave., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25861,
+                "longitude": -63.13816
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "PEI Brewing Company 2024 New Years Levee",
+        "startDate": "2024-01-01 12:00:00",
+        "endDate": "2024-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "PEI Brewing Company",
+            "address": "96 Kensington Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.252408,
+                "longitude": -63.115262
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Benevolent Irish Society 2024 New Years Levee",
+        "startDate": "2024-01-01 14:00:00",
+        "endDate": "2024-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Hon. Edward Whelan Irish Cultural Centre",
+            "address": "582 North River Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.26162,
+                "longitude": -63.15587
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Murphy's Community Centre & The Alley 2024 New Years Levee",
+        "startDate": "2024-01-01 15:00:00",
+        "endDate": "2024-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Murphy's Community Centre",
+            "address": "200 Richmond Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234996,
+                "longitude": -63.124575
+            }
+        }
     }
 ]
