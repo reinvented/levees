@@ -45,7 +45,7 @@
             "address": "2 Kent Street, Charlottetown, PE",
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": "46.231852630577855, -63.13352590429624",
+                "latitude": 46.231852630577855,
                 "longitude": -63.1335259042962
             }
         }
