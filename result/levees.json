@@ -19,6 +19,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Upstreet Craft Brewing 2024 New Years Levee",
+        "startDate": "2024-01-01 10:00:00",
+        "endDate": "2024-01-01 11:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Upstreet Craft Brewing",
+            "address": "41 Allen St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.246094,
+                "longitude": -63.131841
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Rotary Club of Charlottetown 2024 New Years Levee",
+        "startDate": "2024-01-01 10:30:00",
+        "endDate": "2024-01-01 12:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Beaconsfield Carriage House",
+            "address": "2 Kent Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "46.231852630577855, -63.13352590429624",
+                "longitude": 63.13352590429624
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "University of PEI 2024 New Years Levee",
         "startDate": "2024-01-01 11:30:00",
         "endDate": "2023-01-01 13:00:00",
@@ -36,6 +70,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Prince Edward Island Regiment 2024 New Years Levee",
+        "startDate": "2024-01-01 12:00:00",
+        "endDate": "2024-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Col J David Stewart Armoury",
+            "address": "1 Haviland Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22955,
+                "longitude": -63.12798
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "PEI Brewing Company 2024 New Years Levee",
         "startDate": "2024-01-01 12:00:00",
         "endDate": "2024-01-01 14:00:00",
@@ -47,6 +98,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.252408,
                 "longitude": -63.115262
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2024 New Years Levee",
+        "startDate": "2024-01-01 13:00:00",
+        "endDate": "2024-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Masonic Temple",
+            "address": "204 Hillsborough St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23925,
+                "longitude": -63.1258
             }
         }
     },
@@ -98,6 +166,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.234996,
                 "longitude": -63.124575
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Olde Dublin Pub 2024 New Years Levee",
+        "startDate": "2024-01-01 16:00:00",
+        "endDate": "2024-01-01 22:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Olde Dublin Pub",
+            "address": "131 Sydney St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23374,
+                "longitude": -63.126028
             }
         }
     },
