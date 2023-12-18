@@ -121,6 +121,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Seniors Active Living Centre 2024 New Years Levee",
+        "startDate": "2024-01-01 12:30:00",
+        "endDate": "2024-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Bell Aliant Centre",
+            "address": "560 University Avenue, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.2585,
+                "longitude": -63.13998
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2024 New Years Levee",
         "startDate": "2024-01-01 13:00:00",
         "endDate": "2024-01-01 15:00:00",
