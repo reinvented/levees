@@ -70,6 +70,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "HMCS Queen Charlotte 2024 New Years Levee",
+        "startDate": "2024-01-01 11:30:00",
+        "endDate": "2024-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "HMCS Queen Charlotte",
+            "address": "210 Water Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.236969,
+                "longitude": -63.11711
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Prince Edward Island Regiment 2024 New Years Levee",
         "startDate": "2024-01-01 12:00:00",
         "endDate": "2024-01-01 13:30:00",
@@ -115,6 +132,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23925,
                 "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Three Rivers 2024 New Years Levee",
+        "startDate": "2024-01-01 13:00:00",
+        "endDate": "2024-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Three Rivers Town Hall",
+            "address": "172 Fraser Street, Montague, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.16833022069336,
+                "longitude": -62.65155326935949
             }
         }
     },
