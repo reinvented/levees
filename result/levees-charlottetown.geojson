@@ -185,6 +185,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.1492,
+                    46.25092
+                ]
+            },
+            "properties": {
+                "name": "Garden Nursing Home 2024 New Years Levee",
+                "location": "Garden Home",
+                "address": "310 North River Road, Charlottetown, PE",
+                "startDate": "2024-01-01 14:00:00",
+                "endDate": "2024-01-01 15:00:00",
+                "marker-symbol": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.15587,
                     46.26162
                 ]
@@ -195,7 +213,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2024-01-01 14:00:00",
                 "endDate": "2024-01-01 16:00:00",
-                "marker-symbol": 11
+                "marker-symbol": 12
             }
         },
         {
@@ -213,7 +231,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2024-01-01 15:00:00",
                 "endDate": "2024-01-01 18:00:00",
-                "marker-symbol": 12
+                "marker-symbol": 13
             }
         },
         {
@@ -231,7 +249,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2024-01-01 16:00:00",
                 "endDate": "2024-01-01 22:00:00",
-                "marker-symbol": 13
+                "marker-symbol": 14
             }
         },
         {
@@ -249,7 +267,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2024-01-01 18:00:00",
                 "endDate": "2024-01-02 00:00:00",
-                "marker-symbol": 14
+                "marker-symbol": 15
             }
         }
     ],

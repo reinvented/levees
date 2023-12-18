@@ -121,6 +121,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Copper Bottom Brewing 2024 New Years Levee",
+        "startDate": "2024-01-01 12:00:00",
+        "endDate": "2024-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Copper Bottom Brewing",
+            "address": "567 Main Street, Montague, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.163479,
+                "longitude": -62.647043
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Seniors Active Living Centre 2024 New Years Levee",
         "startDate": "2024-01-01 12:30:00",
         "endDate": "2024-01-01 14:00:00",
@@ -183,6 +200,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.22849269976965,
                 "longitude": -63.217572230197526
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Garden Nursing Home 2024 New Years Levee",
+        "startDate": "2024-01-01 14:00:00",
+        "endDate": "2024-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Garden Home",
+            "address": "310 North River Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25092,
+                "longitude": -63.1492
             }
         }
     },
