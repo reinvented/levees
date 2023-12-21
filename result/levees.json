@@ -36,6 +36,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Lieutenant Governor 2024 New Years Levee",
+        "startDate": "2024-01-01 10:00:00",
+        "endDate": "2024-01-01 11:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Government House",
+            "address": "1 Terry Fox Drive, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.231242,
+                "longitude": -63.136109
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Rotary Club of Charlottetown 2024 New Years Levee",
         "startDate": "2024-01-01 10:30:00",
         "endDate": "2024-01-01 12:00:00",
@@ -155,6 +172,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Roman Catholic Diocese of Charlottetown 2024 New Years Levee",
+        "startDate": "2024-01-01 13:00:00",
+        "endDate": "2024-01-01 14:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "SDU Place",
+            "address": "45 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23342,
+                "longitude": -63.12464
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "St. John's Lodge No. 1 and Victoria Lodge No. 2 2024 New Years Levee",
         "startDate": "2024-01-01 13:00:00",
         "endDate": "2024-01-01 15:00:00",
@@ -189,6 +223,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "The Haviland Club 2024 New Years Levee",
+        "startDate": "2024-01-01 13:00:00",
+        "endDate": "2024-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Haviland Club",
+            "address": "2 Haviland St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23058,
+                "longitude": -63.12783
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Village Green Brewery  2024 New Years Levee",
         "startDate": "2024-01-01 13:00:00",
         "endDate": "2024-01-01 17:00:00",
@@ -200,6 +251,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.22849269976965,
                 "longitude": -63.217572230197526
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Cornwall 2024 New Years Levee",
+        "startDate": "2024-01-01 13:30:00",
+        "endDate": "2024-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Cornwall Town Hall",
+            "address": "39 Lowther Drive, Cornwall, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.2361,
+                "longitude": -63.20695
             }
         }
     },
@@ -240,6 +308,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Razzy's Roadhouse 2024 New Years Levee",
+        "startDate": "2024-01-01 14:00:00",
+        "endDate": "2024-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Razzy's Roadhouse",
+            "address": "161 St. Peters Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.26151,
+                "longitude": -63.11868
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Miscouche 2024 New Years Levee",
+        "startDate": "2024-01-01 14:00:00",
+        "endDate": "2024-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Miscouche Legion",
+            "address": "94 Main Drive, Miscouche, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.429863,
+                "longitude": -63.854943
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Murphy's Community Centre & The Alley 2024 New Years Levee",
         "startDate": "2024-01-01 15:00:00",
         "endDate": "2024-01-01 18:00:00",
@@ -268,6 +370,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23374,
                 "longitude": -63.126028
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "PonyBoat Social Club 2024 New Years Levee",
+        "startDate": "2024-01-01 16:00:00",
+        "endDate": "2024-01-01 22:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "PonyBoat Social Club",
+            "address": "157 Kent St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.236715,
+                "longitude": -63.12716
             }
         }
     },
