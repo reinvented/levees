@@ -59,6 +59,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.129549,
+                    46.235354
+                ]
+            },
+            "properties": {
+                "name": "Mayor of Charlottetown 2024 New Years Levee",
+                "location": "Charlottetown City Hall",
+                "address": "199 Queen St, Charlottetown, PE",
+                "startDate": "2024-01-01 10:30:00",
+                "endDate": "2024-01-01 12:00:00",
+                "marker-symbol": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.1335259042962,
                     46.231852630577855
                 ]
@@ -69,7 +87,7 @@
                 "address": "2 Kent Street, Charlottetown, PE",
                 "startDate": "2024-01-01 10:30:00",
                 "endDate": "2024-01-01 12:00:00",
-                "marker-symbol": 4
+                "marker-symbol": 5
             }
         },
         {
@@ -87,7 +105,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2024-01-01 11:30:00",
                 "endDate": "2023-01-01 13:00:00",
-                "marker-symbol": 5
+                "marker-symbol": 6
             }
         },
         {
@@ -105,7 +123,7 @@
                 "address": "210 Water Street, Charlottetown, PE",
                 "startDate": "2024-01-01 11:30:00",
                 "endDate": "2024-01-01 13:00:00",
-                "marker-symbol": 6
+                "marker-symbol": 7
             }
         },
         {
@@ -123,7 +141,25 @@
                 "address": "1 Haviland Street, Charlottetown, PE",
                 "startDate": "2024-01-01 12:00:00",
                 "endDate": "2024-01-01 13:30:00",
-                "marker-symbol": 7
+                "marker-symbol": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.08747,
+                    46.22673
+                ]
+            },
+            "properties": {
+                "name": "Town of Stratford 2024 New Years Levee",
+                "location": "Stratford Town Centre",
+                "address": "234 Shakespeare Dr., Stratford, PE",
+                "startDate": "2024-01-01 12:00:00",
+                "endDate": "2024-01-01 13:30:00",
+                "marker-symbol": 9
             }
         },
         {
@@ -141,7 +177,7 @@
                 "address": "96 Kensington Road, Charlottetown, PE",
                 "startDate": "2024-01-01 12:00:00",
                 "endDate": "2024-01-01 14:00:00",
-                "marker-symbol": 8
+                "marker-symbol": 10
             }
         },
         {
@@ -159,7 +195,7 @@
                 "address": "560 University Avenue, Charlottetown, PE",
                 "startDate": "2024-01-01 12:30:00",
                 "endDate": "2024-01-01 14:00:00",
-                "marker-symbol": 9
+                "marker-symbol": 11
             }
         },
         {
@@ -177,7 +213,7 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2024-01-01 13:00:00",
                 "endDate": "2024-01-01 14:30:00",
-                "marker-symbol": 10
+                "marker-symbol": 12
             }
         },
         {
@@ -195,7 +231,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2024-01-01 13:00:00",
                 "endDate": "2024-01-01 15:00:00",
-                "marker-symbol": 11
+                "marker-symbol": 13
             }
         },
         {
@@ -213,7 +249,7 @@
                 "address": "2 Haviland St, Charlottetown, PE",
                 "startDate": "2024-01-01 13:00:00",
                 "endDate": "2024-01-01 17:00:00",
-                "marker-symbol": 12
+                "marker-symbol": 14
             }
         },
         {
@@ -231,7 +267,7 @@
                 "address": "30 Church Street, Cornwall, PE",
                 "startDate": "2024-01-01 13:00:00",
                 "endDate": "2024-01-01 17:00:00",
-                "marker-symbol": 13
+                "marker-symbol": 15
             }
         },
         {
@@ -249,7 +285,7 @@
                 "address": "39 Lowther Drive, Cornwall, PE",
                 "startDate": "2024-01-01 13:30:00",
                 "endDate": "2024-01-01 15:00:00",
-                "marker-symbol": 14
+                "marker-symbol": 16
             }
         },
         {
@@ -267,7 +303,25 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2024-01-01 14:00:00",
                 "endDate": "2024-01-01 15:00:00",
-                "marker-symbol": 15
+                "marker-symbol": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12922,
+                    46.233024
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Charlottetown 2024 New Years Levee",
+                "location": "Charlottetown Legion",
+                "address": "99 Pownal Street, Charlottetown, PE",
+                "startDate": "2024-01-01 14:00:00",
+                "endDate": "2024-01-01 15:30:00",
+                "marker-symbol": 18
             }
         },
         {
@@ -285,7 +339,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2024-01-01 14:00:00",
                 "endDate": "2024-01-01 16:00:00",
-                "marker-symbol": 16
+                "marker-symbol": 19
             }
         },
         {
@@ -303,7 +357,25 @@
                 "address": "161 St. Peters Road, Charlottetown, PE",
                 "startDate": "2024-01-01 14:00:00",
                 "endDate": "2024-01-01 16:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.127261,
+                    46.234419
+                ]
+            },
+            "properties": {
+                "name": "Premier Dennis King 2024 New Years Levee",
+                "location": "Confederation Centre of the Arts",
+                "address": "145 Richmond St, Charlottetown, PE",
+                "startDate": "2024-01-01 15:00:00",
+                "endDate": "2024-01-01 16:30:00",
+                "marker-symbol": 21
             }
         },
         {
@@ -321,7 +393,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2024-01-01 15:00:00",
                 "endDate": "2024-01-01 18:00:00",
-                "marker-symbol": 18
+                "marker-symbol": 22
             }
         },
         {
@@ -339,7 +411,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2024-01-01 16:00:00",
                 "endDate": "2024-01-01 22:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 23
             }
         },
         {
@@ -357,7 +429,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2024-01-01 16:00:00",
                 "endDate": "2024-01-01 22:00:00",
-                "marker-symbol": 20
+                "marker-symbol": 24
             }
         },
         {
@@ -375,7 +447,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2024-01-01 18:00:00",
                 "endDate": "2024-01-02 00:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 25
             }
         }
     ],

@@ -53,6 +53,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Charlottetown 2024 New Years Levee",
+        "startDate": "2024-01-01 10:30:00",
+        "endDate": "2024-01-01 12:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown City Hall",
+            "address": "199 Queen St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.235354,
+                "longitude": -63.129549
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Rotary Club of Charlottetown 2024 New Years Levee",
         "startDate": "2024-01-01 10:30:00",
         "endDate": "2024-01-01 12:00:00",
@@ -64,6 +81,40 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.231852630577855,
                 "longitude": -63.1335259042962
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Borden-Carleton 2024 New Years Levee",
+        "startDate": "2024-01-01 11:00:00",
+        "endDate": "2024-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Borden Legion",
+            "address": "240 Main Street, Borden-Carleton, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25332702528792,
+                "longitude": -63.69154990184652
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Silver Fox Curling and Yacht Club 2024 New Years Levee",
+        "startDate": "2024-01-01 11:00:00",
+        "endDate": "2024-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Silver Fox Curling and Yacht Club",
+            "address": "110 Water Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.388303,
+                "longitude": -63.784217
             }
         }
     },
@@ -104,6 +155,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Kensington 2024 New Years Levee",
+        "startDate": "2024-01-01 11:30:00",
+        "endDate": "2024-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Family and Friends Restaurant",
+            "address": "45 Broadway St N, Kensington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.437315,
+                "longitude": -63.637422
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Prince Edward Island Regiment 2024 New Years Levee",
         "startDate": "2024-01-01 12:00:00",
         "endDate": "2024-01-01 13:30:00",
@@ -115,6 +183,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.22955,
                 "longitude": -63.12798
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Stratford 2024 New Years Levee",
+        "startDate": "2024-01-01 12:00:00",
+        "endDate": "2024-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Stratford Town Centre",
+            "address": "234 Shakespeare Dr., Stratford, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22673,
+                "longitude": -63.08747
             }
         }
     },
@@ -155,6 +240,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - O'Leary 2024 New Years Levee",
+        "startDate": "2024-01-01 12:00:00",
+        "endDate": "2024-01-01 19:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "O'Leary Legion",
+            "address": "69 Ellis Ave., O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.708537,
+                "longitude": -64.227437
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Seniors Active Living Centre 2024 New Years Levee",
         "startDate": "2024-01-01 12:30:00",
         "endDate": "2024-01-01 14:00:00",
@@ -172,6 +274,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Town of O'Leary 2024 New Years Levee",
+        "startDate": "2024-01-01 13:00:00",
+        "endDate": "2020-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "O'Leary Town Hall",
+            "address": "18 Community Street, O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.70208,
+                "longitude": -64.23201
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Roman Catholic Diocese of Charlottetown 2024 New Years Levee",
         "startDate": "2024-01-01 13:00:00",
         "endDate": "2024-01-01 14:30:00",
@@ -183,6 +302,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23342,
                 "longitude": -63.12464
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Wellington 2024 New Years Levee",
+        "startDate": "2024-01-01 13:00:00",
+        "endDate": "2024-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Wellington Legion",
+            "address": "97 Sunset Dr, Wellington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.458652,
+                "longitude": -64.008398
             }
         }
     },
@@ -257,6 +393,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "City of Summerside 2024 New Years Levee",
+        "startDate": "2024-01-01 13:30:00",
+        "endDate": "2024-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "City Hall",
+            "address": "275 Fitzroy Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.393032,
+                "longitude": -63.790607
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Cornwall 2024 New Years Levee",
         "startDate": "2024-01-01 13:30:00",
         "endDate": "2024-01-01 15:00:00",
@@ -274,6 +427,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Summerside 2024 New Years Levee",
+        "startDate": "2024-01-01 13:30:00",
+        "endDate": "2024-01-01 16:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Summerside Legion",
+            "address": "340 Notre Dame St., Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.3959,
+                "longitude": -63.79322
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Garden Nursing Home 2024 New Years Levee",
         "startDate": "2024-01-01 14:00:00",
         "endDate": "2024-01-01 15:00:00",
@@ -285,6 +455,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.25092,
                 "longitude": -63.1492
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Charlottetown 2024 New Years Levee",
+        "startDate": "2024-01-01 14:00:00",
+        "endDate": "2024-01-01 15:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown Legion",
+            "address": "99 Pownal Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.233024,
+                "longitude": -63.12922
             }
         }
     },
@@ -336,6 +523,40 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.429863,
                 "longitude": -63.854943
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Souris 2024 New Years Levee",
+        "startDate": "2024-01-01 14:30:00",
+        "endDate": "2024-01-01 16:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Eastern Kings Sportsplex",
+            "address": "203 Main Street, Souris, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.353853,
+                "longitude": -62.237481
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Premier Dennis King 2024 New Years Levee",
+        "startDate": "2024-01-01 15:00:00",
+        "endDate": "2024-01-01 16:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Confederation Centre of the Arts",
+            "address": "145 Richmond St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234419,
+                "longitude": -63.127261
             }
         }
     },
