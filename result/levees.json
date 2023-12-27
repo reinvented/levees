@@ -104,6 +104,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Morell Lions Club (Reception) 2024 New Years Levee",
+        "startDate": "2024-01-01 11:00:00",
+        "endDate": "2024-01-01 13:00:00\t",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Fire Hall",
+            "address": "15 Park Street, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41549700164353,
+                "longitude": -62.70461045767023
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Silver Fox Curling and Yacht Club 2024 New Years Levee",
         "startDate": "2024-01-01 11:00:00",
         "endDate": "2024-01-01 18:00:00",
@@ -285,6 +302,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.70208,
                 "longitude": -64.23201
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Morell Lions Club (Free Skating) 2024 New Years Levee",
+        "startDate": "2024-01-01 13:00:00",
+        "endDate": "2024-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Credit Union Rink",
+            "address": "59 Queen Elizabeth, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41485,
+                "longitude": -62.70246
             }
         }
     },
