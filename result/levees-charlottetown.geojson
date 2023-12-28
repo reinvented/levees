@@ -401,6 +401,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.124147,
+                    46.238245
+                ]
+            },
+            "properties": {
+                "name": "Sport Page Club 2024 New Years Levee",
+                "location": "Sport Page Club",
+                "address": "236 Kent St, Charlottetown, PE",
+                "startDate": "2024-01-01 16:00:00",
+                "endDate": "2024-01-01 18:00:00",
+                "marker-symbol": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.126028,
                     46.23374
                 ]
@@ -411,7 +429,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2024-01-01 16:00:00",
                 "endDate": "2024-01-01 22:00:00",
-                "marker-symbol": 23
+                "marker-symbol": 24
             }
         },
         {
@@ -429,7 +447,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2024-01-01 16:00:00",
                 "endDate": "2024-01-01 22:00:00",
-                "marker-symbol": 24
+                "marker-symbol": 25
             }
         },
         {
@@ -447,7 +465,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2024-01-01 18:00:00",
                 "endDate": "2024-01-02 00:00:00",
-                "marker-symbol": 25
+                "marker-symbol": 26
             }
         }
     ],
