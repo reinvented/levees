@@ -95,14 +95,14 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -63.69154990184652,
-                    46.25332702528792
+                    -62.70461045767023,
+                    46.41549700164353
                 ]
             },
             "properties": {
-                "name": "Town of Borden-Carleton 2024 New Years Levee",
-                "location": "Borden Legion",
-                "address": "240 Main Street, Borden-Carleton, PE",
+                "name": "Morell Lions Club (Reception) 2024 New Years Levee",
+                "location": "Morell Fire Hall",
+                "address": "15 Park Street, Morell, PE",
                 "startDate": "2024-01-01 11:00:00",
                 "endDate": "2024-01-01 13:00:00",
                 "marker-symbol": 6
@@ -113,16 +113,16 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -62.70461045767023,
-                    46.41549700164353
+                    -63.69154990184652,
+                    46.25332702528792
                 ]
             },
             "properties": {
-                "name": "Morell Lions Club (Reception) 2024 New Years Levee",
-                "location": "Morell Fire Hall",
-                "address": "15 Park Street, Morell, PE",
+                "name": "Town of Borden-Carleton 2024 New Years Levee",
+                "location": "Borden Legion",
+                "address": "240 Main Street, Borden-Carleton, PE",
                 "startDate": "2024-01-01 11:00:00",
-                "endDate": "2024-01-01 13:00:00\t",
+                "endDate": "2024-01-01 13:00:00",
                 "marker-symbol": 7
             }
         },
@@ -635,6 +635,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -62.71245285645736,
+                    46.41633175304648
+                ]
+            },
+            "properties": {
+                "name": "Holy Cow 2024 New Years Levee",
+                "location": "Holy Cow Burgers & Wings",
+                "address": "7788 St Peter\u2019s Road, Morell, PE",
+                "startDate": "2024-01-01 15:00:00",
+                "endDate": "2024-01-01 17:00:00",
+                "marker-symbol": 36
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.124575,
                     46.234996
                 ]
@@ -645,7 +663,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2024-01-01 15:00:00",
                 "endDate": "2024-01-01 18:00:00",
-                "marker-symbol": 36
+                "marker-symbol": 37
             }
         },
         {
@@ -663,7 +681,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2024-01-01 16:00:00",
                 "endDate": "2024-01-01 22:00:00",
-                "marker-symbol": 37
+                "marker-symbol": 38
             }
         },
         {
@@ -681,7 +699,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2024-01-01 16:00:00",
                 "endDate": "2024-01-01 22:00:00",
-                "marker-symbol": 38
+                "marker-symbol": 39
             }
         },
         {
@@ -699,7 +717,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2024-01-01 18:00:00",
                 "endDate": "2024-01-02 00:00:00",
-                "marker-symbol": 39
+                "marker-symbol": 40
             }
         }
     ],
