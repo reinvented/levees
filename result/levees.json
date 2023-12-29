@@ -87,6 +87,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "North Granville Community Centre 2024 New Years Levee",
+        "startDate": "2024-01-01 11:00:00",
+        "endDate": "2024-01-01 12:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "North Granville Community Centre",
+            "address": "575 Taylor Road, North Granville, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.42665,
+                "longitude": -63.47002
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Morell Lions Club (Reception) 2024 New Years Levee",
         "startDate": "2024-01-01 11:00:00",
         "endDate": "2024-01-01 13:00:00",
