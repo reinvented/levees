@@ -359,6 +359,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Morell & Area Development Corporation 2024 New Years Levee",
+        "startDate": "2024-01-01 13:00:00",
+        "endDate": "2024-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Credit Union Rink",
+            "address": "59 Queen Elizabeth, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41485,
+                "longitude": -62.70246
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Royal Canadian Legion - Wellington 2024 New Years Levee",
         "startDate": "2024-01-01 13:00:00",
         "endDate": "2024-01-01 15:00:00",
@@ -659,6 +676,40 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.234996,
                 "longitude": -63.124575
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Ellerslie 2024 New Years Levee",
+        "startDate": "2024-01-01 15:00:00",
+        "endDate": "2024-01-01 19:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Ellerslie Legion",
+            "address": "1136 Ellerslie Road, Ellerslie, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.604437,
+                "longitude": -63.939582
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "200 Wing Royal Canadian Air Force Association 2024 New Years Levee",
+        "startDate": "2024-01-01 16:00:00",
+        "endDate": "2024-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Wing",
+            "address": "329 North Market Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.394634,
+                "longitude": -63.793235
             }
         }
     },
