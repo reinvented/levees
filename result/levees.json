@@ -364,7 +364,7 @@
         "endDate": "2024-01-01 15:00:00",
         "location": {
             "@type": "Place",
-            "name": "Morell Credit Union Rink",
+            "name": "Morell Credit Union Rink Community Room",
             "address": "59 Queen Elizabeth, Morell, PE",
             "geo": {
                 "@type": "GeoCoordinates",
@@ -727,6 +727,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.238245,
                 "longitude": -63.124147
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "North Rustico Lions Club 2024 New Years Levee",
+        "startDate": "2024-01-01 16:00:00",
+        "endDate": "2024-01-01 20:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "North Rustico Lions Club",
+            "address": "17 Timber Lane, Rustico, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.45726,
+                "longitude": -63.31535
             }
         }
     },
