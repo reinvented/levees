@@ -1,5 +1,5 @@
 {
     "require": {
-        "eluceo/ical": "0.9.*"
+        "eluceo/ical": "^2.14"
     }
 }

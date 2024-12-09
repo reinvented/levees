@@ -1,0 +1,120 @@
+<p>
+    This is the 2025 levee schedule for <strong>New Year's Day, January 1, 2025</strong> for Charlottetown and Prince Edward Island.
+</p>
+<div class="noprint">
+    <p>
+        This is the 20th year I've been collating and confirming this information. If you're new to all of this and want to give it a try, read <a href="http://ruk.ca/content/how-levee"><em>How to Levee</em></a>.
+    </p>
+    <p>
+        All levees listed below have been confirmed with organizers: if you have changes to the information below, <a href="mailto:reinvented+levee@gmail.com?subject=2024%20Levee%20update">please drop me a line</a>.
+    </p>
+</div>
+<style type="text/css">
+p.toggles {
+font-family: "Arial Narrow", Arial, sans-serif;
+font-size: 60%;
+}
+span.toggler {
+  padding-right: 20px;
+}
+#qrcode {
+  display: none;
+}
+table.levees {
+  width: 100%;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  font-size: 100%;
+}
+table p !important {
+  font-size: 100%;
+}
+table.levees tr.cancelled {
+  background: #f33;
+  text-decoration: line-through;
+}
+@media print {
+table.levees tr.cancelled {
+  display:none;
+}
+  table.levees {
+    font-size: 70%;
+    font-family: "Arial Narrow", Arial, sans-serif;
+  }
+  .levee_street {
+    font-size: 80%;
+    line-height: 1;
+    font-style: italics;
+  }
+  .levee_accessible_title {
+    display: none;
+  }
+  body {
+    padding: 20px !important;
+  }
+  .three-3x33 {
+    display: none;
+  }
+  .toggles {
+    display: none;
+  }
+}
+table.levees th {
+  text-transform: uppercase;
+  text-align: center;
+}
+table.levees td.levee_start,
+table.levees td.levee_end
+{
+white-space: nowrap;
+}
+table.levees tr td:nth-child(3), table.levees tr td:nth-child(4), table.levees tr td:nth-child(5), table.levees tr td:nth-child(6) {
+  text-align: center;
+}
+@media (max-width: 480px) {
+    .levee_accessible_title,
+    .levee_address
+    {
+        display: none;
+    }
+    .toggler {
+       display: block;
+       padding-right: 0;
+    }
+}
+</style><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
+jQuery(document).ready(function () {
+jQuery('#19plus').change(function () {
+    if (jQuery('#19plus').is(":checked")) {
+      jQuery('.19plus').show();
+      if (jQuery('#charlottetownonly').is(":checked")) {
+        jQuery('.notcharlottetown').hide();
+      }
+      else {
+       jQuery('.notcharlottetown').show();
+      }
+    }
+    else {
+       jQuery('.19plus').hide();
+    }
+ });
+jQuery('#charlottetownonly').change(function () {
+    if (jQuery('#charlottetownonly').is(":checked")) {
+      jQuery('.notcharlottetown').hide();
+    }
+    else {
+       jQuery('.notcharlottetown').show();
+       if (jQuery('#19plus').is(":checked")) {
+         jQuery('.19plus').show();
+       }
+       else {
+       jQuery('.19plus').hide();
+       }
+    }
+ });
+});
+</script>
+<p class="rtecenter toggles">
+    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Show levees that are ages 19+</strong><input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown-area levees</strong></span>
+</p>

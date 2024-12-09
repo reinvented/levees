@@ -6,13 +6,21 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit79341161d381866b40e5c1f618f2c11f
 {
-    public static $prefixesPsr0 = array (
+    public static $files = array (
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
         'E' => 
         array (
-            'Eluceo\\iCal' => 
-            array (
-                0 => __DIR__ . '/..' . '/eluceo/ical/src',
-            ),
+            'Eluceo\\iCal\\' => 12,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Eluceo\\iCal\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/eluceo/ical/src',
         ),
     );
 
@@ -23,7 +31,8 @@ class ComposerStaticInit79341161d381866b40e5c1f618f2c11f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit79341161d381866b40e5c1f618f2c11f::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit79341161d381866b40e5c1f618f2c11f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit79341161d381866b40e5c1f618f2c11f::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit79341161d381866b40e5c1f618f2c11f::$classMap;
 
         }, null, ClassLoader::class);

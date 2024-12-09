@@ -25,7 +25,7 @@
   * WITHOUT ANY WARRANTY; without even the implied warranty of
   * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
   *
-  * @version 1.5, December 15, 2024
+  * @version 1.6, December 9, 2025
   * @link https://github.com/reinvented/levees
   * @author Peter Rukavina <peter@rukavina.net>
   * @copyright Copyright &copy; 2018, Reinvented Inc.
@@ -34,12 +34,17 @@
 
 // Required for iCalendar creation; you must install "eluceo — iCal" as above.
 require_once 'vendor/autoload.php';
+use Eluceo\iCal\Domain\Entity\Calendar;
+use Eluceo\iCal\Domain\Entity\Event;
+use Eluceo\iCal\Domain\ValueObject\Location;
+use Eluceo\iCal\Domain\ValueObject\TimeSpan;
+use Eluceo\iCal\Domain\ValueObject\DateTime;
 
 // Set the default time zone.
 date_default_timezone_set("America/Halifax");
 
 // Create a new iCalendar object.
-$vCalendar = new \Eluceo\iCal\Component\Calendar('ruk.ca/levee-2024');
+$vCalendar = new Calendar();
 
 // We're going to create four files; first we define them.
 $file['json+ld']  = "levees.json";
@@ -56,6 +61,10 @@ $db = new SQLite3('data/levees.sqlite');
 // Initialize a counter that we can use for the GeoJSON marker-symbol property.
 $counter = 1;
 $charlottetown_counter = 1;
+
+// Initialize an array to hold output
+$content = [];
+$content['html'] = '';
 
 // Retrieve all the levees
 $results = $db->query('SELECT * FROM levees where active = 1 order by startDate, endDate, name');
@@ -76,7 +85,7 @@ while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
     }
 
     // Create iCalendar for this levee.
-    $vCalendar->addComponent(makeICalendar($row));
+   $vCalendar->addEvent(makeICalendar($row));
 
   }
 
@@ -103,12 +112,18 @@ fwrite($fp['geojson'], json_encode($content['geojson'], JSON_PRETTY_PRINT));
 fwrite($fp['geojson-charlottetown'], json_encode($content['geojson-charlottetown'], JSON_PRETTY_PRINT));
 
 // Write the HTML data
+fwrite($fp['html'], file_get_contents('html/preamble.html'));
 fwrite($fp['html'], makeHTMLheader());
 fwrite($fp['html'], $content['html']);
 fwrite($fp['html'], "\t" . '</tbody>' . "\n" . '</table>' . "\n");
+fwrite($fp['html'], file_get_contents('html/midsection.html'));
+fwrite($fp['html'], file_get_contents('result/levees.json'));
+fwrite($fp['html'], file_get_contents('html/end.html'));
+
 
 // Wrhite the iCalendar data
-fwrite($fp['ics'], $vCalendar->render());
+$iCalendarComponent = (new \Eluceo\iCal\Presentation\Factory\CalendarFactory())->createCalendar($vCalendar);
+fwrite($fp['ics'], (string) $iCalendarComponent);
 
 closeFiles($file, $fp);
 
@@ -133,7 +148,7 @@ function makeJSONLD($row) {
   $tmp = array();
   $tmp['@context'] = "http://schema.org";
   $tmp['@type'] = "Event";
-  $tmp['name'] = $row['name'] . " 2024 New Years Levee";
+  $tmp['name'] = $row['name'] . " 2025 New Years Levee";
   $tmp['startDate'] = $row['startDate'];
   $tmp['endDate'] = $row['endDate'];
   $tmp['location'] = array();
@@ -154,7 +169,7 @@ function makeGeoJSON($row, $counter) {
   $tmp['geometry']['type'] = "Point";
   $tmp['geometry']['coordinates'] = array($row['longitude'], $row['latitude']);
   $tmp['properties'] = array();
-  $tmp['properties']['name'] = $row['name'] . " 2024 New Years Levee";
+  $tmp['properties']['name'] = $row['name'] . " 2025 New Years Levee";
   $tmp['properties']['location'] = $row['location_name'];
   $tmp['properties']['address'] = $row['location_address'];
   $tmp['properties']['startDate'] = $row['startDate'];
@@ -193,8 +208,8 @@ function makeHTML($row) {
   $tmp .= "\t\t" . '<tr class="' . $allclasses . '">' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=' . $row['latitude'] . "," . $row['longitude'] . '#map=19/' . $row['latitude'] . '/' . $row['longitude'] . '">' . $row['name'] . '</a></td>' . "\n";
   $tmp .= "\t\t\t" . '<td class="levee_address">' . $row['location_name']  . "<br><span class='levee_street'>" . $row['location_address'] . '</span></td>' . "\n";
-  $tmp .= "\t\t\t" . '<td class="levee_start">' . strftime("%l:%M %p", $start_number) . '</td>'. "\n";
-  $tmp .= "\t\t\t" . '<td class="levee_end">' . strftime("%l:%M %p", $end_number) . '</td>'. "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_start">' . strftime_compat("%l:%M %p", $start_number) . '</td>'. "\n";
+  $tmp .= "\t\t\t" . '<td class="levee_end">' . strftime_compat("%l:%M %p", $end_number) . '</td>'. "\n";
   if ($row['accessible']) {
     $tmp .= "\t\t\t" . '<td class="levee_accessible">Yes</td>'. "\n";
   }
@@ -212,12 +227,54 @@ function makeHTML($row) {
 }
 
 function makeICalendar($row) {
-  $vEvent = new \Eluceo\iCal\Component\Event();
-  $vEvent->setDtStart(new \DateTime($row['startDate']));
-  $vEvent->setDtEnd(new \DateTime($row['endDate']));
-  $vEvent->setNoTime(false);
-  $vEvent->setSummary($row['name'] . " 2024 New Years Levee");
-  $vEvent->setLocation($row['location_name'] . "\n" . $row['location_address'], $row['location_name'], $row['latitude'] . "," . $row['longitude']);
-  $vEvent->setUseTimezone(true);
+  $vEvent = new Eluceo\iCal\Domain\Entity\Event();
+  $vEvent->setSummary($row['name'] . " 2025 New Years Levee");
+  $vEvent->setLocation(new Location($row['location_name'] . "\n" . $row['location_address'], $row['location_name'], $row['latitude'] . "," . $row['longitude']));
+  $start = new DateTime(DateTimeImmutable::createFromFormat('Y-m-d H:i:s', $row['startDate']), false);
+
+  $end   = new DateTime(DateTimeImmutable::createFromFormat('Y-m-d H:i:s', $row['endDate']) , false);
+  $occurrence = new TimeSpan($start, $end);
+  $vEvent->setOccurrence($occurrence);
+  // $vEvent->setNoTime(false);
+  // $vEvent->setUseTimezone(true);
   return $vEvent;
+}
+
+function strftime_compat($format, $timestamp = null) {
+    // Use current timestamp if none is provided
+    $timestamp = $timestamp ?? time();
+
+    // Mapping of strftime format specifiers to date() equivalents
+    $translations = [
+        '%a' => 'D',  // Abbreviated weekday name
+        '%A' => 'l',  // Full weekday name
+        '%b' => 'M',  // Abbreviated month name
+        '%B' => 'F',  // Full month name
+        '%c' => 'r',  // Locale's date and time (12-hour format)
+        '%d' => 'd',  // Day of the month (01-31)
+        '%e' => 'j',  // Day of the month (1-31, no leading zero)
+        '%H' => 'H',  // Hour (00-23)
+        '%I' => 'h',  // Hour (01-12)
+        '%l' => 'g',  // Hour (01-12)
+        '%j' => 'z',  // Day of the year (001-366)
+        '%m' => 'm',  // Month (01-12)
+        '%M' => 'i',  // Minute (00-59)
+        '%p' => 'A',  // AM/PM
+        '%S' => 's',  // Second (00-59)
+        '%U' => 'W',  // Week number of the year (Sunday as first day of week)
+        '%w' => 'w',  // Day of the week (0-6, Sunday is 0)
+        '%x' => 'm/d/y', // Locale's date
+        '%X' => 'H:i:s', // Locale's time
+        '%y' => 'y',  // Year without century (00-99)
+        '%Y' => 'Y',  // Year with century
+        '%Z' => 'T',  // Time zone abbreviation
+        '%z' => 'O',  // Time zone offset
+        '%%' => '%',  // Literal '%'
+    ];
+
+    // Replace strftime specifiers with date() equivalents
+    $dateFormat = strtr($format, $translations);
+
+    // Use PHP's date() function to format the timestamp
+    return date($dateFormat, $timestamp);
 }

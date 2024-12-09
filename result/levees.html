@@ -1,3 +1,123 @@
+<p>
+    This is the 2025 levee schedule for <strong>New Year's Day, January 1, 2025</strong> for Charlottetown and Prince Edward Island.
+</p>
+<div class="noprint">
+    <p>
+        This is the 20th year I've been collating and confirming this information. If you're new to all of this and want to give it a try, read <a href="http://ruk.ca/content/how-levee"><em>How to Levee</em></a>.
+    </p>
+    <p>
+        All levees listed below have been confirmed with organizers: if you have changes to the information below, <a href="mailto:reinvented+levee@gmail.com?subject=2024%20Levee%20update">please drop me a line</a>.
+    </p>
+</div>
+<style type="text/css">
+p.toggles {
+font-family: "Arial Narrow", Arial, sans-serif;
+font-size: 60%;
+}
+span.toggler {
+  padding-right: 20px;
+}
+#qrcode {
+  display: none;
+}
+table.levees {
+  width: 100%;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  font-size: 100%;
+}
+table p !important {
+  font-size: 100%;
+}
+table.levees tr.cancelled {
+  background: #f33;
+  text-decoration: line-through;
+}
+@media print {
+table.levees tr.cancelled {
+  display:none;
+}
+  table.levees {
+    font-size: 70%;
+    font-family: "Arial Narrow", Arial, sans-serif;
+  }
+  .levee_street {
+    font-size: 80%;
+    line-height: 1;
+    font-style: italics;
+  }
+  .levee_accessible_title {
+    display: none;
+  }
+  body {
+    padding: 20px !important;
+  }
+  .three-3x33 {
+    display: none;
+  }
+  .toggles {
+    display: none;
+  }
+}
+table.levees th {
+  text-transform: uppercase;
+  text-align: center;
+}
+table.levees td.levee_start,
+table.levees td.levee_end
+{
+white-space: nowrap;
+}
+table.levees tr td:nth-child(3), table.levees tr td:nth-child(4), table.levees tr td:nth-child(5), table.levees tr td:nth-child(6) {
+  text-align: center;
+}
+@media (max-width: 480px) {
+    .levee_accessible_title,
+    .levee_address
+    {
+        display: none;
+    }
+    .toggler {
+       display: block;
+       padding-right: 0;
+    }
+}
+</style><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
+jQuery(document).ready(function () {
+jQuery('#19plus').change(function () {
+    if (jQuery('#19plus').is(":checked")) {
+      jQuery('.19plus').show();
+      if (jQuery('#charlottetownonly').is(":checked")) {
+        jQuery('.notcharlottetown').hide();
+      }
+      else {
+       jQuery('.notcharlottetown').show();
+      }
+    }
+    else {
+       jQuery('.19plus').hide();
+    }
+ });
+jQuery('#charlottetownonly').change(function () {
+    if (jQuery('#charlottetownonly').is(":checked")) {
+      jQuery('.notcharlottetown').hide();
+    }
+    else {
+       jQuery('.notcharlottetown').show();
+       if (jQuery('#19plus').is(":checked")) {
+         jQuery('.19plus').show();
+       }
+       else {
+       jQuery('.19plus').hide();
+       }
+    }
+ });
+});
+</script>
+<p class="rtecenter toggles">
+    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Show levees that are ages 19+</strong><input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown-area levees</strong></span>
+</p>
 <table class='levees datatable'>
 	<thead>
 		<tr>
@@ -11,80 +131,24 @@
 		<tr class="charlottetown allages">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23618,-63.12722#map=19/46.23618/-63.12722">Timothy's Coffee and Campbell Webster</a></td>
 			<td class="levee_address">Timothy's Coffee<br><span class='levee_street'>154 Great George Street, Charlottetown, PE</span></td>
-			<td class="levee_start"> 8:00 AM</td>
+			<td class="levee_start">8:00 AM</td>
 			<td class="levee_end">10:00 AM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.246094,-63.131841#map=19/46.246094/-63.131841">Upstreet Craft Brewing</a></td>
-			<td class="levee_address">Upstreet Craft Brewing<br><span class='levee_street'>41 Allen St, Charlottetown, PE</span></td>
-			<td class="levee_start">10:00 AM</td>
-			<td class="levee_end">11:00 AM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.231242,-63.136109#map=19/46.231242/-63.136109">Lieutenant Governor</a></td>
-			<td class="levee_address">Government House<br><span class='levee_street'>1 Terry Fox Drive, Charlottetown, PE</span></td>
-			<td class="levee_start">10:00 AM</td>
-			<td class="levee_end">11:30 AM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.235354,-63.129549#map=19/46.235354/-63.129549">Mayor of Charlottetown</a></td>
-			<td class="levee_address">Charlottetown City Hall<br><span class='levee_street'>199 Queen St, Charlottetown, PE</span></td>
-			<td class="levee_start">10:30 AM</td>
-			<td class="levee_end">12:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
 		<tr class="charlottetown allages">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.231852630578,-63.133525904296#map=19/46.231852630578/-63.133525904296">Rotary Club of Charlottetown</a></td>
 			<td class="levee_address">Beaconsfield Carriage House<br><span class='levee_street'>2 Kent Street, Charlottetown, PE</span></td>
-			<td class="levee_start">10:30 AM</td>
-			<td class="levee_end">12:00 PM</td>
+			<td class="levee_start">11:00 AM</td>
+			<td class="levee_end">1:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.42665,-63.47002#map=19/46.42665/-63.47002">North Granville Community Centre</a></td>
-			<td class="levee_address">North Granville Community Centre<br><span class='levee_street'>575 Taylor Road, North Granville, PE</span></td>
-			<td class="levee_start">11:00 AM</td>
-			<td class="levee_end">12:30 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.415497001644,-62.70461045767#map=19/46.415497001644/-62.70461045767">Morell Lions Club (Reception)</a></td>
-			<td class="levee_address">Morell Fire Hall<br><span class='levee_street'>15 Park Street, Morell, PE</span></td>
-			<td class="levee_start">11:00 AM</td>
-			<td class="levee_end"> 1:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.253327025288,-63.691549901847#map=19/46.253327025288/-63.691549901847">Town of Borden-Carleton</a></td>
-			<td class="levee_address">Borden Legion<br><span class='levee_street'>240 Main Street, Borden-Carleton, PE</span></td>
-			<td class="levee_start">11:00 AM</td>
-			<td class="levee_end"> 1:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.388303,-63.784217#map=19/46.388303/-63.784217">Silver Fox Curling and Yacht Club</a></td>
-			<td class="levee_address">Silver Fox Curling and Yacht Club<br><span class='levee_street'>110 Water Street, Summerside, PE</span></td>
-			<td class="levee_start">11:00 AM</td>
-			<td class="levee_end"> 6:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
 		</tr>
 		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.25861,-63.13816#map=19/46.25861/-63.13816">University of PEI</a></td>
-			<td class="levee_address">Faculty of Sustainable Design Engineering<br><span class='levee_street'>550 University Ave., Charlottetown, PE</span></td>
-			<td class="levee_start">11:30 AM</td>
-			<td class="levee_end"> 1:00 PM</td>
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23058,-63.12783#map=19/46.23058/-63.12783">The Haviland Club</a></td>
+			<td class="levee_address">The Haviland Club<br><span class='levee_street'>2 Haviland St, Charlottetown, PE</span></td>
+			<td class="levee_start">11:00 AM</td>
+			<td class="levee_end">1:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
@@ -92,297 +156,277 @@
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.236969,-63.11711#map=19/46.236969/-63.11711">HMCS Queen Charlotte</a></td>
 			<td class="levee_address">HMCS Queen Charlotte<br><span class='levee_street'>210 Water Street, Charlottetown, PE</span></td>
 			<td class="levee_start">11:30 AM</td>
-			<td class="levee_end"> 1:00 PM</td>
+			<td class="levee_end">1:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.437315,-63.637422#map=19/46.437315/-63.637422">Mayor of Kensington</a></td>
-			<td class="levee_address">Family and Friends Restaurant<br><span class='levee_street'>45 Broadway St N, Kensington, PE</span></td>
+		<tr class="charlottetown allages">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.25861,-63.13816#map=19/46.25861/-63.13816">University of PEI</a></td>
+			<td class="levee_address">Faculty of Sustainable Design Engineering<br><span class='levee_street'>550 University Ave., Charlottetown, PE</span></td>
 			<td class="levee_start">11:30 AM</td>
-			<td class="levee_end"> 1:00 PM</td>
+			<td class="levee_end">1:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22955,-63.12798#map=19/46.22955/-63.12798">Prince Edward Island Regiment</a></td>
-			<td class="levee_address">Col J David Stewart Armoury<br><span class='levee_street'>1 Haviland Street, Charlottetown, PE</span></td>
-			<td class="levee_start">12:00 PM</td>
-			<td class="levee_end"> 1:30 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22673,-63.08747#map=19/46.22673/-63.08747">Town of Stratford</a></td>
-			<td class="levee_address">Stratford Town Centre<br><span class='levee_street'>234 Shakespeare Dr., Stratford, PE</span></td>
-			<td class="levee_start">12:00 PM</td>
-			<td class="levee_end"> 1:30 PM</td>
+		<tr class="notcharlottetown allages">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.16648,-62.64722#map=19/46.16648/-62.64722">Bogside Brewing</a></td>
+			<td class="levee_address">Bogside Brewing<br><span class='levee_street'>11 Brook Street, Montague, PE</span></td>
+			<td class="levee_start">11:30 AM</td>
+			<td class="levee_end">8:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
 		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.252408,-63.115262#map=19/46.252408/-63.115262">PEI Brewing Company</a></td>
-			<td class="levee_address">PEI Brewing Company<br><span class='levee_street'>96 Kensington Road, Charlottetown, PE</span></td>
-			<td class="levee_start">12:00 PM</td>
-			<td class="levee_end"> 2:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.163479,-62.647043#map=19/46.163479/-62.647043">Copper Bottom Brewing</a></td>
-			<td class="levee_address">Copper Bottom Brewing<br><span class='levee_street'>567 Main Street, Montague, PE</span></td>
-			<td class="levee_start">12:00 PM</td>
-			<td class="levee_end"> 6:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.708537,-64.227437#map=19/46.708537/-64.227437">Royal Canadian Legion - O'Leary</a></td>
-			<td class="levee_address">O'Leary Legion<br><span class='levee_street'>69 Ellis Ave., O'Leary, PE</span></td>
-			<td class="levee_start">12:00 PM</td>
-			<td class="levee_end"> 7:00 PM</td>
-			<td class="levee_accessible"><b>No</b></td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.2585,-63.13998#map=19/46.2585/-63.13998">Seniors Active Living Centre</a></td>
-			<td class="levee_address">Bell Aliant Centre<br><span class='levee_street'>560 University Avenue, Charlottetown, PE</span></td>
-			<td class="levee_start">12:30 PM</td>
-			<td class="levee_end"> 2:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.70208,-64.23201#map=19/46.70208/-64.23201">Town of O'Leary</a></td>
-			<td class="levee_address">O'Leary Town Hall<br><span class='levee_street'>18 Community Street, O'Leary, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 4:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.41485,-62.70246#map=19/46.41485/-62.70246">Morell Lions Club (Free Skating)</a></td>
-			<td class="levee_address">Morell Credit Union Rink<br><span class='levee_street'>59 Queen Elizabeth, Morell, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 2:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23342,-63.12464#map=19/46.23342/-63.12464">Roman Catholic Diocese of Charlottetown</a></td>
-			<td class="levee_address">SDU Place<br><span class='levee_street'>45 Great George Street, Charlottetown, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 2:30 PM</td>
-			<td class="levee_accessible"><b>No</b></td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.41485,-62.70246#map=19/46.41485/-62.70246">Morell & Area Development Corporation</a></td>
-			<td class="levee_address">Morell Credit Union Rink Community Room<br><span class='levee_street'>59 Queen Elizabeth, Morell, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 3:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.458652,-64.008398#map=19/46.458652/-64.008398">Royal Canadian Legion - Wellington</a></td>
-			<td class="levee_address">Wellington Legion<br><span class='levee_street'>97 Sunset Dr, Wellington, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 3:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23925,-63.1258#map=19/46.23925/-63.1258">St. John's Lodge No. 1 and Victoria Lodge No. 2</a></td>
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23925,-63.1258#map=19/46.23925/-63.1258">St. John's and Victoria Lodge n. 1 A.M. & F.M.</a></td>
 			<td class="levee_address">Masonic Temple<br><span class='levee_street'>204 Hillsborough St., Charlottetown, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 3:00 PM</td>
-			<td class="levee_accessible"><b>No</b></td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.168330220693,-62.651553269359#map=19/46.168330220693/-62.651553269359">Town of Three Rivers</a></td>
-			<td class="levee_address">Three Rivers Town Hall<br><span class='levee_street'>172 Fraser Street, Montague, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 3:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.94878,-64.035537#map=19/46.94878/-64.035537">Royal Canadian Legion - Tignish & Town of Tignish</a></td>
-			<td class="levee_address">Tignish Legion<br><span class='levee_street'>221 Phillip Street, Tignish, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 5:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23058,-63.12783#map=19/46.23058/-63.12783">The Haviland Club</a></td>
-			<td class="levee_address">The Haviland Club<br><span class='levee_street'>2 Haviland St, Charlottetown, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 5:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22849269977,-63.217572230198#map=19/46.22849269977/-63.217572230198">Village Green Brewery </a></td>
-			<td class="levee_address">Village Green Brewery <br><span class='levee_street'>30 Church Street, Cornwall, PE</span></td>
-			<td class="levee_start"> 1:00 PM</td>
-			<td class="levee_end"> 5:00 PM</td>
+			<td class="levee_start">1:00 PM</td>
+			<td class="levee_end">3:00 PM</td>
 			<td class="levee_accessible"><b>No</b></td>
 			<td class="levee_allages"><b>No</b></td>
 		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.393032,-63.790607#map=19/46.393032/-63.790607">City of Summerside</a></td>
-			<td class="levee_address">City Hall<br><span class='levee_street'>275 Fitzroy Street, Summerside, PE</span></td>
-			<td class="levee_start"> 1:30 PM</td>
-			<td class="levee_end"> 3:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
 		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.2361,-63.20695#map=19/46.2361/-63.20695">Town of Cornwall</a></td>
-			<td class="levee_address">Cornwall Town Hall<br><span class='levee_street'>39 Lowther Drive, Cornwall, PE</span></td>
-			<td class="levee_start"> 1:30 PM</td>
-			<td class="levee_end"> 3:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.3959,-63.79322#map=19/46.3959/-63.79322">Royal Canadian Legion - Summerside</a></td>
-			<td class="levee_address">Summerside Legion<br><span class='levee_street'>340 Notre Dame St., Summerside, PE</span></td>
-			<td class="levee_start"> 1:30 PM</td>
-			<td class="levee_end"> 4:30 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.25092,-63.1492#map=19/46.25092/-63.1492">Garden Nursing Home</a></td>
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.25092,-63.1492#map=19/46.25092/-63.1492">Garden Home</a></td>
 			<td class="levee_address">Garden Home<br><span class='levee_street'>310 North River Road, Charlottetown, PE</span></td>
-			<td class="levee_start"> 2:00 PM</td>
-			<td class="levee_end"> 3:00 PM</td>
+			<td class="levee_start">2:00 PM</td>
+			<td class="levee_end">3:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.233024,-63.12922#map=19/46.233024/-63.12922">Royal Canadian Legion - Charlottetown</a></td>
-			<td class="levee_address">Charlottetown Legion<br><span class='levee_street'>99 Pownal Street, Charlottetown, PE</span></td>
-			<td class="levee_start"> 2:00 PM</td>
-			<td class="levee_end"> 3:30 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
 		</tr>
 		<tr class="charlottetown allages">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.26162,-63.15587#map=19/46.26162/-63.15587">Benevolent Irish Society</a></td>
 			<td class="levee_address">Hon. Edward Whelan Irish Cultural Centre<br><span class='levee_street'>582 North River Road, Charlottetown, PE</span></td>
-			<td class="levee_start"> 2:00 PM</td>
-			<td class="levee_end"> 4:00 PM</td>
+			<td class="levee_start">2:00 PM</td>
+			<td class="levee_end">4:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.26151,-63.11868#map=19/46.26151/-63.11868">Razzy's Roadhouse</a></td>
-			<td class="levee_address">Razzy's Roadhouse<br><span class='levee_street'>161 St. Peters Road, Charlottetown, PE</span></td>
-			<td class="levee_start"> 2:00 PM</td>
-			<td class="levee_end"> 4:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
 		</tr>
 		<tr class="notcharlottetown 19plus">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.429863,-63.854943#map=19/46.429863/-63.854943">Royal Canadian Legion - Miscouche</a></td>
 			<td class="levee_address">Miscouche Legion<br><span class='levee_street'>94 Main Drive, Miscouche, PE</span></td>
-			<td class="levee_start"> 2:00 PM</td>
-			<td class="levee_end"> 6:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.353853,-62.237481#map=19/46.353853/-62.237481">Town of Souris</a></td>
-			<td class="levee_address">Eastern Kings Sportsplex<br><span class='levee_street'>203 Main Street, Souris, PE</span></td>
-			<td class="levee_start"> 2:30 PM</td>
-			<td class="levee_end"> 4:30 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.234419,-63.127261#map=19/46.234419/-63.127261">Premier Dennis King</a></td>
-			<td class="levee_address">Confederation Centre of the Arts<br><span class='levee_street'>145 Richmond St, Charlottetown, PE</span></td>
-			<td class="levee_start"> 3:00 PM</td>
-			<td class="levee_end"> 4:30 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.416331753046,-62.712452856457#map=19/46.416331753046/-62.712452856457">Holy Cow</a></td>
-			<td class="levee_address">Holy Cow Burgers & Wings<br><span class='levee_street'>7788 St Peter’s Road, Morell, PE</span></td>
-			<td class="levee_start"> 3:00 PM</td>
-			<td class="levee_end"> 5:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages">Yes</td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.234996,-63.124575#map=19/46.234996/-63.124575">Murphy's Community Centre & The Alley</a></td>
-			<td class="levee_address">Murphy's Community Centre<br><span class='levee_street'>200 Richmond Street, Charlottetown, PE</span></td>
-			<td class="levee_start"> 3:00 PM</td>
-			<td class="levee_end"> 6:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="notcharlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.604437,-63.939582#map=19/46.604437/-63.939582">Royal Canadian Legion - Ellerslie</a></td>
-			<td class="levee_address">Ellerslie Legion<br><span class='levee_street'>1136 Ellerslie Road, Ellerslie, PE</span></td>
-			<td class="levee_start"> 3:00 PM</td>
-			<td class="levee_end"> 7:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="notcharlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.394634,-63.793235#map=19/46.394634/-63.793235">200 Wing Royal Canadian Air Force Association</a></td>
-			<td class="levee_address">The Wing<br><span class='levee_street'>329 North Market Street, Summerside, PE</span></td>
-			<td class="levee_start"> 4:00 PM</td>
-			<td class="levee_end"> 6:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.238245,-63.124147#map=19/46.238245/-63.124147">Sport Page Club</a></td>
-			<td class="levee_address">Sport Page Club<br><span class='levee_street'>236 Kent St, Charlottetown, PE</span></td>
-			<td class="levee_start"> 4:00 PM</td>
-			<td class="levee_end"> 6:00 PM</td>
-			<td class="levee_accessible"><b>No</b></td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="notcharlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.45726,-63.31535#map=19/46.45726/-63.31535">North Rustico Lions Club</a></td>
-			<td class="levee_address">North Rustico Lions Club<br><span class='levee_street'>17 Timber Lane, Rustico, PE</span></td>
-			<td class="levee_start"> 4:00 PM</td>
-			<td class="levee_end"> 8:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23374,-63.126028#map=19/46.23374/-63.126028">Olde Dublin Pub</a></td>
-			<td class="levee_address">Olde Dublin Pub<br><span class='levee_street'>131 Sydney St., Charlottetown, PE</span></td>
-			<td class="levee_start"> 4:00 PM</td>
-			<td class="levee_end">10:00 PM</td>
-			<td class="levee_accessible"><b>No</b></td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.236715,-63.12716#map=19/46.236715/-63.12716">PonyBoat Social Club</a></td>
-			<td class="levee_address">PonyBoat Social Club<br><span class='levee_street'>157 Kent St, Charlottetown, PE</span></td>
-			<td class="levee_start"> 4:00 PM</td>
-			<td class="levee_end">10:00 PM</td>
-			<td class="levee_accessible">Yes</td>
-			<td class="levee_allages"><b>No</b></td>
-		</tr>
-		<tr class="charlottetown 19plus">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.235106,-63.130065#map=19/46.235106/-63.130065">Charlottetown Firefighters Club</a></td>
-			<td class="levee_address">Charlottetown Fire Department<br><span class='levee_street'>89 Kent Street, Charlottetown, PE</span></td>
-			<td class="levee_start"> 6:00 PM</td>
-			<td class="levee_end">12:00 AM</td>
+			<td class="levee_start">2:00 PM</td>
+			<td class="levee_end">6:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages"><b>No</b></td>
 		</tr>
 	</tbody>
 </table>
+<div class="noprint">
+    <h3>
+        Other Formats
+    </h3>
+    <ul>
+        <li>
+            <a href="https://github.com/reinvented/levees/blob/master/result/levees.html">HTML</a> (what appears above)
+        </li>
+        <li>
+            <a href="https://github.com/reinvented/levees/blob/master/result/levees.geojson">GeoJSON</a> (if you want to map the locations)
+        </li>
+        <li>
+            <a href="https://github.com/reinvented/levees/blob/master/result/levees-charlottetown.geojson">GeoJSON for Charlottetown-area only</a> (if you want to map the locations)
+        </li>
+        <li>
+            <a href="https://github.com/reinvented/levees/blob/master/result/levees.json">JSON+LD</a> (Google Structured Data embedded in this post)
+        </li>
+        <li>
+            <a href="https://raw.githubusercontent.com/reinvented/levees/master/result/levees.ics" download="">iCalendar</a> (for importing into your own calendar application)
+        </li>
+        <li>
+            <a href="https://github.com/reinvented/levees/blob/master/data/levees.sqlite">SQLite</a> (if you'd like a database of the levees)
+        </li>
+    </ul>
+    <p>
+        The code that generates all of the above <a href="https://github.com/reinvented/levees">is available on Github</a>.
+    </p>
+    <h3>
+        License
+    </h3>
+</div>
+<p>
+    The levee schedule is covered under a Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Attribution, NonCommercial, ShareAlike License</a>.
+</p>
+<div class="noprint">
+    <p>
+        That means that you're free to copy the data, publish the data, mash up the data, share the data, but that you must provide a credit to the source, like:
+    </p>
+    <blockquote>
+        <p>
+            Schedule data from <a href="http://ruk.ca/levee-2025">ruk.ca/levee-2025</a>&nbsp;under a Creative Commons <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Attribution, NonCommercial, ShareAlike License</a>.
+        </p>
+    </blockquote>
+    <p>
+        You're encouraged to spread the information here as far and as wide as possible.
+    </p>
+</div>
+<script type="application/ld+json">
+[
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Timothy's Coffee and Campbell Webster 2025 New Years Levee",
+        "startDate": "2025-01-01 08:00:00",
+        "endDate": "2025-01-01 10:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Timothy's Coffee",
+            "address": "154 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23618,
+                "longitude": -63.12722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Rotary Club of Charlottetown 2025 New Years Levee",
+        "startDate": "2025-01-01 11:00:00",
+        "endDate": "2025-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Beaconsfield Carriage House",
+            "address": "2 Kent Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.231852630577855,
+                "longitude": -63.1335259042962
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Haviland Club 2025 New Years Levee",
+        "startDate": "2025-01-01 11:00:00",
+        "endDate": "2025-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Haviland Club",
+            "address": "2 Haviland St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23058,
+                "longitude": -63.12783
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "HMCS Queen Charlotte 2025 New Years Levee",
+        "startDate": "2025-01-01 11:30:00",
+        "endDate": "2025-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "HMCS Queen Charlotte",
+            "address": "210 Water Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.236969,
+                "longitude": -63.11711
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "University of PEI 2025 New Years Levee",
+        "startDate": "2025-01-01 11:30:00",
+        "endDate": "2025-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Faculty of Sustainable Design Engineering",
+            "address": "550 University Ave., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25861,
+                "longitude": -63.13816
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Bogside Brewing 2025 New Years Levee",
+        "startDate": "2025-01-01 11:30:00",
+        "endDate": "2025-01-01 20:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Bogside Brewing",
+            "address": "11 Brook Street, Montague, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.16648,
+                "longitude": -62.64722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "St. John's and Victoria Lodge n. 1 A.M. & F.M. 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Masonic Temple",
+            "address": "204 Hillsborough St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23925,
+                "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Garden Home 2025 New Years Levee",
+        "startDate": "2025-01-01 14:00:00",
+        "endDate": "2025-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Garden Home",
+            "address": "310 North River Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25092,
+                "longitude": -63.1492
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Benevolent Irish Society 2025 New Years Levee",
+        "startDate": "2025-01-01 14:00:00",
+        "endDate": "2025-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Hon. Edward Whelan Irish Cultural Centre",
+            "address": "582 North River Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.26162,
+                "longitude": -63.15587
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Miscouche 2025 New Years Levee",
+        "startDate": "2025-01-01 14:00:00",
+        "endDate": "2025-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Miscouche Legion",
+            "address": "94 Main Drive, Miscouche, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.429863,
+                "longitude": -63.854943
+            }
+        }
+    }
+]</script>
