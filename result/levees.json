@@ -19,6 +19,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Lieutenant Governor 2025 New Years Levee",
+        "startDate": "2025-01-01 10:00:00",
+        "endDate": "2025-01-01 11:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Government House",
+            "address": "1 Terry Fox Drive, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.231242,
+                "longitude": -63.136109
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Rotary Club of Charlottetown 2025 New Years Levee",
         "startDate": "2025-01-01 11:00:00",
         "endDate": "2025-01-01 13:00:00",

@@ -23,6 +23,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.136109,
+                    46.231242
+                ]
+            },
+            "properties": {
+                "name": "Lieutenant Governor 2025 New Years Levee",
+                "location": "Government House",
+                "address": "1 Terry Fox Drive, Charlottetown, PE",
+                "startDate": "2025-01-01 10:00:00",
+                "endDate": "2025-01-01 11:30:00",
+                "marker-symbol": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.1335259042962,
                     46.231852630577855
                 ]
@@ -33,7 +51,7 @@
                 "address": "2 Kent Street, Charlottetown, PE",
                 "startDate": "2025-01-01 11:00:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 2
+                "marker-symbol": 3
             }
         },
         {
@@ -51,7 +69,7 @@
                 "address": "2 Haviland St, Charlottetown, PE",
                 "startDate": "2025-01-01 11:00:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 3
+                "marker-symbol": 4
             }
         },
         {
@@ -69,7 +87,7 @@
                 "address": "210 Water Street, Charlottetown, PE",
                 "startDate": "2025-01-01 11:30:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 4
+                "marker-symbol": 5
             }
         },
         {
@@ -87,7 +105,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2025-01-01 11:30:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 5
+                "marker-symbol": 6
             }
         },
         {
@@ -105,7 +123,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2025-01-01 13:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 6
+                "marker-symbol": 7
             }
         },
         {
@@ -123,7 +141,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 7
+                "marker-symbol": 8
             }
         },
         {
@@ -141,7 +159,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 16:00:00",
-                "marker-symbol": 8
+                "marker-symbol": 9
             }
         }
     ],
