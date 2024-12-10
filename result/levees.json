@@ -36,6 +36,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Morell Credit Union 2025 New Years Levee",
+        "startDate": "2025-01-01 10:00:00",
+        "endDate": "2025-01-01 11:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Welcome Centre",
+            "address": "12 Sunset Crescent, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.4158,
+                "longitude": -62.70688
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Morell Lions Club (Reception) 2025 New Years Levee",
+        "startDate": "2025-01-01 11:00:00",
+        "endDate": "2025-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Fire Hall",
+            "address": "15 Park Street, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41549700164353,
+                "longitude": -62.70461045767023
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Rotary Club of Charlottetown 2025 New Years Levee",
         "startDate": "2025-01-01 11:00:00",
         "endDate": "2025-01-01 13:00:00",
@@ -64,6 +98,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23058,
                 "longitude": -63.12783
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Upstreet Craft Brewing 2025 New Years Levee",
+        "startDate": "2025-01-01 11:00:00",
+        "endDate": "2025-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Upstreet Craft Brewing",
+            "address": "41 Allen St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.246094,
+                "longitude": -63.131841
             }
         }
     },
@@ -121,6 +172,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Morell & Area Development Corporation 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Credit Union Rink",
+            "address": "59 Queen Elizabeth, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41485,
+                "longitude": -62.70246
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "St. John's and Victoria Lodge n. 1 A.M. & F.M. 2025 New Years Levee",
         "startDate": "2025-01-01 13:00:00",
         "endDate": "2025-01-01 15:00:00",
@@ -132,6 +200,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23925,
                 "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Morell Lions Club (Free Skating) 2025 New Years Levee",
+        "startDate": "2025-01-01 13:45:00",
+        "endDate": "2025-01-01 14:45:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Credit Union Rink",
+            "address": "59 Queen Elizabeth, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41485,
+                "longitude": -62.70246
             }
         }
     },
@@ -183,6 +268,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.429863,
                 "longitude": -63.854943
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Holy Cow 2025 New Years Levee",
+        "startDate": "2025-01-01 15:00:00",
+        "endDate": "2025-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Holy Cow Burgers & Wings",
+            "address": "7788 St Peter\u2019s Road, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41633175304648,
+                "longitude": -62.71245285645736
             }
         }
     }

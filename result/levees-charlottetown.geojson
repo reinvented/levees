@@ -77,6 +77,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.131841,
+                    46.246094
+                ]
+            },
+            "properties": {
+                "name": "Upstreet Craft Brewing 2025 New Years Levee",
+                "location": "Upstreet Craft Brewing",
+                "address": "41 Allen St, Charlottetown, PE",
+                "startDate": "2025-01-01 11:00:00",
+                "endDate": "2025-01-01 16:00:00",
+                "marker-symbol": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.11711,
                     46.236969
                 ]
@@ -87,7 +105,7 @@
                 "address": "210 Water Street, Charlottetown, PE",
                 "startDate": "2025-01-01 11:30:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 5
+                "marker-symbol": 6
             }
         },
         {
@@ -105,7 +123,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2025-01-01 11:30:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 6
+                "marker-symbol": 7
             }
         },
         {
@@ -123,7 +141,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2025-01-01 13:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 7
+                "marker-symbol": 8
             }
         },
         {
@@ -141,7 +159,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 8
+                "marker-symbol": 9
             }
         },
         {
@@ -159,7 +177,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 16:00:00",
-                "marker-symbol": 9
+                "marker-symbol": 10
             }
         }
     ],
