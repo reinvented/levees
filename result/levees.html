@@ -221,6 +221,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
+		<tr class="charlottetown 19plus">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.252408,-63.115262#map=19/46.252408/-63.115262">PEI Brewing Company</a></td>
+			<td class="levee_address">PEI Brewing Company<br><span class='levee_street'>96 Kensington Road, Charlottetown, PE</span></td>
+			<td class="levee_start">12:00 PM</td>
+			<td class="levee_end">2:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages"><b>No</b></td>
+		</tr>
 		<tr class="notcharlottetown allages">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.41485,-62.70246#map=19/46.41485/-62.70246">Morell & Area Development Corporation</a></td>
 			<td class="levee_address">Morell Credit Union Rink<br><span class='levee_street'>59 Queen Elizabeth, Morell, PE</span></td>
@@ -276,6 +284,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_end">5:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="charlottetown 19plus">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.234996,-63.124575#map=19/46.234996/-63.124575">Murphy's Community Centre & The Alley</a></td>
+			<td class="levee_address">Murphy's Community Centre<br><span class='levee_street'>200 Richmond Street, Charlottetown, PE</span></td>
+			<td class="levee_start">3:00 PM</td>
+			<td class="levee_end">6:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages"><b>No</b></td>
 		</tr>
 	</tbody>
 </table>
@@ -501,6 +517,23 @@ jQuery('#charlottetownonly').change(function () {
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "PEI Brewing Company 2025 New Years Levee",
+        "startDate": "2025-01-01 12:00:00",
+        "endDate": "2025-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "PEI Brewing Company",
+            "address": "96 Kensington Road, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.252408,
+                "longitude": -63.115262
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Morell & Area Development Corporation 2025 New Years Levee",
         "startDate": "2025-01-01 13:00:00",
         "endDate": "2025-01-01 15:00:00",
@@ -614,6 +647,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.41633175304648,
                 "longitude": -62.71245285645736
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Murphy's Community Centre & The Alley 2025 New Years Levee",
+        "startDate": "2025-01-01 15:00:00",
+        "endDate": "2025-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Murphy's Community Centre",
+            "address": "200 Richmond Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234996,
+                "longitude": -63.124575
             }
         }
     }
