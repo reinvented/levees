@@ -229,6 +229,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages"><b>No</b></td>
 		</tr>
+		<tr class="charlottetown allages">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23342,-63.12464#map=19/46.23342/-63.12464">Bishop of Charlottetown</a></td>
+			<td class="levee_address">SDU Place<br><span class='levee_street'>45 Great George Street, Charlottetown, PE</span></td>
+			<td class="levee_start">1:00 PM</td>
+			<td class="levee_end">2:00 PM</td>
+			<td class="levee_accessible"><b>No</b></td>
+			<td class="levee_allages">Yes</td>
+		</tr>
 		<tr class="notcharlottetown allages">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.41485,-62.70246#map=19/46.41485/-62.70246">Morell & Area Development Corporation</a></td>
 			<td class="levee_address">Morell Credit Union Rink<br><span class='levee_street'>59 Queen Elizabeth, Morell, PE</span></td>
@@ -536,6 +544,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.252408,
                 "longitude": -63.115262
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Bishop of Charlottetown 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "SDU Place",
+            "address": "45 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23342,
+                "longitude": -63.12464
             }
         }
     },

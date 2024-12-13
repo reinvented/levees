@@ -189,6 +189,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Bishop of Charlottetown 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "SDU Place",
+            "address": "45 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23342,
+                "longitude": -63.12464
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Morell & Area Development Corporation 2025 New Years Levee",
         "startDate": "2025-01-01 13:00:00",
         "endDate": "2025-01-01 15:00:00",
