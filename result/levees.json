@@ -223,6 +223,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Village Green Brewery  2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Village Green Brewery ",
+            "address": "30 Church Street, Cornwall, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22849269976965,
+                "longitude": -63.217572230197526
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Morell Lions Club (Free Skating) 2025 New Years Levee",
         "startDate": "2025-01-01 13:45:00",
         "endDate": "2025-01-01 14:45:00",

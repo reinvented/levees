@@ -167,6 +167,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.217572230197526,
+                    46.22849269976965
+                ]
+            },
+            "properties": {
+                "name": "Village Green Brewery  2025 New Years Levee",
+                "location": "Village Green Brewery ",
+                "address": "30 Church Street, Cornwall, PE",
+                "startDate": "2025-01-01 13:00:00",
+                "endDate": "2025-01-01 17:00:00",
+                "marker-symbol": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.1492,
                     46.25092
                 ]
@@ -177,7 +195,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 10
+                "marker-symbol": 11
             }
         },
         {
@@ -195,7 +213,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 16:00:00",
-                "marker-symbol": 11
+                "marker-symbol": 12
             }
         },
         {
@@ -213,7 +231,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2025-01-01 15:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 12
+                "marker-symbol": 13
             }
         }
     ],
