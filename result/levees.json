@@ -355,5 +355,22 @@
                 "longitude": -63.124575
             }
         }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "PonyBoat Social Club 2025 New Years Levee",
+        "startDate": "2025-01-01 19:00:00",
+        "endDate": "2025-01-01 22:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "PonyBoat Social Club",
+            "address": "157 Kent St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.236715,
+                "longitude": -63.12716
+            }
+        }
     }
 ]
