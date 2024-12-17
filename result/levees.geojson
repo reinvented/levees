@@ -437,6 +437,42 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -62.237481,
+                    46.353853
+                ]
+            },
+            "properties": {
+                "name": "Town of Souris 2025 New Years Levee",
+                "location": "Eastern Kings Sportsplex",
+                "address": "203 Main Street, Souris, PE",
+                "startDate": "2025-01-01 14:30:00",
+                "endDate": "2025-01-01 16:30:00",
+                "marker-symbol": 25
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.127261,
+                    46.234419
+                ]
+            },
+            "properties": {
+                "name": "Premier Dennis King 2025 New Years Levee",
+                "location": "Confederation Centre of the Arts",
+                "address": "145 Richmond St, Charlottetown, PE",
+                "startDate": "2025-01-01 15:00:00",
+                "endDate": "2025-01-01 16:30:00",
+                "marker-symbol": 26
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -62.71245285645736,
                     46.41633175304648
                 ]
@@ -447,7 +483,7 @@
                 "address": "7788 St Peter\u2019s Road, Morell, PE",
                 "startDate": "2025-01-01 15:00:00",
                 "endDate": "2025-01-01 17:00:00",
-                "marker-symbol": 25
+                "marker-symbol": 27
             }
         },
         {
@@ -465,7 +501,43 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2025-01-01 15:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 26
+                "marker-symbol": 28
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.793235,
+                    46.394634
+                ]
+            },
+            "properties": {
+                "name": "200 Wing Royal Canadian Air Force Association 2025 New Years Levee",
+                "location": "The Wing",
+                "address": "329 North Market Street, Summerside, PE",
+                "startDate": "2025-01-01 16:00:00",
+                "endDate": "2025-01-01 18:00:00",
+                "marker-symbol": 29
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124147,
+                    46.238245
+                ]
+            },
+            "properties": {
+                "name": "Sport Page Club 2025 New Years Levee",
+                "location": "Sport Page Club",
+                "address": "236 Kent St, Charlottetown, PE",
+                "startDate": "2025-01-01 16:00:00",
+                "endDate": "2025-01-01 18:00:00",
+                "marker-symbol": 30
             }
         },
         {
@@ -483,7 +555,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2025-01-01 19:00:00",
                 "endDate": "2025-01-01 22:00:00",
-                "marker-symbol": 27
+                "marker-symbol": 31
             }
         }
     ],
