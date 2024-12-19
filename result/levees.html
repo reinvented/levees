@@ -158,8 +158,8 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_allages">Yes</td>
 		</tr>
 		<tr class="notcharlottetown allages">
-			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.4158,-62.70688#map=19/46.4158/-62.70688">Morell Credit Union</a></td>
-			<td class="levee_address">Morell Welcome Centre<br><span class='levee_street'>12 Sunset Crescent, Morell, PE</span></td>
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.4158,-62.705547075942#map=19/46.4158/-62.705547075942">Morell Credit Union</a></td>
+			<td class="levee_address">Morell Credit Union<br><span class='levee_street'>12 Sunset Crescent, Morell, PE</span></td>
 			<td class="levee_start">10:00 AM</td>
 			<td class="levee_end">11:30 AM</td>
 			<td class="levee_accessible">Yes</td>
@@ -210,6 +210,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_address">Upstreet Craft Brewing<br><span class='levee_street'>41 Allen St, Charlottetown, PE</span></td>
 			<td class="levee_start">11:00 AM</td>
 			<td class="levee_end">3:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages"><b>No</b></td>
+		</tr>
+		<tr class="notcharlottetown 19plus">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.3959,-63.79322#map=19/46.3959/-63.79322">Royal Canadian Legion - Summerside</a></td>
+			<td class="levee_address">Summerside Legion<br><span class='levee_street'>340 Notre Dame St., Summerside, PE</span></td>
+			<td class="levee_start">11:30 AM</td>
+			<td class="levee_end">12:30 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages"><b>No</b></td>
 		</tr>
@@ -300,6 +308,22 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_end">3:00 PM</td>
 			<td class="levee_accessible"><b>No</b></td>
 			<td class="levee_allages"><b>No</b></td>
+		</tr>
+		<tr class="notcharlottetown allages">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.70208,-64.23201#map=19/46.70208/-64.23201">Town of O'Leary</a></td>
+			<td class="levee_address">O'Leary Town Hall<br><span class='levee_street'>18 Community Street, O'Leary, PE</span></td>
+			<td class="levee_start">1:00 PM</td>
+			<td class="levee_end">4:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="notcharlottetown allages">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.393032,-63.790607#map=19/46.393032/-63.790607">City of Summerside</a></td>
+			<td class="levee_address">City Hall<br><span class='levee_street'>275 Fitzroy Street, Summerside, PE</span></td>
+			<td class="levee_start">1:30 PM</td>
+			<td class="levee_end">3:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
 		</tr>
 		<tr class="notcharlottetown allages">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.41485,-62.70246#map=19/46.41485/-62.70246">Morell Lions Club (Free Skating)</a></td>
@@ -482,12 +506,12 @@ jQuery('#charlottetownonly').change(function () {
         "endDate": "2025-01-01 11:30:00",
         "location": {
             "@type": "Place",
-            "name": "Morell Welcome Centre",
+            "name": "Morell Credit Union",
             "address": "12 Sunset Crescent, Morell, PE",
             "geo": {
                 "@type": "GeoCoordinates",
                 "latitude": 46.4158,
-                "longitude": -62.70688
+                "longitude": -62.705547075941524
             }
         }
     },
@@ -590,6 +614,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.246094,
                 "longitude": -63.131841
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Summerside 2025 New Years Levee",
+        "startDate": "2025-01-01 11:30:00",
+        "endDate": "2025-01-01 12:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Summerside Legion",
+            "address": "340 Notre Dame St., Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.3959,
+                "longitude": -63.79322
             }
         }
     },
@@ -777,6 +818,40 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.23925,
                 "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of O'Leary 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "O'Leary Town Hall",
+            "address": "18 Community Street, O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.70208,
+                "longitude": -64.23201
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "City of Summerside 2025 New Years Levee",
+        "startDate": "2025-01-01 13:30:00",
+        "endDate": "2025-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "City Hall",
+            "address": "275 Fitzroy Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.393032,
+                "longitude": -63.790607
             }
         }
     },

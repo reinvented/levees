@@ -41,13 +41,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -62.70688,
+                    -62.705547075941524,
                     46.4158
                 ]
             },
             "properties": {
                 "name": "Morell Credit Union 2025 New Years Levee",
-                "location": "Morell Welcome Centre",
+                "location": "Morell Credit Union",
                 "address": "12 Sunset Crescent, Morell, PE",
                 "startDate": "2025-01-01 10:00:00",
                 "endDate": "2025-01-01 11:30:00",
@@ -167,6 +167,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.79322,
+                    46.3959
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Summerside 2025 New Years Levee",
+                "location": "Summerside Legion",
+                "address": "340 Notre Dame St., Summerside, PE",
+                "startDate": "2025-01-01 11:30:00",
+                "endDate": "2025-01-01 12:30:00",
+                "marker-symbol": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.11711,
                     46.236969
                 ]
@@ -177,7 +195,7 @@
                 "address": "210 Water Street, Charlottetown, PE",
                 "startDate": "2025-01-01 11:30:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 10
+                "marker-symbol": 11
             }
         },
         {
@@ -195,7 +213,7 @@
                 "address": "45 Broadway St N, Kensington, PE",
                 "startDate": "2025-01-01 11:30:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 11
+                "marker-symbol": 12
             }
         },
         {
@@ -213,7 +231,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2025-01-01 11:30:00",
                 "endDate": "2025-01-01 13:00:00",
-                "marker-symbol": 12
+                "marker-symbol": 13
             }
         },
         {
@@ -231,7 +249,7 @@
                 "address": "11 Brook Street, Montague, PE",
                 "startDate": "2025-01-01 11:30:00",
                 "endDate": "2025-01-01 20:00:00",
-                "marker-symbol": 13
+                "marker-symbol": 14
             }
         },
         {
@@ -249,7 +267,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2025-01-01 12:00:00",
                 "endDate": "2025-01-01 13:30:00",
-                "marker-symbol": 14
+                "marker-symbol": 15
             }
         },
         {
@@ -267,7 +285,7 @@
                 "address": "96 Kensington Road, Charlottetown, PE",
                 "startDate": "2025-01-01 12:00:00",
                 "endDate": "2025-01-01 14:00:00",
-                "marker-symbol": 15
+                "marker-symbol": 16
             }
         },
         {
@@ -285,7 +303,7 @@
                 "address": "30 Church Street, Cornwall, PE",
                 "startDate": "2025-01-01 12:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 16
+                "marker-symbol": 17
             }
         },
         {
@@ -303,7 +321,7 @@
                 "address": "567 Main Street, Montague, PE",
                 "startDate": "2025-01-01 12:00:00",
                 "endDate": "2025-01-01 19:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 18
             }
         },
         {
@@ -321,7 +339,7 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2025-01-01 13:00:00",
                 "endDate": "2025-01-01 14:00:00",
-                "marker-symbol": 18
+                "marker-symbol": 19
             }
         },
         {
@@ -339,7 +357,7 @@
                 "address": "59 Queen Elizabeth, Morell, PE",
                 "startDate": "2025-01-01 13:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -357,7 +375,43 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2025-01-01 13:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 20
+                "marker-symbol": 21
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.23201,
+                    46.70208
+                ]
+            },
+            "properties": {
+                "name": "Town of O'Leary 2025 New Years Levee",
+                "location": "O'Leary Town Hall",
+                "address": "18 Community Street, O'Leary, PE",
+                "startDate": "2025-01-01 13:00:00",
+                "endDate": "2025-01-01 16:00:00",
+                "marker-symbol": 22
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.790607,
+                    46.393032
+                ]
+            },
+            "properties": {
+                "name": "City of Summerside 2025 New Years Levee",
+                "location": "City Hall",
+                "address": "275 Fitzroy Street, Summerside, PE",
+                "startDate": "2025-01-01 13:30:00",
+                "endDate": "2025-01-01 15:00:00",
+                "marker-symbol": 23
             }
         },
         {
@@ -375,7 +429,7 @@
                 "address": "59 Queen Elizabeth, Morell, PE",
                 "startDate": "2025-01-01 13:45:00",
                 "endDate": "2025-01-01 14:45:00",
-                "marker-symbol": 21
+                "marker-symbol": 24
             }
         },
         {
@@ -393,7 +447,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 22
+                "marker-symbol": 25
             }
         },
         {
@@ -411,7 +465,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 16:00:00",
-                "marker-symbol": 23
+                "marker-symbol": 26
             }
         },
         {
@@ -429,7 +483,7 @@
                 "address": "94 Main Drive, Miscouche, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 24
+                "marker-symbol": 27
             }
         },
         {
@@ -447,7 +501,7 @@
                 "address": "203 Main Street, Souris, PE",
                 "startDate": "2025-01-01 14:30:00",
                 "endDate": "2025-01-01 16:30:00",
-                "marker-symbol": 25
+                "marker-symbol": 28
             }
         },
         {
@@ -465,7 +519,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2025-01-01 15:00:00",
                 "endDate": "2025-01-01 16:30:00",
-                "marker-symbol": 26
+                "marker-symbol": 29
             }
         },
         {
@@ -483,7 +537,7 @@
                 "address": "7788 St Peter\u2019s Road, Morell, PE",
                 "startDate": "2025-01-01 15:00:00",
                 "endDate": "2025-01-01 17:00:00",
-                "marker-symbol": 27
+                "marker-symbol": 30
             }
         },
         {
@@ -501,7 +555,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2025-01-01 15:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 28
+                "marker-symbol": 31
             }
         },
         {
@@ -519,7 +573,7 @@
                 "address": "329 North Market Street, Summerside, PE",
                 "startDate": "2025-01-01 16:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 29
+                "marker-symbol": 32
             }
         },
         {
@@ -537,7 +591,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2025-01-01 16:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 30
+                "marker-symbol": 33
             }
         },
         {
@@ -555,7 +609,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2025-01-01 19:00:00",
                 "endDate": "2025-01-01 22:00:00",
-                "marker-symbol": 31
+                "marker-symbol": 34
             }
         }
     ],

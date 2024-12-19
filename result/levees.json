@@ -41,12 +41,12 @@
         "endDate": "2025-01-01 11:30:00",
         "location": {
             "@type": "Place",
-            "name": "Morell Welcome Centre",
+            "name": "Morell Credit Union",
             "address": "12 Sunset Crescent, Morell, PE",
             "geo": {
                 "@type": "GeoCoordinates",
                 "latitude": 46.4158,
-                "longitude": -62.70688
+                "longitude": -62.705547075941524
             }
         }
     },
@@ -149,6 +149,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.246094,
                 "longitude": -63.131841
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Summerside 2025 New Years Levee",
+        "startDate": "2025-01-01 11:30:00",
+        "endDate": "2025-01-01 12:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Summerside Legion",
+            "address": "340 Notre Dame St., Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.3959,
+                "longitude": -63.79322
             }
         }
     },
@@ -336,6 +353,40 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23925,
                 "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of O'Leary 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "O'Leary Town Hall",
+            "address": "18 Community Street, O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.70208,
+                "longitude": -64.23201
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "City of Summerside 2025 New Years Levee",
+        "startDate": "2025-01-01 13:30:00",
+        "endDate": "2025-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "City Hall",
+            "address": "275 Fitzroy Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.393032,
+                "longitude": -63.790607
             }
         }
     },
