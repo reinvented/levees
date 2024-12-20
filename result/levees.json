@@ -155,6 +155,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Silver Fox Curling and Yacht Club 2025 New Years Levee",
+        "startDate": "2025-01-01 11:00:00",
+        "endDate": "2025-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Silver Fox Curling and Yacht Club",
+            "address": "110 Water Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.388303,
+                "longitude": -63.784217
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Royal Canadian Legion - Summerside 2025 New Years Levee",
         "startDate": "2025-01-01 11:30:00",
         "endDate": "2025-01-01 12:30:00",
@@ -234,6 +251,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.16648,
                 "longitude": -62.64722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - O'Leary 2025 New Years Levee",
+        "startDate": "2025-01-01 12:00:00",
+        "endDate": "2024-01-01 19:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "O'Leary Legion",
+            "address": "69 Ellis Ave., O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.708537,
+                "longitude": -64.227437
             }
         }
     },
@@ -376,6 +410,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Wellington 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Wellington Legion",
+            "address": "97 Sunset Dr, Wellington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.458652,
+                "longitude": -64.008398
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "City of Summerside 2025 New Years Levee",
         "startDate": "2025-01-01 13:30:00",
         "endDate": "2025-01-01 15:00:00",
@@ -387,6 +438,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.393032,
                 "longitude": -63.790607
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Cornwall 2025 New Years Levee",
+        "startDate": "2025-01-01 13:30:00",
+        "endDate": "2025-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Cornwall Town Hall",
+            "address": "15 Mercedes Drive, Cornwall, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23611526106752,
+                "longitude": -63.20694811827911
             }
         }
     },
@@ -421,6 +489,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.25092,
                 "longitude": -63.1492
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Charlottetown 2025 New Years Levee",
+        "startDate": "2025-01-01 14:00:00",
+        "endDate": "2025-01-01 15:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown Legion",
+            "address": "99 Pownal Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.233024,
+                "longitude": -63.12922
             }
         }
     },
@@ -529,6 +614,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Ellerslie 2025 New Years Levee",
+        "startDate": "2025-01-01 15:00:00",
+        "endDate": "2025-01-01 19:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Ellerslie Legion",
+            "address": "1136 Ellerslie Road, Ellerslie, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.604437,
+                "longitude": -63.939582
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "200 Wing Royal Canadian Air Force Association 2025 New Years Levee",
         "startDate": "2025-01-01 16:00:00",
         "endDate": "2025-01-01 18:00:00",
@@ -557,6 +659,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.238245,
                 "longitude": -63.124147
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "North Rustico Lions Club 2025 New Years Levee",
+        "startDate": "2025-01-01 16:00:00",
+        "endDate": "2025-01-01 20:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "North Rustico Lions Club",
+            "address": "17 Timber Lane, Rustico, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.45726,
+                "longitude": -63.31535
             }
         }
     },

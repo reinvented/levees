@@ -239,6 +239,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.20694811827911,
+                    46.23611526106752
+                ]
+            },
+            "properties": {
+                "name": "Town of Cornwall 2025 New Years Levee",
+                "location": "Cornwall Town Hall",
+                "address": "15 Mercedes Drive, Cornwall, PE",
+                "startDate": "2025-01-01 13:30:00",
+                "endDate": "2025-01-01 15:00:00",
+                "marker-symbol": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.1492,
                     46.25092
                 ]
@@ -249,7 +267,25 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 15:00:00",
-                "marker-symbol": 14
+                "marker-symbol": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12922,
+                    46.233024
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Charlottetown 2025 New Years Levee",
+                "location": "Charlottetown Legion",
+                "address": "99 Pownal Street, Charlottetown, PE",
+                "startDate": "2025-01-01 14:00:00",
+                "endDate": "2025-01-01 15:30:00",
+                "marker-symbol": 16
             }
         },
         {
@@ -267,7 +303,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 16:00:00",
-                "marker-symbol": 15
+                "marker-symbol": 17
             }
         },
         {
@@ -285,7 +321,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2025-01-01 15:00:00",
                 "endDate": "2025-01-01 16:30:00",
-                "marker-symbol": 16
+                "marker-symbol": 18
             }
         },
         {
@@ -303,7 +339,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2025-01-01 15:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 19
             }
         },
         {
@@ -321,7 +357,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2025-01-01 16:00:00",
                 "endDate": "2025-01-01 18:00:00",
-                "marker-symbol": 18
+                "marker-symbol": 20
             }
         },
         {
@@ -339,7 +375,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2025-01-01 19:00:00",
                 "endDate": "2025-01-01 22:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 21
             }
         }
     ],
