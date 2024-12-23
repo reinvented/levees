@@ -365,6 +365,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.126028,
+                    46.23374
+                ]
+            },
+            "properties": {
+                "name": "Olde Dublin Pub 2025 New Years Levee",
+                "location": "Olde Dublin Pub",
+                "address": "131 Sydney St., Charlottetown, PE",
+                "startDate": "2025-01-01 16:00:00",
+                "endDate": "2025-01-01 22:00:00",
+                "marker-symbol": 21
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.12716,
                     46.236715
                 ]
@@ -375,7 +393,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2025-01-01 19:00:00",
                 "endDate": "2025-01-01 22:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         }
     ],

@@ -699,6 +699,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Olde Dublin Pub 2025 New Years Levee",
+        "startDate": "2025-01-01 16:00:00",
+        "endDate": "2025-01-01 22:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Olde Dublin Pub",
+            "address": "131 Sydney St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23374,
+                "longitude": -63.126028
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "PonyBoat Social Club 2025 New Years Levee",
         "startDate": "2025-01-01 19:00:00",
         "endDate": "2025-01-01 22:00:00",
