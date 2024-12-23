@@ -529,6 +529,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Great Enlightenment Buddhist Institute Society 2025 New Years Levee",
+        "startDate": "2025-01-01 14:00:00",
+        "endDate": "2025-01-01 16:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "GEBIS Dining Hall",
+            "address": "2689 Heatherdale Rd., Montague, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.11117525335894,
+                "longitude": -62.7143397450625
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Royal Canadian Legion - Miscouche 2025 New Years Levee",
         "startDate": "2025-01-01 14:00:00",
         "endDate": "2025-01-01 18:00:00",
