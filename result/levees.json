@@ -342,6 +342,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "West Prince Curling Club 2025 New Years Levee",
+        "startDate": "2025-01-01 12:00:00",
+        "endDate": "2025-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Mill River Resort",
+            "address": "72 Mill River Resort Road, Woodstock, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.742957828045284,
+                "longitude": -64.16707775872828
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Village Green Brewery  2025 New Years Levee",
         "startDate": "2025-01-01 12:00:00",
         "endDate": "2025-01-01 18:00:00",
