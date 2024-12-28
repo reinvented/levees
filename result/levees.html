@@ -270,6 +270,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_allages"><b>No</b></td>
 		</tr>
 		<tr class="charlottetown allages">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22955,-63.12798#map=19/46.22955/-63.12798">Prince Edward Island Regiment</a></td>
+			<td class="levee_address">Col J David Stewart Armoury<br><span class='levee_street'>1 Haviland Street, Charlottetown, PE</span></td>
+			<td class="levee_start">12:00 PM</td>
+			<td class="levee_end">1:30 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="charlottetown allages">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22673,-63.08747#map=19/46.22673/-63.08747">Town of Stratford</a></td>
 			<td class="levee_address">Stratford Town Centre<br><span class='levee_street'>234 Shakespeare Dr., Stratford, PE</span></td>
 			<td class="levee_start">12:00 PM</td>
@@ -284,6 +292,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_end">2:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages"><b>No</b></td>
+		</tr>
+		<tr class="notcharlottetown allages">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.015096733829,-62.611953016439#map=19/46.015096733829/-62.611953016439">The Old General Catering House</a></td>
+			<td class="levee_address">The Old General Catering House<br><span class='levee_street'>9387 Main Street North, Murray River, PE</span></td>
+			<td class="levee_start">12:00 PM</td>
+			<td class="levee_end">2:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
 		</tr>
 		<tr class="charlottetown 19plus">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22849269977,-63.217572230198#map=19/46.22849269977/-63.217572230198">Village Green Brewery </a></td>
@@ -332,6 +348,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_end">4:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="notcharlottetown 19plus">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.94878,-64.035537#map=19/46.94878/-64.035537">Royal Canadian Legion - Tignish & Town of Tignish</a></td>
+			<td class="levee_address">Tignish Legion<br><span class='levee_street'>221 Phillip Street, Tignish, PE</span></td>
+			<td class="levee_start">1:00 PM</td>
+			<td class="levee_end">5:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages"><b>No</b></td>
 		</tr>
 		<tr class="notcharlottetown 19plus">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.458652,-64.008398#map=19/46.458652/-64.008398">Royal Canadian Legion - Wellington</a></td>
@@ -811,6 +835,23 @@ jQuery('#charlottetownonly').change(function () {
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Prince Edward Island Regiment 2025 New Years Levee",
+        "startDate": "2025-01-01 12:00:00",
+        "endDate": "2025-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Col J David Stewart Armoury",
+            "address": "1 Haviland Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22955,
+                "longitude": -63.12798
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Stratford 2025 New Years Levee",
         "startDate": "2025-01-01 12:00:00",
         "endDate": "2025-01-01 13:30:00",
@@ -839,6 +880,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.252408,
                 "longitude": -63.115262
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Old General Catering House 2025 New Years Levee",
+        "startDate": "2025-01-01 12:00:00",
+        "endDate": "2025-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Old General Catering House",
+            "address": "9387 Main Street North, Murray River, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.01509673382914,
+                "longitude": -62.6119530164391
             }
         }
     },
@@ -941,6 +999,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.70208,
                 "longitude": -64.23201
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Tignish & Town of Tignish 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Tignish Legion",
+            "address": "221 Phillip Street, Tignish, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.94878,
+                "longitude": -64.035537
             }
         }
     },

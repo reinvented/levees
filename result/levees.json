@@ -274,6 +274,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Prince Edward Island Regiment 2025 New Years Levee",
+        "startDate": "2025-01-01 12:00:00",
+        "endDate": "2025-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Col J David Stewart Armoury",
+            "address": "1 Haviland Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22955,
+                "longitude": -63.12798
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Town of Stratford 2025 New Years Levee",
         "startDate": "2025-01-01 12:00:00",
         "endDate": "2025-01-01 13:30:00",
@@ -302,6 +319,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.252408,
                 "longitude": -63.115262
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Old General Catering House 2025 New Years Levee",
+        "startDate": "2025-01-01 12:00:00",
+        "endDate": "2025-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Old General Catering House",
+            "address": "9387 Main Street North, Murray River, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.01509673382914,
+                "longitude": -62.6119530164391
             }
         }
     },
@@ -404,6 +438,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.70208,
                 "longitude": -64.23201
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Tignish & Town of Tignish 2025 New Years Levee",
+        "startDate": "2025-01-01 13:00:00",
+        "endDate": "2025-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Tignish Legion",
+            "address": "221 Phillip Street, Tignish, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.94878,
+                "longitude": -64.035537
             }
         }
     },
