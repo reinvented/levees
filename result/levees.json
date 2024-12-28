@@ -784,6 +784,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Charlottetown Firefighters Club 2025 New Years Levee",
+        "startDate": "2025-01-01 18:00:00",
+        "endDate": "2025-01-02 00:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown Fire Department",
+            "address": "89 Kent Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.235106,
+                "longitude": -63.130065
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "PonyBoat Social Club 2025 New Years Levee",
         "startDate": "2025-01-01 19:00:00",
         "endDate": "2025-01-01 22:00:00",

@@ -401,6 +401,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.130065,
+                    46.235106
+                ]
+            },
+            "properties": {
+                "name": "Charlottetown Firefighters Club 2025 New Years Levee",
+                "location": "Charlottetown Fire Department",
+                "address": "89 Kent Street, Charlottetown, PE",
+                "startDate": "2025-01-01 18:00:00",
+                "endDate": "2025-01-02 00:00:00",
+                "marker-symbol": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.12716,
                     46.236715
                 ]
@@ -411,7 +429,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2025-01-01 19:00:00",
                 "endDate": "2025-01-01 22:00:00",
-                "marker-symbol": 23
+                "marker-symbol": 24
             }
         }
     ],
