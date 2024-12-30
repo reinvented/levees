@@ -603,11 +603,11 @@
         "location": {
             "@type": "Place",
             "name": "GEBIS Dining Hall",
-            "address": "2689 Heatherdale Rd., Montague, PE",
+            "address": "2741 Heatherdale Rd., Montague, PE",
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 46.11117525335894,
-                "longitude": -62.7143397450625
+                "latitude": 46.11022893655374,
+                "longitude": -62.72001531349205
             }
         }
     },

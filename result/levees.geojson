@@ -635,14 +635,14 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -62.7143397450625,
-                    46.11117525335894
+                    -62.72001531349205,
+                    46.11022893655374
                 ]
             },
             "properties": {
                 "name": "Great Enlightenment Buddhist Institute Society 2025 New Years Levee",
                 "location": "GEBIS Dining Hall",
-                "address": "2689 Heatherdale Rd., Montague, PE",
+                "address": "2741 Heatherdale Rd., Montague, PE",
                 "startDate": "2025-01-01 14:00:00",
                 "endDate": "2025-01-01 16:00:00",
                 "marker-symbol": 36
