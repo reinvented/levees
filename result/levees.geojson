@@ -59,6 +59,60 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.11711,
+                    46.236969
+                ]
+            },
+            "properties": {
+                "name": "HMCS Queen Charlotte 2025 New Years Levee",
+                "location": "HMCS Queen Charlotte",
+                "address": "210 Water Street, Charlottetown, PE",
+                "startDate": "2026-01-01 11:30:00",
+                "endDate": "2026-01-01 13:00:00",
+                "marker-symbol": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.115262,
+                    46.252408
+                ]
+            },
+            "properties": {
+                "name": "PEI Brewing Company 2025 New Years Levee",
+                "location": "PEI Brewing Company",
+                "address": "96 Kensington Road, Charlottetown, PE",
+                "startDate": "2026-01-01 12:00:00",
+                "endDate": "2026-01-01 14:00:00",
+                "marker-symbol": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12464,
+                    46.23342
+                ]
+            },
+            "properties": {
+                "name": "Bishop of Charlottetown 2025 New Years Levee",
+                "location": "SDU Place",
+                "address": "45 Great George Street, Charlottetown, PE",
+                "startDate": "2026-01-01 13:00:00",
+                "endDate": "2026-01-01 14:00:00",
+                "marker-symbol": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.20694811827911,
                     46.23611526106752
                 ]
@@ -69,7 +123,7 @@
                 "address": "15 Mercedes Drive, Cornwall, PE",
                 "startDate": "2026-01-01 13:30:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 4
+                "marker-symbol": 7
             }
         },
         {
@@ -87,7 +141,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 16:00:00",
-                "marker-symbol": 5
+                "marker-symbol": 8
             }
         },
         {
@@ -105,7 +159,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 6
+                "marker-symbol": 9
             }
         },
         {
@@ -123,7 +177,7 @@
                 "address": "11 Brook Street, Montague, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 7
+                "marker-symbol": 10
             }
         },
         {
@@ -141,7 +195,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 20:00:00",
                 "endDate": "2026-01-01 23:00:00",
-                "marker-symbol": 8
+                "marker-symbol": 11
             }
         }
     ],
