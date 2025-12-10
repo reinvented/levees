@@ -70,6 +70,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Prince Edward Island Regiment 2025 New Years Levee",
+        "startDate": "2026-01-01 12:00:00",
+        "endDate": "2026-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Col J David Stewart Armoury",
+            "address": "1 Haviland Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22955,
+                "longitude": -63.12798
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "PEI Brewing Company 2025 New Years Levee",
         "startDate": "2026-01-01 12:00:00",
         "endDate": "2026-01-01 14:00:00",
