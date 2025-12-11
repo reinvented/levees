@@ -68,7 +68,7 @@ table.levees tr.cancelled {
   .block-field-blocknodearticlecomment-node-article {
     display: none;
   }
-  #block-claro-hcard, .search-api-page-block-form-sea, .breadcrumb__item, .block-field-blocknodearticlecreated, .block-field-blocknodearticleuid, .block-field-blocknodearticlefield-topics  {
+  #whoami, #block-claro-hcard, .search-api-page-block-form-sea, .breadcrumb__item, .block-field-blocknodearticlecreated, .block-field-blocknodearticleuid, .block-field-blocknodearticlefield-topics  {
     display: none;
   }
 }
@@ -98,6 +98,7 @@ table.levees tr td:nth-child(3), table.levees tr td:nth-child(4), table.levees t
 }
 </style><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
 jQuery(document).ready(function () {
+
 jQuery('#19plus').change(function () {
     if (jQuery('#19plus').is(":checked")) {
       jQuery('.19plus').show();
@@ -107,11 +108,45 @@ jQuery('#19plus').change(function () {
       else {
        jQuery('.notcharlottetown').show();
       }
+      if (jQuery('#commercial').is(":checked")) {
+        jQuery('.commercial').show();
+      }
+      else {
+        jQuery('.commercial').hide();
+      }
     }
     else {
        jQuery('.19plus').hide();
     }
  });
+
+jQuery('#commercial').change(function () {
+    if (jQuery('#commercial').is(":checked")) {
+      jQuery('.commercial').show();
+      if (jQuery('#charlottetownonly').is(":checked")) {
+        jQuery('.notcharlottetown').hide();
+      }
+      else {
+        jQuery('.notcharlottetown').show();
+        if (jQuery('#charlottetownonly').is(":checked")) {
+          jQuery('.notcharlottetown').hide();
+        }
+        else {
+          jQuery('.notcharlottetown').show();
+        }
+       if (jQuery('#19plus').is(":checked")) {
+         jQuery('.19plus').show();
+       }
+       else {
+         jQuery('.19plus').hide();
+       }
+      }
+    }
+    else {
+       jQuery('.commercial').hide();
+    }
+ });
+
 jQuery('#charlottetownonly').change(function () {
     if (jQuery('#charlottetownonly').is(":checked")) {
       jQuery('.notcharlottetown').hide();
@@ -122,12 +157,18 @@ jQuery('#charlottetownonly').change(function () {
          jQuery('.19plus').show();
        }
        else {
-       jQuery('.19plus').hide();
+         jQuery('.19plus').hide();
        }
+      if (jQuery('#commercial').is(":checked")) {
+        jQuery('.commercial').show();
+      }
+      else {
+        jQuery('.commercial').hide();
+      }
     }
  });
 });
 </script>
 <p class="rtecenter toggles">
-    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Show levees that are ages 19+</strong>&nbsp;&nbsp;<input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown-area levees</strong></span>
+    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Include ages 19+</strong>&nbsp;&nbsp;<input checked="checked" id="commercial" type="checkbox"> <strong>Include businesses</strong>&nbsp;&nbsp;<input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown-area</strong></span>
 </p>

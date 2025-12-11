@@ -68,7 +68,7 @@ table.levees tr.cancelled {
   .block-field-blocknodearticlecomment-node-article {
     display: none;
   }
-  #block-claro-hcard, .search-api-page-block-form-sea, .breadcrumb__item, .block-field-blocknodearticlecreated, .block-field-blocknodearticleuid, .block-field-blocknodearticlefield-topics  {
+  #whoami, #block-claro-hcard, .search-api-page-block-form-sea, .breadcrumb__item, .block-field-blocknodearticlecreated, .block-field-blocknodearticleuid, .block-field-blocknodearticlefield-topics  {
     display: none;
   }
 }
@@ -98,6 +98,7 @@ table.levees tr td:nth-child(3), table.levees tr td:nth-child(4), table.levees t
 }
 </style><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
 jQuery(document).ready(function () {
+
 jQuery('#19plus').change(function () {
     if (jQuery('#19plus').is(":checked")) {
       jQuery('.19plus').show();
@@ -107,11 +108,45 @@ jQuery('#19plus').change(function () {
       else {
        jQuery('.notcharlottetown').show();
       }
+      if (jQuery('#commercial').is(":checked")) {
+        jQuery('.commercial').show();
+      }
+      else {
+        jQuery('.commercial').hide();
+      }
     }
     else {
        jQuery('.19plus').hide();
     }
  });
+
+jQuery('#commercial').change(function () {
+    if (jQuery('#commercial').is(":checked")) {
+      jQuery('.commercial').show();
+      if (jQuery('#charlottetownonly').is(":checked")) {
+        jQuery('.notcharlottetown').hide();
+      }
+      else {
+        jQuery('.notcharlottetown').show();
+        if (jQuery('#charlottetownonly').is(":checked")) {
+          jQuery('.notcharlottetown').hide();
+        }
+        else {
+          jQuery('.notcharlottetown').show();
+        }
+       if (jQuery('#19plus').is(":checked")) {
+         jQuery('.19plus').show();
+       }
+       else {
+         jQuery('.19plus').hide();
+       }
+      }
+    }
+    else {
+       jQuery('.commercial').hide();
+    }
+ });
+
 jQuery('#charlottetownonly').change(function () {
     if (jQuery('#charlottetownonly').is(":checked")) {
       jQuery('.notcharlottetown').hide();
@@ -122,14 +157,20 @@ jQuery('#charlottetownonly').change(function () {
          jQuery('.19plus').show();
        }
        else {
-       jQuery('.19plus').hide();
+         jQuery('.19plus').hide();
        }
+      if (jQuery('#commercial').is(":checked")) {
+        jQuery('.commercial').show();
+      }
+      else {
+        jQuery('.commercial').hide();
+      }
     }
  });
 });
 </script>
 <p class="rtecenter toggles">
-    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Show levees that are ages 19+</strong>&nbsp;&nbsp;<input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown-area levees</strong></span>
+    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Include ages 19+</strong>&nbsp;&nbsp;<input checked="checked" id="commercial" type="checkbox"> <strong>Include businesses</strong>&nbsp;&nbsp;<input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown-area</strong></span>
 </p>
 <table class='levees datatable'>
 	<thead>
@@ -141,7 +182,7 @@ jQuery('#charlottetownonly').change(function () {
 			<th class='levee_accessible'>♿<span class='levee_accessible_title'> Accessible</span></th>
 			<th class='levee_allages'><span class='levee_allages_title'>All Ages</span></th>
 		</tr></thead><tbody>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.231242,-63.136109#map=19/46.231242/-63.136109">Lieutenant Governor</a></td>
 			<td class="levee_address">Government House<br><span class='levee_street'>1 Terry Fox Drive, Charlottetown, PE</span></td>
 			<td class="levee_start">10:00 AM</td>
@@ -149,7 +190,7 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.231852630578,-63.133525904296#map=19/46.231852630578/-63.133525904296">Rotary Club of Charlottetown</a></td>
 			<td class="levee_address">Beaconsfield Carriage House<br><span class='levee_street'>2 Kent Street, Charlottetown, PE</span></td>
 			<td class="levee_start">10:00 AM</td>
@@ -157,7 +198,7 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown allages commercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.2334415,-63.1258487#map=19/46.2334415/-63.1258487">Gahan House</a></td>
 			<td class="levee_address">Gahan House<br><span class='levee_street'>126 Sydney Street, Charlottetown, PE</span></td>
 			<td class="levee_start">11:00 AM</td>
@@ -165,7 +206,7 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible"><b>No</b></td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.236969,-63.11711#map=19/46.236969/-63.11711">HMCS Queen Charlotte</a></td>
 			<td class="levee_address">HMCS Queen Charlotte<br><span class='levee_street'>210 Water Street, Charlottetown, PE</span></td>
 			<td class="levee_start">11:30 AM</td>
@@ -173,7 +214,7 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22955,-63.12798#map=19/46.22955/-63.12798">Prince Edward Island Regiment</a></td>
 			<td class="levee_address">Col J David Stewart Armoury<br><span class='levee_street'>1 Haviland Street, Charlottetown, PE</span></td>
 			<td class="levee_start">12:00 PM</td>
@@ -181,7 +222,7 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown allages commercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.252408,-63.115262#map=19/46.252408/-63.115262">PEI Brewing Company</a></td>
 			<td class="levee_address">PEI Brewing Company<br><span class='levee_street'>96 Kensington Road, Charlottetown, PE</span></td>
 			<td class="levee_start">12:00 PM</td>
@@ -189,7 +230,15 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown allages commercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.237382653388,-63.126085903063#map=19/46.237382653388/-63.126085903063">Hunter's Ale House</a></td>
+			<td class="levee_address">Hunter's Ale House<br><span class='levee_street'>185 Kent Street, Charlottetown, PE</span></td>
+			<td class="levee_start">12:00 PM</td>
+			<td class="levee_end">3:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23342,-63.12464#map=19/46.23342/-63.12464">Bishop of Charlottetown</a></td>
 			<td class="levee_address">SDU Place<br><span class='levee_street'>45 Great George Street, Charlottetown, PE</span></td>
 			<td class="levee_start">1:00 PM</td>
@@ -197,7 +246,15 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible"><b>No</b></td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown 19plus commercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22849269977,-63.217572230198#map=19/46.22849269977/-63.217572230198">Village Green Brewery </a></td>
+			<td class="levee_address">Village Green Brewery <br><span class='levee_street'>30 Church Street, Cornwall, PE</span></td>
+			<td class="levee_start">1:00 PM</td>
+			<td class="levee_end">6:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages"><b>No</b></td>
+		</tr>
+		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.236115261068,-63.206948118279#map=19/46.236115261068/-63.206948118279">Town of Cornwall</a></td>
 			<td class="levee_address">Cornwall Town Hall<br><span class='levee_street'>15 Mercedes Drive, Cornwall, PE</span></td>
 			<td class="levee_start">1:30 PM</td>
@@ -205,7 +262,7 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown allages">
+		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.26162,-63.15587#map=19/46.26162/-63.15587">Benevolent Irish Society</a></td>
 			<td class="levee_address">Hon. Edward Whelan Irish Cultural Centre<br><span class='levee_street'>582 North River Road, Charlottetown, PE</span></td>
 			<td class="levee_start">2:00 PM</td>
@@ -213,7 +270,7 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown 19plus">
+		<tr class="charlottetown 19plus commercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.234996,-63.124575#map=19/46.234996/-63.124575">Murphy's Community Centre & The Alley</a></td>
 			<td class="levee_address">Murphy's Community Centre<br><span class='levee_street'>200 Richmond Street, Charlottetown, PE</span></td>
 			<td class="levee_start">2:00 PM</td>
@@ -221,7 +278,7 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages"><b>No</b></td>
 		</tr>
-		<tr class="notcharlottetown allages">
+		<tr class="notcharlottetown allages commercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.16648,-62.64722#map=19/46.16648/-62.64722">Bogside Brewing</a></td>
 			<td class="levee_address">Bogside Brewing<br><span class='levee_street'>11 Brook Street, Montague, PE</span></td>
 			<td class="levee_start">3:00 PM</td>
@@ -229,7 +286,15 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
-		<tr class="charlottetown 19plus">
+		<tr class="charlottetown allages commercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.237458483705,-63.125920019002#map=19/46.237458483705/-63.125920019002">The Factory Downtown</a></td>
+			<td class="levee_address">The Factory Downtown<br><span class='levee_street'>189 Kent Street, Charlottetown, PE</span></td>
+			<td class="levee_start">5:00 PM</td>
+			<td class="levee_end">8:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="charlottetown 19plus commercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.236715,-63.12716#map=19/46.236715/-63.12716">PonyBoat Social Club</a></td>
 			<td class="levee_address">PonyBoat Social Club<br><span class='levee_street'>157 Kent St, Charlottetown, PE</span></td>
 			<td class="levee_start">8:00 PM</td>
@@ -393,6 +458,23 @@ jQuery('#charlottetownonly').change(function () {
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Hunter's Ale House 2025 New Years Levee",
+        "startDate": "2026-01-01 12:00:00",
+        "endDate": "2026-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Hunter's Ale House",
+            "address": "185 Kent Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23738265338781,
+                "longitude": -63.126085903063306
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Bishop of Charlottetown 2025 New Years Levee",
         "startDate": "2026-01-01 13:00:00",
         "endDate": "2026-01-01 14:00:00",
@@ -404,6 +486,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.23342,
                 "longitude": -63.12464
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Village Green Brewery  2025 New Years Levee",
+        "startDate": "2026-01-01 13:00:00",
+        "endDate": "2026-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Village Green Brewery ",
+            "address": "30 Church Street, Cornwall, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22849269976965,
+                "longitude": -63.217572230197526
             }
         }
     },
@@ -472,6 +571,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.16648,
                 "longitude": -62.64722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Factory Downtown 2025 New Years Levee",
+        "startDate": "2026-01-01 17:00:00",
+        "endDate": "2026-01-01 20:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Factory Downtown",
+            "address": "189 Kent Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23745848370522,
+                "longitude": -63.12592001900244
             }
         }
     },

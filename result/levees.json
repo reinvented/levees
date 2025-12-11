@@ -104,6 +104,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Hunter's Ale House 2025 New Years Levee",
+        "startDate": "2026-01-01 12:00:00",
+        "endDate": "2026-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Hunter's Ale House",
+            "address": "185 Kent Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23738265338781,
+                "longitude": -63.126085903063306
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Bishop of Charlottetown 2025 New Years Levee",
         "startDate": "2026-01-01 13:00:00",
         "endDate": "2026-01-01 14:00:00",
@@ -115,6 +132,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23342,
                 "longitude": -63.12464
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Village Green Brewery  2025 New Years Levee",
+        "startDate": "2026-01-01 13:00:00",
+        "endDate": "2026-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Village Green Brewery ",
+            "address": "30 Church Street, Cornwall, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22849269976965,
+                "longitude": -63.217572230197526
             }
         }
     },
@@ -183,6 +217,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.16648,
                 "longitude": -62.64722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Factory Downtown 2025 New Years Levee",
+        "startDate": "2026-01-01 17:00:00",
+        "endDate": "2026-01-01 20:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Factory Downtown",
+            "address": "189 Kent Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23745848370522,
+                "longitude": -63.12592001900244
             }
         }
     },

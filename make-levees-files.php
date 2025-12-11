@@ -200,6 +200,12 @@ function makeHTML($row) {
   else {
     $classes[] = '19plus';
   }
+  if ($row['commercial']) {
+    $classes[] = 'commercial';
+  }
+  else {
+    $classes[] = 'noncommercial';
+  }
   if ($row['cancelled']) {
     $classes[] = 'cancelled';
   }
