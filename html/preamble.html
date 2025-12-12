@@ -84,16 +84,18 @@ white-space: nowrap;
 table.levees tr td:nth-child(3), table.levees tr td:nth-child(4), table.levees tr td:nth-child(5), table.levees tr td:nth-child(6) {
   text-align: center;
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .levee_accessible,
     .levee_address,
     .levee_allages
     {
         display: none;
     }
-    .toggler {
+    .toggles .toggler {
        display: block;
        padding-right: 0;
+       width: 100%;
+       margin: 0;
     }
 }
 </style><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
@@ -170,5 +172,7 @@ jQuery('#charlottetownonly').change(function () {
 });
 </script>
 <p class="rtecenter toggles">
-    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Include ages 19+</strong>&nbsp;&nbsp;<input checked="checked" id="commercial" type="checkbox"> <strong>Include businesses</strong>&nbsp;&nbsp;<input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown-area</strong></span>
+    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Include ages 19+</strong>&nbsp;</span>
+    <span class="toggler"><input checked="checked" id="commercial" type="checkbox"> <strong>Include businesses</strong>&nbsp;</span>
+    <span class="toggler"><input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown</strong></span>
 </p>

@@ -36,6 +36,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "The Haviland Club 2025 New Years Levee",
+        "startDate": "2026-01-01 11:00:00",
+        "endDate": "2026-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Haviland Club",
+            "address": "2 Haviland St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23058,
+                "longitude": -63.12783
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Gahan House 2025 New Years Levee",
         "startDate": "2026-01-01 11:00:00",
         "endDate": "2026-01-01 14:00:00",

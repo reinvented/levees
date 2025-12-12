@@ -84,16 +84,18 @@ white-space: nowrap;
 table.levees tr td:nth-child(3), table.levees tr td:nth-child(4), table.levees tr td:nth-child(5), table.levees tr td:nth-child(6) {
   text-align: center;
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .levee_accessible,
     .levee_address,
     .levee_allages
     {
         display: none;
     }
-    .toggler {
+    .toggles .toggler {
        display: block;
        padding-right: 0;
+       width: 100%;
+       margin: 0;
     }
 }
 </style><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
@@ -170,7 +172,9 @@ jQuery('#charlottetownonly').change(function () {
 });
 </script>
 <p class="rtecenter toggles">
-    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Include ages 19+</strong>&nbsp;&nbsp;<input checked="checked" id="commercial" type="checkbox"> <strong>Include businesses</strong>&nbsp;&nbsp;<input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown-area</strong></span>
+    <span class="toggler"><input checked="checked" id="19plus" type="checkbox"> <strong>Include ages 19+</strong>&nbsp;</span>
+    <span class="toggler"><input checked="checked" id="commercial" type="checkbox"> <strong>Include businesses</strong>&nbsp;</span>
+    <span class="toggler"><input id="charlottetownonly" type="checkbox"> <strong>Show only Charlottetown</strong></span>
 </p>
 <table class='levees datatable'>
 	<thead>
@@ -195,6 +199,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_address">Beaconsfield Carriage House<br><span class='levee_street'>2 Kent Street, Charlottetown, PE</span></td>
 			<td class="levee_start">10:00 AM</td>
 			<td class="levee_end">12:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="charlottetown allages noncommercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23058,-63.12783#map=19/46.23058/-63.12783">The Haviland Club</a></td>
+			<td class="levee_address">The Haviland Club<br><span class='levee_street'>2 Haviland St, Charlottetown, PE</span></td>
+			<td class="levee_start">11:00 AM</td>
+			<td class="levee_end">1:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
@@ -384,6 +396,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.231852630577855,
                 "longitude": -63.1335259042962
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "The Haviland Club 2025 New Years Levee",
+        "startDate": "2026-01-01 11:00:00",
+        "endDate": "2026-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Haviland Club",
+            "address": "2 Haviland St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23058,
+                "longitude": -63.12783
             }
         }
     },
