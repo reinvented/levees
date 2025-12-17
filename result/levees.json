@@ -138,6 +138,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Town of Stratford 2025 New Years Levee",
+        "startDate": "2026-01-01 12:00:00",
+        "endDate": "2026-01-01 13:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Stratford Town Centre",
+            "address": "234 Shakespeare Dr., Stratford, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.22673,
+                "longitude": -63.08747
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "PEI Brewing Company 2025 New Years Levee",
         "startDate": "2026-01-01 12:00:00",
         "endDate": "2026-01-01 14:00:00",
@@ -251,6 +268,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.234996,
                 "longitude": -63.124575
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Premier Bloyce Thompson 2025 New Years Levee",
+        "startDate": "2026-01-01 15:00:00",
+        "endDate": "2026-01-01 16:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Confederation Centre of the Arts",
+            "address": "145 Richmond St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.234419,
+                "longitude": -63.127261
             }
         }
     },
