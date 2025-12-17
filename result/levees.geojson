@@ -5,6 +5,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.12722,
+                    46.23618
+                ]
+            },
+            "properties": {
+                "name": "Timothy's Coffee and Campbell Webster 2025 New Years Levee",
+                "location": "Timothy's Coffee",
+                "address": "154 Great George Street, Charlottetown, PE",
+                "startDate": "2026-01-01 08:00:00",
+                "endDate": "2026-01-01 10:00:00",
+                "marker-symbol": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.136109,
                     46.231242
                 ]
@@ -15,7 +33,7 @@
                 "address": "1 Terry Fox Drive, Charlottetown, PE",
                 "startDate": "2026-01-01 10:00:00",
                 "endDate": "2026-01-01 11:30:00",
-                "marker-symbol": 1
+                "marker-symbol": 2
             }
         },
         {
@@ -33,7 +51,7 @@
                 "address": "2 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 10:00:00",
                 "endDate": "2026-01-01 12:00:00",
-                "marker-symbol": 2
+                "marker-symbol": 3
             }
         },
         {
@@ -51,7 +69,7 @@
                 "address": "199 Queen St, Charlottetown, PE",
                 "startDate": "2026-01-01 10:30:00",
                 "endDate": "2026-01-01 12:00:00",
-                "marker-symbol": 3
+                "marker-symbol": 4
             }
         },
         {
@@ -69,7 +87,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2026-01-01 11:00:00",
                 "endDate": "2026-01-01 12:30:00",
-                "marker-symbol": 4
+                "marker-symbol": 5
             }
         },
         {
@@ -87,7 +105,7 @@
                 "address": "2 Haviland St, Charlottetown, PE",
                 "startDate": "2026-01-01 11:00:00",
                 "endDate": "2026-01-01 13:00:00",
-                "marker-symbol": 5
+                "marker-symbol": 6
             }
         },
         {
@@ -105,7 +123,7 @@
                 "address": "126 Sydney Street, Charlottetown, PE",
                 "startDate": "2026-01-01 11:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 6
+                "marker-symbol": 7
             }
         },
         {
@@ -123,7 +141,7 @@
                 "address": "210 Water Street, Charlottetown, PE",
                 "startDate": "2026-01-01 11:30:00",
                 "endDate": "2026-01-01 13:00:00",
-                "marker-symbol": 7
+                "marker-symbol": 8
             }
         },
         {
@@ -141,7 +159,7 @@
                 "address": "1 Haviland Street, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 13:30:00",
-                "marker-symbol": 8
+                "marker-symbol": 9
             }
         },
         {
@@ -159,7 +177,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 13:30:00",
-                "marker-symbol": 9
+                "marker-symbol": 10
             }
         },
         {
@@ -177,7 +195,7 @@
                 "address": "96 Kensington Road, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 10
+                "marker-symbol": 11
             }
         },
         {
@@ -195,7 +213,7 @@
                 "address": "185 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 11
+                "marker-symbol": 12
             }
         },
         {
@@ -213,7 +231,7 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 12
+                "marker-symbol": 13
             }
         },
         {
@@ -231,7 +249,7 @@
                 "address": "30 Church Street, Cornwall, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 13
+                "marker-symbol": 14
             }
         },
         {
@@ -249,7 +267,7 @@
                 "address": "15 Mercedes Drive, Cornwall, PE",
                 "startDate": "2026-01-01 13:30:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 14
+                "marker-symbol": 15
             }
         },
         {
@@ -267,7 +285,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 16:00:00",
-                "marker-symbol": 15
+                "marker-symbol": 16
             }
         },
         {
@@ -285,7 +303,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 16
+                "marker-symbol": 17
             }
         },
         {
@@ -303,7 +321,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 16:30:00",
-                "marker-symbol": 17
+                "marker-symbol": 18
             }
         },
         {
@@ -321,7 +339,7 @@
                 "address": "11 Brook Street, Montague, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 18
+                "marker-symbol": 19
             }
         },
         {
@@ -339,7 +357,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2026-01-01 16:00:00",
                 "endDate": "2026-01-01 22:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -357,7 +375,7 @@
                 "address": "189 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 17:00:00",
                 "endDate": "2026-01-01 20:00:00",
-                "marker-symbol": 20
+                "marker-symbol": 21
             }
         },
         {
@@ -375,7 +393,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 20:00:00",
                 "endDate": "2026-01-01 23:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         }
     ],

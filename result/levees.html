@@ -186,6 +186,14 @@ jQuery('#charlottetownonly').change(function () {
 			<th class='levee_accessible'>♿<span class='levee_accessible_title'> Accessible</span></th>
 			<th class='levee_allages'><span class='levee_allages_title'>All Ages</span></th>
 		</tr></thead><tbody>
+		<tr class="charlottetown allages commercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23618,-63.12722#map=19/46.23618/-63.12722">Timothy's Coffee and Campbell Webster</a></td>
+			<td class="levee_address">Timothy's Coffee<br><span class='levee_street'>154 Great George Street, Charlottetown, PE</span></td>
+			<td class="levee_start">8:00 AM</td>
+			<td class="levee_end">10:00 AM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
+		</tr>
 		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.231242,-63.136109#map=19/46.231242/-63.136109">Lieutenant Governor</a></td>
 			<td class="levee_address">Government House<br><span class='levee_street'>1 Terry Fox Drive, Charlottetown, PE</span></td>
@@ -405,6 +413,23 @@ jQuery('#charlottetownonly').change(function () {
 </div>
 <script type="application/ld+json">
 [
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Timothy's Coffee and Campbell Webster 2025 New Years Levee",
+        "startDate": "2026-01-01 08:00:00",
+        "endDate": "2026-01-01 10:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Timothy's Coffee",
+            "address": "154 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23618,
+                "longitude": -63.12722
+            }
+        }
+    },
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",

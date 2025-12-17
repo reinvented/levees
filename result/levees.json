@@ -2,6 +2,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Timothy's Coffee and Campbell Webster 2025 New Years Levee",
+        "startDate": "2026-01-01 08:00:00",
+        "endDate": "2026-01-01 10:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Timothy's Coffee",
+            "address": "154 Great George Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23618,
+                "longitude": -63.12722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Lieutenant Governor 2025 New Years Levee",
         "startDate": "2026-01-01 10:00:00",
         "endDate": "2026-01-01 11:30:00",
