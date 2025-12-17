@@ -36,6 +36,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Charlottetown 2025 New Years Levee",
+        "startDate": "2026-01-01 10:30:00",
+        "endDate": "2026-01-01 12:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown City Hall",
+            "address": "199 Queen St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.235354,
+                "longitude": -63.129549
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "University of PEI 2025 New Years Levee",
+        "startDate": "2026-01-01 11:00:00",
+        "endDate": "2026-01-01 12:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Faculty of Sustainable Design Engineering",
+            "address": "550 University Ave., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25861,
+                "longitude": -63.13816
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Haviland Club 2025 New Years Levee",
         "startDate": "2026-01-01 11:00:00",
         "endDate": "2026-01-01 13:00:00",
