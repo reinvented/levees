@@ -290,6 +290,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible"><b>No</b></td>
 			<td class="levee_allages">Yes</td>
 		</tr>
+		<tr class="charlottetown 19plus noncommercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23925,-63.1258#map=19/46.23925/-63.1258">St. John's and Victoria Lodge n. 1 A.M. & F.M.</a></td>
+			<td class="levee_address">Masonic Temple<br><span class='levee_street'>204 Hillsborough St., Charlottetown, PE</span></td>
+			<td class="levee_start">1:00 PM</td>
+			<td class="levee_end">3:00 PM</td>
+			<td class="levee_accessible"><b>No</b></td>
+			<td class="levee_allages"><b>No</b></td>
+		</tr>
 		<tr class="charlottetown 19plus commercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.22849269977,-63.217572230198#map=19/46.22849269977/-63.217572230198">Village Green Brewery </a></td>
 			<td class="levee_address">Village Green Brewery <br><span class='levee_street'>30 Church Street, Cornwall, PE</span></td>
@@ -329,6 +337,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_end">4:30 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="notcharlottetown 19plus noncommercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.394634,-63.793235#map=19/46.394634/-63.793235">200 Wing Royal Canadian Air Force Association</a></td>
+			<td class="levee_address">The Wing<br><span class='levee_street'>329 North Market Street, Summerside, PE</span></td>
+			<td class="levee_start">3:00 PM</td>
+			<td class="levee_end">5:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages"><b>No</b></td>
 		</tr>
 		<tr class="notcharlottetown allages commercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.16648,-62.64722#map=19/46.16648/-62.64722">Bogside Brewing</a></td>
@@ -637,6 +653,23 @@ jQuery('#charlottetownonly').change(function () {
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "St. John's and Victoria Lodge n. 1 A.M. & F.M. 2025 New Years Levee",
+        "startDate": "2026-01-01 13:00:00",
+        "endDate": "2026-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Masonic Temple",
+            "address": "204 Hillsborough St., Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.23925,
+                "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Village Green Brewery  2025 New Years Levee",
         "startDate": "2026-01-01 13:00:00",
         "endDate": "2026-01-01 18:00:00",
@@ -716,6 +749,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.234419,
                 "longitude": -63.127261
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "200 Wing Royal Canadian Air Force Association 2025 New Years Levee",
+        "startDate": "2026-01-01 15:00:00",
+        "endDate": "2026-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Wing",
+            "address": "329 North Market Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.394634,
+                "longitude": -63.793235
             }
         }
     },
