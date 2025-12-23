@@ -293,6 +293,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.1492,
+                    46.25092
+                ]
+            },
+            "properties": {
+                "name": "Garden Home 2025 New Years Levee",
+                "location": "Garden Home",
+                "address": "310 North River Road, Charlottetown, PE",
+                "startDate": "2026-01-01 14:00:00",
+                "endDate": "2026-01-01 15:00:00",
+                "marker-symbol": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.15587,
                     46.26162
                 ]
@@ -303,7 +321,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 16:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 18
             }
         },
         {
@@ -321,7 +339,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 18
+                "marker-symbol": 19
             }
         },
         {
@@ -339,7 +357,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 16:30:00",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -357,7 +375,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2026-01-01 16:00:00",
                 "endDate": "2026-01-01 22:00:00",
-                "marker-symbol": 20
+                "marker-symbol": 21
             }
         },
         {
@@ -375,7 +393,7 @@
                 "address": "189 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 17:00:00",
                 "endDate": "2026-01-01 20:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         },
         {
@@ -393,7 +411,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 20:00:00",
                 "endDate": "2026-01-01 23:00:00",
-                "marker-symbol": 22
+                "marker-symbol": 23
             }
         }
     ],
