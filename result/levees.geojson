@@ -77,6 +77,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -64.227437,
+                    46.708537
+                ]
+            },
+            "properties": {
+                "name": "Town of O'Leary 2025 New Years Levee",
+                "location": "O'Leary Legion",
+                "address": "18 Community Street, O'Leary, PE",
+                "startDate": "2026-01-01 11:00:00",
+                "endDate": "2026-01-01 12:30:00",
+                "marker-symbol": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.13816,
                     46.25861
                 ]
@@ -87,7 +105,7 @@
                 "address": "550 University Ave., Charlottetown, PE",
                 "startDate": "2026-01-01 11:00:00",
                 "endDate": "2026-01-01 12:30:00",
-                "marker-symbol": 5
+                "marker-symbol": 6
             }
         },
         {
@@ -105,7 +123,7 @@
                 "address": "2 Haviland St, Charlottetown, PE",
                 "startDate": "2026-01-01 11:00:00",
                 "endDate": "2026-01-01 13:00:00",
-                "marker-symbol": 6
+                "marker-symbol": 7
             }
         },
         {
@@ -123,7 +141,7 @@
                 "address": "126 Sydney Street, Charlottetown, PE",
                 "startDate": "2026-01-01 11:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 7
+                "marker-symbol": 8
             }
         },
         {
@@ -141,7 +159,25 @@
                 "address": "210 Water Street, Charlottetown, PE",
                 "startDate": "2026-01-01 11:30:00",
                 "endDate": "2026-01-01 13:00:00",
-                "marker-symbol": 8
+                "marker-symbol": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.637422,
+                    46.437315
+                ]
+            },
+            "properties": {
+                "name": "Mayor of Kensington 2025 New Years Levee",
+                "location": "Family and Friends Restaurant",
+                "address": "45 Broadway St N, Kensington, PE",
+                "startDate": "2026-01-01 11:30:00",
+                "endDate": "2026-01-01 13:00:00",
+                "marker-symbol": 10
             }
         },
         {
@@ -159,7 +195,7 @@
                 "address": "1 Haviland Street, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 13:30:00",
-                "marker-symbol": 9
+                "marker-symbol": 11
             }
         },
         {
@@ -177,7 +213,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 13:30:00",
-                "marker-symbol": 10
+                "marker-symbol": 12
             }
         },
         {
@@ -195,7 +231,43 @@
                 "address": "96 Kensington Road, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 11
+                "marker-symbol": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.6119530164391,
+                    46.01509673382914
+                ]
+            },
+            "properties": {
+                "name": "The Old General Catering House 2025 New Years Levee",
+                "location": "The Old General Catering House",
+                "address": "9387 Main Street North, Murray River, PE",
+                "startDate": "2026-01-01 12:00:00",
+                "endDate": "2026-01-01 14:00:00",
+                "marker-symbol": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.16707775872828,
+                    46.742957828045284
+                ]
+            },
+            "properties": {
+                "name": "West Prince Curling Club 2025 New Years Levee",
+                "location": "Mill River Resort",
+                "address": "72 Mill River Resort Road, Woodstock, PE",
+                "startDate": "2026-01-01 12:00:00",
+                "endDate": "2026-01-01 14:00:00",
+                "marker-symbol": 15
             }
         },
         {
@@ -213,7 +285,43 @@
                 "address": "185 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 12
+                "marker-symbol": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.647043,
+                    46.163479
+                ]
+            },
+            "properties": {
+                "name": "Copper Bottom Brewing 2025 New Years Levee",
+                "location": "Copper Bottom Brewing",
+                "address": "567 Main Street, Montague, PE",
+                "startDate": "2026-01-01 12:00:00",
+                "endDate": "2026-01-01 18:00:00",
+                "marker-symbol": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.227437,
+                    46.708537
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - O'Leary 2025 New Years Levee",
+                "location": "O'Leary Legion",
+                "address": "69 Ellis Ave., O'Leary, PE",
+                "startDate": "2026-01-01 12:30:00",
+                "endDate": "2025-01-01 19:00:00",
+                "marker-symbol": 18
             }
         },
         {
@@ -231,7 +339,25 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 13
+                "marker-symbol": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.008398,
+                    46.458652
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Wellington 2025 New Years Levee",
+                "location": "Wellington Legion",
+                "address": "97 Sunset Dr, Wellington, PE",
+                "startDate": "2026-01-01 13:00:00",
+                "endDate": "2026-01-01 15:00:00",
+                "marker-symbol": 20
             }
         },
         {
@@ -244,12 +370,30 @@
                 ]
             },
             "properties": {
-                "name": "St. John's and Victoria Lodge n. 1 A.M. & F.M. 2025 New Years Levee",
+                "name": "St. John's & Victoria Lodge No. 1, A.F. & A.M. 2025 New Years Levee",
                 "location": "Masonic Temple",
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 14
+                "marker-symbol": 21
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.035537,
+                    46.94878
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Tignish 2025 New Years Levee",
+                "location": "Tignish Legion",
+                "address": "221 Phillip Street, Tignish, PE",
+                "startDate": "2026-01-01 13:00:00",
+                "endDate": "2026-01-01 17:00:00",
+                "marker-symbol": 22
             }
         },
         {
@@ -267,7 +411,25 @@
                 "address": "30 Church Street, Cornwall, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 15
+                "marker-symbol": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.790607,
+                    46.393032
+                ]
+            },
+            "properties": {
+                "name": "City of Summerside 2025 New Years Levee",
+                "location": "City Hall",
+                "address": "275 Fitzroy Street, Summerside, PE",
+                "startDate": "2026-01-01 13:30:00",
+                "endDate": "2026-01-01 15:00:00",
+                "marker-symbol": 24
             }
         },
         {
@@ -285,7 +447,7 @@
                 "address": "15 Mercedes Drive, Cornwall, PE",
                 "startDate": "2026-01-01 13:30:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 16
+                "marker-symbol": 25
             }
         },
         {
@@ -303,7 +465,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 26
             }
         },
         {
@@ -321,7 +483,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 16:00:00",
-                "marker-symbol": 18
+                "marker-symbol": 27
             }
         },
         {
@@ -339,7 +501,43 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 28
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.854943,
+                    46.429863
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Miscouche 2025 New Years Levee",
+                "location": "Miscouche Legion",
+                "address": "94 Main Drive, Miscouche, PE",
+                "startDate": "2026-01-01 14:00:00",
+                "endDate": "2026-01-01 18:00:00",
+                "marker-symbol": 29
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.237481,
+                    46.353853
+                ]
+            },
+            "properties": {
+                "name": "Town of Souris 2025 New Years Levee",
+                "location": "Eastern Kings Sportsplex",
+                "address": "203 Main Street, Souris, PE",
+                "startDate": "2026-01-01 14:30:00",
+                "endDate": "2026-01-01 16:30:00",
+                "marker-symbol": 30
             }
         },
         {
@@ -357,7 +555,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 16:30:00",
-                "marker-symbol": 20
+                "marker-symbol": 31
             }
         },
         {
@@ -375,7 +573,7 @@
                 "address": "329 North Market Street, Summerside, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 17:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 32
             }
         },
         {
@@ -393,7 +591,43 @@
                 "address": "11 Brook Street, Montague, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 22
+                "marker-symbol": 33
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.939582,
+                    46.604437
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Ellerslie 2025 New Years Levee",
+                "location": "Ellerslie Legion",
+                "address": "1136 Ellerslie Road, Ellerslie, PE",
+                "startDate": "2026-01-01 15:00:00",
+                "endDate": "2026-01-01 19:00:00",
+                "marker-symbol": 34
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.124147,
+                    46.238245
+                ]
+            },
+            "properties": {
+                "name": "Sport Page Club 2025 New Years Levee",
+                "location": "Sport Page Club",
+                "address": "236 Kent St, Charlottetown, PE",
+                "startDate": "2026-01-01 16:00:00",
+                "endDate": "2026-01-01 18:00:00",
+                "marker-symbol": 35
             }
         },
         {
@@ -411,7 +645,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2026-01-01 16:00:00",
                 "endDate": "2026-01-01 22:00:00",
-                "marker-symbol": 23
+                "marker-symbol": 36
             }
         },
         {
@@ -429,7 +663,7 @@
                 "address": "189 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 17:00:00",
                 "endDate": "2026-01-01 20:00:00",
-                "marker-symbol": 24
+                "marker-symbol": 37
             }
         },
         {
@@ -447,7 +681,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 20:00:00",
                 "endDate": "2026-01-01 23:00:00",
-                "marker-symbol": 25
+                "marker-symbol": 38
             }
         }
     ],

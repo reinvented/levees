@@ -70,6 +70,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Town of O'Leary 2025 New Years Levee",
+        "startDate": "2026-01-01 11:00:00",
+        "endDate": "2026-01-01 12:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "O'Leary Legion",
+            "address": "18 Community Street, O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.708537,
+                "longitude": -64.227437
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "University of PEI 2025 New Years Levee",
         "startDate": "2026-01-01 11:00:00",
         "endDate": "2026-01-01 12:30:00",
@@ -138,6 +155,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Mayor of Kensington 2025 New Years Levee",
+        "startDate": "2026-01-01 11:30:00",
+        "endDate": "2026-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Family and Friends Restaurant",
+            "address": "45 Broadway St N, Kensington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.437315,
+                "longitude": -63.637422
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Prince Edward Island Regiment 2025 New Years Levee",
         "startDate": "2026-01-01 12:00:00",
         "endDate": "2026-01-01 13:30:00",
@@ -189,6 +223,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "The Old General Catering House 2025 New Years Levee",
+        "startDate": "2026-01-01 12:00:00",
+        "endDate": "2026-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "The Old General Catering House",
+            "address": "9387 Main Street North, Murray River, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.01509673382914,
+                "longitude": -62.6119530164391
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "West Prince Curling Club 2025 New Years Levee",
+        "startDate": "2026-01-01 12:00:00",
+        "endDate": "2026-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Mill River Resort",
+            "address": "72 Mill River Resort Road, Woodstock, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.742957828045284,
+                "longitude": -64.16707775872828
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Hunter's Ale House 2025 New Years Levee",
         "startDate": "2026-01-01 12:00:00",
         "endDate": "2026-01-01 15:00:00",
@@ -200,6 +268,40 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23738265338781,
                 "longitude": -63.126085903063306
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Copper Bottom Brewing 2025 New Years Levee",
+        "startDate": "2026-01-01 12:00:00",
+        "endDate": "2026-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Copper Bottom Brewing",
+            "address": "567 Main Street, Montague, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.163479,
+                "longitude": -62.647043
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - O'Leary 2025 New Years Levee",
+        "startDate": "2026-01-01 12:30:00",
+        "endDate": "2025-01-01 19:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "O'Leary Legion",
+            "address": "69 Ellis Ave., O'Leary, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.708537,
+                "longitude": -64.227437
             }
         }
     },
@@ -223,7 +325,24 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
-        "name": "St. John's and Victoria Lodge n. 1 A.M. & F.M. 2025 New Years Levee",
+        "name": "Royal Canadian Legion - Wellington 2025 New Years Levee",
+        "startDate": "2026-01-01 13:00:00",
+        "endDate": "2026-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Wellington Legion",
+            "address": "97 Sunset Dr, Wellington, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.458652,
+                "longitude": -64.008398
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "St. John's & Victoria Lodge No. 1, A.F. & A.M. 2025 New Years Levee",
         "startDate": "2026-01-01 13:00:00",
         "endDate": "2026-01-01 15:00:00",
         "location": {
@@ -234,6 +353,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23925,
                 "longitude": -63.1258
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Tignish 2025 New Years Levee",
+        "startDate": "2026-01-01 13:00:00",
+        "endDate": "2026-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Tignish Legion",
+            "address": "221 Phillip Street, Tignish, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.94878,
+                "longitude": -64.035537
             }
         }
     },
@@ -251,6 +387,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.22849269976965,
                 "longitude": -63.217572230197526
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "City of Summerside 2025 New Years Levee",
+        "startDate": "2026-01-01 13:30:00",
+        "endDate": "2026-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "City Hall",
+            "address": "275 Fitzroy Street, Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.393032,
+                "longitude": -63.790607
             }
         }
     },
@@ -325,6 +478,40 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Miscouche 2025 New Years Levee",
+        "startDate": "2026-01-01 14:00:00",
+        "endDate": "2026-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Miscouche Legion",
+            "address": "94 Main Drive, Miscouche, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.429863,
+                "longitude": -63.854943
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Souris 2025 New Years Levee",
+        "startDate": "2026-01-01 14:30:00",
+        "endDate": "2026-01-01 16:30:00",
+        "location": {
+            "@type": "Place",
+            "name": "Eastern Kings Sportsplex",
+            "address": "203 Main Street, Souris, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.353853,
+                "longitude": -62.237481
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Premier Bloyce Thompson 2025 New Years Levee",
         "startDate": "2026-01-01 15:00:00",
         "endDate": "2026-01-01 16:30:00",
@@ -370,6 +557,40 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.16648,
                 "longitude": -62.64722
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Ellerslie 2025 New Years Levee",
+        "startDate": "2026-01-01 15:00:00",
+        "endDate": "2026-01-01 19:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Ellerslie Legion",
+            "address": "1136 Ellerslie Road, Ellerslie, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.604437,
+                "longitude": -63.939582
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Sport Page Club 2025 New Years Levee",
+        "startDate": "2026-01-01 16:00:00",
+        "endDate": "2026-01-01 18:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Sport Page Club",
+            "address": "236 Kent St, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.238245,
+                "longitude": -63.124147
             }
         }
     },
