@@ -234,6 +234,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
+		<tr class="notcharlottetown allages noncommercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.415497001644,-62.70461045767#map=19/46.415497001644/-62.70461045767">Morell Fire Department</a></td>
+			<td class="levee_address">Morell Fire Hall<br><span class='levee_street'>15 Park Street, Morell, PE</span></td>
+			<td class="levee_start">11:00 AM</td>
+			<td class="levee_end">1:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
+		</tr>
 		<tr class="charlottetown allages noncommercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.23058,-63.12783#map=19/46.23058/-63.12783">The Haviland Club</a></td>
 			<td class="levee_address">The Haviland Club<br><span class='levee_street'>2 Haviland St, Charlottetown, PE</span></td>
@@ -248,6 +256,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_start">11:00 AM</td>
 			<td class="levee_end">2:00 PM</td>
 			<td class="levee_accessible"><b>No</b></td>
+			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="notcharlottetown allages noncommercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.253327025288,-63.691549901847#map=19/46.253327025288/-63.691549901847">Town of Borden-Carleton</a></td>
+			<td class="levee_address">Borden Legion<br><span class='levee_street'>240 Main Street, Borden-Carleton, PE</span></td>
+			<td class="levee_start">11:00 AM</td>
+			<td class="levee_end">2:00 PM</td>
+			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages">Yes</td>
 		</tr>
 		<tr class="charlottetown allages noncommercial">
@@ -335,6 +351,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_address">SDU Place<br><span class='levee_street'>45 Great George Street, Charlottetown, PE</span></td>
 			<td class="levee_start">1:00 PM</td>
 			<td class="levee_end">2:00 PM</td>
+			<td class="levee_accessible"><b>No</b></td>
+			<td class="levee_allages">Yes</td>
+		</tr>
+		<tr class="notcharlottetown allages noncommercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.41485,-62.70246#map=19/46.41485/-62.70246">Morell & Area Development Corporation</a></td>
+			<td class="levee_address">Morell Credit Union Rink<br><span class='levee_street'>59 Queen Elizabeth, Morell, PE</span></td>
+			<td class="levee_start">1:00 PM</td>
+			<td class="levee_end">3:00 PM</td>
 			<td class="levee_accessible"><b>No</b></td>
 			<td class="levee_allages">Yes</td>
 		</tr>
@@ -441,6 +465,14 @@ jQuery('#charlottetownonly').change(function () {
 			<td class="levee_end">5:00 PM</td>
 			<td class="levee_accessible">Yes</td>
 			<td class="levee_allages"><b>No</b></td>
+		</tr>
+		<tr class="notcharlottetown allages commercial">
+			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.416331753046,-62.712452856457#map=19/46.416331753046/-62.712452856457">Holy Cow</a></td>
+			<td class="levee_address">Holy Cow Burgers & Wings<br><span class='levee_street'>7788 St Peter’s Road, Morell, PE</span></td>
+			<td class="levee_start">3:00 PM</td>
+			<td class="levee_end">5:00 PM</td>
+			<td class="levee_accessible">Yes</td>
+			<td class="levee_allages">Yes</td>
 		</tr>
 		<tr class="notcharlottetown allages commercial">
 			<td class="levee_name"><a href="http://www.openstreetmap.org/search?query=46.16648,-62.64722#map=19/46.16648/-62.64722">Bogside Brewing</a></td>
@@ -646,6 +678,23 @@ jQuery('#charlottetownonly').change(function () {
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Morell Fire Department 2025 New Years Levee",
+        "startDate": "2026-01-01 11:00:00",
+        "endDate": "2026-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Fire Hall",
+            "address": "15 Park Street, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41549700164353,
+                "longitude": -62.70461045767023
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "The Haviland Club 2025 New Years Levee",
         "startDate": "2026-01-01 11:00:00",
         "endDate": "2026-01-01 13:00:00",
@@ -674,6 +723,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.2334415,
                 "longitude": -63.1258487
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Town of Borden-Carleton 2025 New Years Levee",
+        "startDate": "2026-01-01 11:00:00",
+        "endDate": "2026-01-01 14:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Borden Legion",
+            "address": "240 Main Street, Borden-Carleton, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.25332702528792,
+                "longitude": -63.69154990184652
             }
         }
     },
@@ -861,6 +927,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.23342,
                 "longitude": -63.12464
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Morell & Area Development Corporation 2025 New Years Levee",
+        "startDate": "2026-01-01 13:00:00",
+        "endDate": "2026-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Credit Union Rink",
+            "address": "59 Queen Elizabeth, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41485,
+                "longitude": -62.70246
             }
         }
     },
@@ -1082,6 +1165,23 @@ jQuery('#charlottetownonly').change(function () {
                 "@type": "GeoCoordinates",
                 "latitude": 46.394634,
                 "longitude": -63.793235
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Holy Cow 2025 New Years Levee",
+        "startDate": "2026-01-01 15:00:00",
+        "endDate": "2026-01-01 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Holy Cow Burgers & Wings",
+            "address": "7788 St Peter\u2019s Road, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41633175304648,
+                "longitude": -62.71245285645736
             }
         }
     },
