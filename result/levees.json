@@ -478,6 +478,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Morell River Run Festival (Free Skating) 2025 New Years Levee",
+        "startDate": "2026-01-01 13:45:00",
+        "endDate": "2026-01-01 14:45:00",
+        "location": {
+            "@type": "Place",
+            "name": "Morell Credit Union Rink",
+            "address": "59 Queen Elizabeth, Morell, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.41485,
+                "longitude": -62.70246
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Garden Home 2025 New Years Levee",
         "startDate": "2026-01-01 14:00:00",
         "endDate": "2026-01-01 15:00:00",
