@@ -206,6 +206,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "Royal Canadian Legion - Summerside 2025 New Years Levee",
+        "startDate": "2026-01-01 11:30:00",
+        "endDate": "2026-01-01 13:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Summerside Legion",
+            "address": "340 Notre Dame St., Summerside, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.3959,
+                "longitude": -63.79322
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Prince Edward Island Regiment 2025 New Years Levee",
         "startDate": "2026-01-01 12:00:00",
         "endDate": "2026-01-01 13:30:00",
@@ -370,6 +387,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.41485,
                 "longitude": -62.70246
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Royal Canadian Legion - Charlottetown 2025 New Years Levee",
+        "startDate": "2026-01-01 13:00:00",
+        "endDate": "2026-01-01 15:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown Legion",
+            "address": "99 Pownal Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.233024,
+                "longitude": -63.12922
             }
         }
     },
@@ -710,6 +744,23 @@
                 "@type": "GeoCoordinates",
                 "latitude": 46.23745848370522,
                 "longitude": -63.12592001900244
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
+        "name": "Charlottetown Firefighters Club 2025 New Years Levee",
+        "startDate": "2026-01-01 18:00:00",
+        "endDate": "2026-01-01 23:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "Charlottetown Fire Department",
+            "address": "89 Kent Street, Charlottetown, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.235106,
+                "longitude": -63.130065
             }
         }
     },

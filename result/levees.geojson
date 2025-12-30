@@ -221,6 +221,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.79322,
+                    46.3959
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Summerside 2025 New Years Levee",
+                "location": "Summerside Legion",
+                "address": "340 Notre Dame St., Summerside, PE",
+                "startDate": "2026-01-01 11:30:00",
+                "endDate": "2026-01-01 13:00:00",
+                "marker-symbol": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.12798,
                     46.22955
                 ]
@@ -231,7 +249,7 @@
                 "address": "1 Haviland Street, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 13:30:00",
-                "marker-symbol": 13
+                "marker-symbol": 14
             }
         },
         {
@@ -249,7 +267,7 @@
                 "address": "234 Shakespeare Dr., Stratford, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 13:30:00",
-                "marker-symbol": 14
+                "marker-symbol": 15
             }
         },
         {
@@ -267,7 +285,7 @@
                 "address": "96 Kensington Road, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 15
+                "marker-symbol": 16
             }
         },
         {
@@ -285,7 +303,7 @@
                 "address": "9387 Main Street North, Murray River, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 16
+                "marker-symbol": 17
             }
         },
         {
@@ -303,7 +321,7 @@
                 "address": "72 Mill River Resort Road, Woodstock, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 18
             }
         },
         {
@@ -321,7 +339,7 @@
                 "address": "185 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 18
+                "marker-symbol": 19
             }
         },
         {
@@ -339,7 +357,7 @@
                 "address": "567 Main Street, Montague, PE",
                 "startDate": "2026-01-01 12:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -357,7 +375,7 @@
                 "address": "69 Ellis Ave., O'Leary, PE",
                 "startDate": "2026-01-01 12:30:00",
                 "endDate": "2025-01-01 19:00:00",
-                "marker-symbol": 20
+                "marker-symbol": 21
             }
         },
         {
@@ -375,7 +393,7 @@
                 "address": "45 Great George Street, Charlottetown, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 14:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         },
         {
@@ -393,7 +411,25 @@
                 "address": "59 Queen Elizabeth, Morell, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 22
+                "marker-symbol": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.12922,
+                    46.233024
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Charlottetown 2025 New Years Levee",
+                "location": "Charlottetown Legion",
+                "address": "99 Pownal Street, Charlottetown, PE",
+                "startDate": "2026-01-01 13:00:00",
+                "endDate": "2026-01-01 15:00:00",
+                "marker-symbol": 24
             }
         },
         {
@@ -411,7 +447,7 @@
                 "address": "97 Sunset Dr, Wellington, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 23
+                "marker-symbol": 25
             }
         },
         {
@@ -429,7 +465,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 24
+                "marker-symbol": 26
             }
         },
         {
@@ -447,7 +483,7 @@
                 "address": "221 Phillip Street, Tignish, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 17:00:00",
-                "marker-symbol": 25
+                "marker-symbol": 27
             }
         },
         {
@@ -465,7 +501,7 @@
                 "address": "30 Church Street, Cornwall, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 26
+                "marker-symbol": 28
             }
         },
         {
@@ -483,7 +519,7 @@
                 "address": "275 Fitzroy Street, Summerside, PE",
                 "startDate": "2026-01-01 13:30:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 27
+                "marker-symbol": 29
             }
         },
         {
@@ -501,7 +537,7 @@
                 "address": "15 Mercedes Drive, Cornwall, PE",
                 "startDate": "2026-01-01 13:30:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 28
+                "marker-symbol": 30
             }
         },
         {
@@ -519,7 +555,7 @@
                 "address": "59 Queen Elizabeth, Morell, PE",
                 "startDate": "2026-01-01 13:45:00",
                 "endDate": "2026-01-01 14:45:00",
-                "marker-symbol": 29
+                "marker-symbol": 31
             }
         },
         {
@@ -537,7 +573,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 30
+                "marker-symbol": 32
             }
         },
         {
@@ -555,7 +591,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 16:00:00",
-                "marker-symbol": 31
+                "marker-symbol": 33
             }
         },
         {
@@ -573,7 +609,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 32
+                "marker-symbol": 34
             }
         },
         {
@@ -591,7 +627,7 @@
                 "address": "94 Main Drive, Miscouche, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 33
+                "marker-symbol": 35
             }
         },
         {
@@ -609,7 +645,7 @@
                 "address": "203 Main Street, Souris, PE",
                 "startDate": "2026-01-01 14:30:00",
                 "endDate": "2026-01-01 16:30:00",
-                "marker-symbol": 34
+                "marker-symbol": 36
             }
         },
         {
@@ -627,7 +663,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 16:30:00",
-                "marker-symbol": 35
+                "marker-symbol": 37
             }
         },
         {
@@ -645,7 +681,7 @@
                 "address": "329 North Market Street, Summerside, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 17:00:00",
-                "marker-symbol": 36
+                "marker-symbol": 38
             }
         },
         {
@@ -663,7 +699,7 @@
                 "address": "7788 St Peter\u2019s Road, Morell, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 17:00:00",
-                "marker-symbol": 37
+                "marker-symbol": 39
             }
         },
         {
@@ -681,7 +717,7 @@
                 "address": "11 Brook Street, Montague, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 38
+                "marker-symbol": 40
             }
         },
         {
@@ -699,7 +735,7 @@
                 "address": "1136 Ellerslie Road, Ellerslie, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 19:00:00",
-                "marker-symbol": 39
+                "marker-symbol": 41
             }
         },
         {
@@ -717,7 +753,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 16:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 40
+                "marker-symbol": 42
             }
         },
         {
@@ -735,7 +771,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2026-01-01 16:00:00",
                 "endDate": "2026-01-01 22:00:00",
-                "marker-symbol": 41
+                "marker-symbol": 43
             }
         },
         {
@@ -753,7 +789,25 @@
                 "address": "189 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 17:00:00",
                 "endDate": "2026-01-01 20:00:00",
-                "marker-symbol": 42
+                "marker-symbol": 44
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.130065,
+                    46.235106
+                ]
+            },
+            "properties": {
+                "name": "Charlottetown Firefighters Club 2025 New Years Levee",
+                "location": "Charlottetown Fire Department",
+                "address": "89 Kent Street, Charlottetown, PE",
+                "startDate": "2026-01-01 18:00:00",
+                "endDate": "2026-01-01 23:00:00",
+                "marker-symbol": 45
             }
         },
         {
@@ -771,7 +825,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 20:00:00",
                 "endDate": "2026-01-01 23:00:00",
-                "marker-symbol": 43
+                "marker-symbol": 46
             }
         }
     ],

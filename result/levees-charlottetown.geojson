@@ -239,6 +239,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.12922,
+                    46.233024
+                ]
+            },
+            "properties": {
+                "name": "Royal Canadian Legion - Charlottetown 2025 New Years Levee",
+                "location": "Charlottetown Legion",
+                "address": "99 Pownal Street, Charlottetown, PE",
+                "startDate": "2026-01-01 13:00:00",
+                "endDate": "2026-01-01 15:00:00",
+                "marker-symbol": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.1258,
                     46.23925
                 ]
@@ -249,7 +267,7 @@
                 "address": "204 Hillsborough St., Charlottetown, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 14
+                "marker-symbol": 15
             }
         },
         {
@@ -267,7 +285,7 @@
                 "address": "30 Church Street, Cornwall, PE",
                 "startDate": "2026-01-01 13:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 15
+                "marker-symbol": 16
             }
         },
         {
@@ -285,7 +303,7 @@
                 "address": "15 Mercedes Drive, Cornwall, PE",
                 "startDate": "2026-01-01 13:30:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 16
+                "marker-symbol": 17
             }
         },
         {
@@ -303,7 +321,7 @@
                 "address": "310 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 15:00:00",
-                "marker-symbol": 17
+                "marker-symbol": 18
             }
         },
         {
@@ -321,7 +339,7 @@
                 "address": "582 North River Road, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 16:00:00",
-                "marker-symbol": 18
+                "marker-symbol": 19
             }
         },
         {
@@ -339,7 +357,7 @@
                 "address": "200 Richmond Street, Charlottetown, PE",
                 "startDate": "2026-01-01 14:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 19
+                "marker-symbol": 20
             }
         },
         {
@@ -357,7 +375,7 @@
                 "address": "145 Richmond St, Charlottetown, PE",
                 "startDate": "2026-01-01 15:00:00",
                 "endDate": "2026-01-01 16:30:00",
-                "marker-symbol": 20
+                "marker-symbol": 21
             }
         },
         {
@@ -375,7 +393,7 @@
                 "address": "236 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 16:00:00",
                 "endDate": "2026-01-01 18:00:00",
-                "marker-symbol": 21
+                "marker-symbol": 22
             }
         },
         {
@@ -393,7 +411,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2026-01-01 16:00:00",
                 "endDate": "2026-01-01 22:00:00",
-                "marker-symbol": 22
+                "marker-symbol": 23
             }
         },
         {
@@ -411,7 +429,25 @@
                 "address": "189 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 17:00:00",
                 "endDate": "2026-01-01 20:00:00",
-                "marker-symbol": 23
+                "marker-symbol": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.130065,
+                    46.235106
+                ]
+            },
+            "properties": {
+                "name": "Charlottetown Firefighters Club 2025 New Years Levee",
+                "location": "Charlottetown Fire Department",
+                "address": "89 Kent Street, Charlottetown, PE",
+                "startDate": "2026-01-01 18:00:00",
+                "endDate": "2026-01-01 23:00:00",
+                "marker-symbol": 25
             }
         },
         {
@@ -429,7 +465,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 20:00:00",
                 "endDate": "2026-01-01 23:00:00",
-                "marker-symbol": 24
+                "marker-symbol": 26
             }
         }
     ],
