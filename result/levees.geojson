@@ -761,6 +761,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -63.31535,
+                    46.45726
+                ]
+            },
+            "properties": {
+                "name": "North Rustico Lions Club 2025 New Years Levee",
+                "location": "North Rustico Lions Club",
+                "address": "17 Timber Lane, Rustico, PE",
+                "startDate": "2026-01-01 16:00:00",
+                "endDate": "2026-01-01 20:00:00",
+                "marker-symbol": 43
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -63.126028,
                     46.23374
                 ]
@@ -771,7 +789,7 @@
                 "address": "131 Sydney St., Charlottetown, PE",
                 "startDate": "2026-01-01 16:00:00",
                 "endDate": "2026-01-01 22:00:00",
-                "marker-symbol": 43
+                "marker-symbol": 44
             }
         },
         {
@@ -789,7 +807,7 @@
                 "address": "189 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 17:00:00",
                 "endDate": "2026-01-01 20:00:00",
-                "marker-symbol": 44
+                "marker-symbol": 45
             }
         },
         {
@@ -807,7 +825,7 @@
                 "address": "89 Kent Street, Charlottetown, PE",
                 "startDate": "2026-01-01 18:00:00",
                 "endDate": "2026-01-01 23:00:00",
-                "marker-symbol": 45
+                "marker-symbol": 46
             }
         },
         {
@@ -825,7 +843,7 @@
                 "address": "157 Kent St, Charlottetown, PE",
                 "startDate": "2026-01-01 20:00:00",
                 "endDate": "2026-01-01 23:00:00",
-                "marker-symbol": 46
+                "marker-symbol": 47
             }
         }
     ],

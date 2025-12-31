@@ -716,6 +716,23 @@
     {
         "@context": "http:\/\/schema.org",
         "@type": "Event",
+        "name": "North Rustico Lions Club 2025 New Years Levee",
+        "startDate": "2026-01-01 16:00:00",
+        "endDate": "2026-01-01 20:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "North Rustico Lions Club",
+            "address": "17 Timber Lane, Rustico, PE",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 46.45726,
+                "longitude": -63.31535
+            }
+        }
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "Event",
         "name": "Olde Dublin Pub 2025 New Years Levee",
         "startDate": "2026-01-01 16:00:00",
         "endDate": "2026-01-01 22:00:00",
